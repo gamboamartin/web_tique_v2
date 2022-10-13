@@ -7,7 +7,7 @@
         <!-- Carousel container -->
         <div id="header-slider" class="carousel slide" data-ride="carousel" >
             <!-- Indicators -->
-            <?php include 'templates/sliders/index/_indicador_carrusel.php'?>
+            <?php // include 'templates/sliders/index/_indicador_carrusel.php'?>
             <!-- Content -->
             <?php include 'templates/sliders/index/_contenido_carrusel.php'?>
             <!-- Previous/Next controls -->
