@@ -1,0 +1,23 @@
+@font-face{
+    font-family: Montserrat-Black;
+    src:url("fonts/fuentes/Montserrat-Black.otf");
+
+}
+@font-face{
+
+    font-family: Montserrat-Light;
+    src:url("fonts/fuentes/Montserrat-Light.otf");
+}
+
+#etiqueta1{
+    color: #ffffff;
+    text-align: center;
+    font-family: Montserrat-Black;
+    font-size: 50px;
+}
+#etiqueta2{
+    color: #ffffff;
+    text-align: center;
+    font-family: Montserrat-Light;
+    font-size: 25px;
+}

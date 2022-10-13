@@ -1,0 +1,33 @@
+#enlace1 {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #0000cc;
+    font-weight: 600;
+    overflow: hidden;
+    padding: 12px 16px;
+    position: relative;
+    text-transform: none;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, #enlace1:hover {
+    color: #ff3300;
+}
+
+#imagenI{
+    display: block;
+    margin: 0px auto;
+    border-radius:70px;
+    width: 95%;
+    height: 100%;
+}
+#cuadro1{
+    background-color: #0000cc;
+
+}
+#body{
+    background-color: #a6e1ec;
+}
+
