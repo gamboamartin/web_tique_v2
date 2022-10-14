@@ -5,10 +5,10 @@ require './vendor/autoload.php';
 $generales = new generales();
 ?>
 
+<section class="search-form  parallax" id="cuadro2">
 
-<section id = cuadro2 >
     <h3 class="hidden">Search</h3>
-    <div  style="padding-left: 100px !important; padding-right: 90px !important;" >
+    <div class="container">
         <form action="<?php echo $generales->url_base; ?>" method="post" >
             <div class="row">
                 <?php include 'templates/busqueda/index/links/_proposito_busqueda.php' ?>
@@ -18,3 +18,4 @@ $generales = new generales();
         </form>
     </div>
 </section><!-- /.header-search-->
+

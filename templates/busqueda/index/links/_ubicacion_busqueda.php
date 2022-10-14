@@ -1,11 +1,14 @@
-<div class="col-md-4">
+<div class="col-md-3">
     <div class="form-group">
-        <input  class="form-control color-secondary" list="lista" name="ubi" id="ubi" placeholder="Ubicación"  />
-        <datalist id="lista">
-            <option value="Zapopan">
-            <option value="Tonalá">
-            <option value="Guadalajara">
-        </datalist>
+        <br>
+        <select name="Propiedades en venta" id="select1">
+            <option value="1" >Tipos de propiedades</option>
+            <option value="1" >Casa</option>
+            <option value="1" >departamento</option>
+            <option value="1" >Duplex</option>
+            <option value="1" >Terreno</option>
+
+        </select>
 
     </div>
 </div>

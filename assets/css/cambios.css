@@ -34,12 +34,17 @@
     background-color: #FFFFFF !important;
 }
 #cuadro2 {
-    padding: 30px;
+    padding: 15px;
     background-color: #FFFFFF !important;
     display: block;
     margin: 0px auto;
-    border-radius: 40px;
+    border-radius: 50px;
     width: 85%;
-    height: 100%;
-    padding-bottom: 10px;
+    height: auto;
+    padding-bottom: 0px;
+    position: absolute;
+    top: 118%;
+    left: 7.5%;
+    /*transform: translate(-50%, -50%);*/
 }
+
