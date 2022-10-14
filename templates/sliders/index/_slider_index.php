@@ -1,7 +1,9 @@
-<link rel="stylesheet" type="text/css" href="assets/css/fuentes.css">
+
 <div class="container" id="cuadro1">
+    <br>
     <h1 id="etiqueta1" >Encuentra tu proxima casa</h1>
     <h1 id="etiqueta2" >Nosotros te ayudamos con nuestro servicio personalizado</h1>
+    <br>
     <section class="header-slider">
 
         <!-- Carousel container -->

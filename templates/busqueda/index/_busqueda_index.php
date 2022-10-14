@@ -5,9 +5,10 @@ require './vendor/autoload.php';
 $generales = new generales();
 ?>
 
-<section class="search-form color-primary parallax">
+
+<section id = cuadro2 >
     <h3 class="hidden">Search</h3>
-    <div class="container">
+    <div  style="padding-left: 100px !important; padding-right: 90px !important;" >
         <form action="<?php echo $generales->url_base; ?>" method="post" >
             <div class="row">
                 <?php include 'templates/busqueda/index/links/_proposito_busqueda.php' ?>

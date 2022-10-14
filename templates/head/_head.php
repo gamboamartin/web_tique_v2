@@ -9,8 +9,10 @@ $generales = new generales();
 
         <section class="header-inner">
             <div class="container">
-                <?php include $generales->path_base.'templates/head/nav/_logos.php' ?>
-                <div class="right-col-md-8" style="float: right" >
+                <div  style="float: left" >
+                    <?php include $generales->path_base.'templates/head/nav/_logos.php' ?>
+                </div>
+                <div  style="float: right" >
                     <?php include $generales->path_base.'templates/head/nav/menu.php' ?>
                 </div>
             </div>

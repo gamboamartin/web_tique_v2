@@ -25,18 +25,18 @@ $generales = new generales();
     </div>
     <div class="item">
         <img id="imagenI" src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_eirene/2Sala/20220810_170200.jpg" alt="Hogar Eirene" height="100%"/>
-        <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_eirene.php'?>
+
     </div>
     <div class="item">
         <img id="imagenI" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/1Fachada/Fachada_2.png" alt="Hogar Cihualpilli" height="100%" />
-        <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_cihualpilli.php'?>
+        <
     </div>
     <div class="item">
         <img id="imagenI" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_eden/1Fachada/29.jpg" alt="Hogar Eden" height="100%"/>
-        <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_eden.php'?>
+
     </div>
     <div class="item">
         <img id="imagenI" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_santiago/1Fachada/fachada2.png" alt="Hogar Santiago" height="100%"/>
-        <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_santiago.php'?>
+
     </div>
 </div>

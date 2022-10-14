@@ -24,10 +24,22 @@
     height: 100%;
 }
 #cuadro1{
-    background-color: #0000cc;
+    background-color: #0000cc ;
 
 }
-#body{
-    background-color: #a6e1ec;
+.color_azul{
+    background-color: #0000cc !important;
 }
-
+.color_blanco{
+    background-color: #FFFFFF !important;
+}
+#cuadro2 {
+    padding: 30px;
+    background-color: #FFFFFF !important;
+    display: block;
+    margin: 0px auto;
+    border-radius: 40px;
+    width: 85%;
+    height: 100%;
+    padding-bottom: 10px;
+}
