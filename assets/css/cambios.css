@@ -34,13 +34,13 @@
     background-color: #FFFFFF !important;
 }
 #cuadro2 {
-    padding: 15px;
+    padding: 10px;
     background-color: #FFFFFF !important;
     display: block;
     margin: 0px auto;
     border-radius: 50px;
     width: 85%;
-    height: auto;
+
     padding-bottom: 0px;
     position: absolute;
     top: 118%;
@@ -49,9 +49,6 @@
 }
 
 .carta_img{
-    display: block;
-    margin: 0px auto;
-    border-radius:50px;
-    width: 95%;
-    height: 100%;
+    border-radius:20px 20px 20px 20px !important;
+    height: 300px !important;
 }

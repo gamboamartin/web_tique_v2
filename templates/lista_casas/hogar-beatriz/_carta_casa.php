@@ -4,8 +4,8 @@ $generales = new generales();
 ?>
 <div class="col-md-4 col-sm-6">
     <div class="property-card card">
-        <div class="property-card-header image-box">
-            <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_beatriz/1Fachada/1.jpg" alt="" class="" />
+        <div class="property-card-header image-box" style="border-radius:20px 20px 20px 20px !important; height: 300px !important;">
+            <img style="border-radius:20px 20px 20px 20px !important; height: 300px !important;" src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_beatriz/1Fachada/1.jpg" alt="" class="" />
             <!--Casa destacada en caso de serlo-->
             <!--<div class="budget"><i class="fa fa-star"></i></div>-->
             <a href="<?php echo $generales->url_base; ?>hogares/hogar-beatriz.php" class="property-card-hover">

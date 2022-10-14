@@ -2786,7 +2786,7 @@ body > div:not(.container-side-version) .h-side.h-side-results {
 }
 
 .property-card .property-card-header {
-    height: 165px;
+    /*height: 165px;*/
     overflow: hidden;
     position: relative;
 }
