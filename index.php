@@ -27,7 +27,7 @@ $generales = new generales();
             <main class="main section-color-primary">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-md-12">
                             <div class="h-side top-pad h-side-slim clearfix">
 
                             </div> <!-- /. content-header -->
@@ -68,12 +68,7 @@ $generales = new generales();
 
                         </div><!-- /.center-content -->
 
-                        <div class="col-md-3">
 
-
-                        </div>
-
-                        <?php include $generales->path_base.'templates/facebook/_fb_adds.php'?>
                         <!-- /.right side bar -->
                     </div>
 

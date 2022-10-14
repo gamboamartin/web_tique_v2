@@ -28,5 +28,5 @@ $generales = new generales();
 <!-- Start custom template style  -->
 <link rel="stylesheet" href="<?php echo $generales->url_base; ?>assets/css/custom_template_style.css" />
 <!-- End custom template style   -->
-<link rel="stylesheet" type="text/css" href="assets/css/cambios.css">
-<link rel="stylesheet" type="text/css" href="assets/css/fuentes.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $generales->url_base; ?>assets/css/cambios.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo $generales->url_base; ?>assets/css/fuentes.css" />

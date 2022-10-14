@@ -48,3 +48,10 @@
     /*transform: translate(-50%, -50%);*/
 }
 
+.carta_img{
+    display: block;
+    margin: 0px auto;
+    border-radius:50px;
+    width: 95%;
+    height: 100%;
+}

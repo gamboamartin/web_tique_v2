@@ -2,10 +2,13 @@
 use config\generales;
 $generales = new generales();
 ?>
+<link rel="stylesheet" type="text/css" href="<?php echo $generales->url_base; ?>assets/css/cambios.css" />
 <div class="col-md-4 col-sm-6">
+
     <div class="property-card card">
+        <?php //include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
         <div class="property-card-header image-box">
-            <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_venus/1Fachada/9 (1).jpg" alt="" class="" />
+            <img  id="carta_img" src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_venus/1Fachada/9 (1).jpg" alt="" class="" />
             <a href="<?php echo $generales->url_base; ?>hogares/hogar-venus.php" class="property-card-hover">
                 <img src="<?php echo $generales->url_base; ?>assets/img/plus.png" alt="" class="center-icon" />
                 <img src="<?php echo $generales->url_base; ?>assets/img/icon-notice.png" alt="" class="right-icon" />
@@ -18,8 +21,8 @@ $generales = new generales();
             </a>
         </div>
 
-        <?php include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
-        <?php include $generales->path_base.'templates/lista_casas/hogar-venus/_carta_casa_detalles.php' ?>
+
+        <?php //include $generales->path_base.'templates/lista_casas/hogar-venus/_carta_casa_detalles.php' ?>
     </div>
 </div>
 <script>
