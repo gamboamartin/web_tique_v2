@@ -24,7 +24,7 @@
     height: 100%;
 }
 #cuadro1{
-    background-color: #0000cc ;
+    background : linear-gradient( #0000cc 80%,#FFFFFF 20%);
 
 }
 .color_azul{
@@ -33,22 +33,29 @@
 .color_blanco{
     background-color: #FFFFFF !important;
 }
+.color_grisC{
+    background-color: #cccccc !important;
+}
 #cuadro2 {
     padding: 10px;
-    background-color: #FFFFFF !important;
-    display: block;
-    margin: 0px auto;
-    border-radius: 50px;
-    width: 85%;
-
     padding-bottom: 0px;
+    background-color: #FFFFFF !important;
+    border-radius:40px 40px 40px 40px !important;
+    width: 85%;
+    height: 120px auto;
     position: absolute;
-    top: 118%;
+    top: -3.5%;
     left: 7.5%;
     /*transform: translate(-50%, -50%);*/
 }
 
 .carta_img{
-    border-radius:20px 20px 20px 20px !important;
-    height: 300px !important;
+    border-radius:40px 40px 40px 40px !important;
+    height: 330px !important;
+}
+.color_cart_casa{
+    border-radius:40px 40px 40px 40px !important;
+    background-color: #cccccc !important;
+    border: none !important;
+    margin: 0% !important;
 }

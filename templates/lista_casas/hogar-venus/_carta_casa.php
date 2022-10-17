@@ -5,10 +5,39 @@ $generales = new generales();
 
 <div class="col-md-4 col-sm-6" >
 
-    <div class="property-card card" >
+    <div class="property-card card color_cart_casa" >
         <?php //include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
-        <div class="property-card-header image-box" style="border-radius:20px 20px 20px 20px !important; height: 300px !important;">
-            <img style="border-radius:20px 20px 20px 20px !important; height: 300px !important;" src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_venus/1Fachada/9 (1).jpg" />
+        <br><br>
+        <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar-venus.php" class="btn_info_casa" style="color: #ffffff !important;
+    text-align: center !important;
+    font-family: Montserrat-Medium !important;
+    font-size: 15px !important;
+    margin: 0px !important;
+    width: 100px;
+    border-radius:10px 10px 10px 10px !important;
+    background-color: #0000cc !important;
+    padding: 5px;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    z-index:1;">  Detalles  </a>
+
+        <div class="property-card-header image-box carta_img"  >
+            <h3 class="etiqueta_imagen" style="color: #0000cc !important;
+    text-align: center !important;
+    font-family: Montserrat-Medium !important;
+    font-size: 15px !important;
+    margin: 0px !important;
+    width: 90px;
+    border-radius:10px 10px 10px 10px !important;
+    background-color: #cccccc !important;
+    padding: 5px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    z-index:1;">Renovada</h3>
+
+            <img  src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_venus/1Fachada/9 (1).jpg" class="carta_img"/>
             <a href="<?php echo $generales->url_base; ?>hogares/hogar-venus.php" class="property-card-hover">
                 <img src="<?php echo $generales->url_base; ?>assets/img/plus.png" alt="" class="center-icon" />
                 <img src="<?php echo $generales->url_base; ?>assets/img/icon-notice.png" alt="" class="right-icon" />

@@ -33,7 +33,7 @@
     color: #0000cc;
 }
 #select {
-    float: left;
+    float:  right;
     text-align: center;
     background-color: #FFFFFF !important;
     border: none !important;
@@ -44,7 +44,7 @@
 
 }
 #select1 {
-    float: top;
+    float:  right;
     text-align: center;
     background-color: #FFFFFF !important;
     border: none !important;
@@ -60,11 +60,41 @@
     padding: 25px;
     border-radius:30px;
     text-align: center;
-    background-color: #0000cc; !important;
+    background-color: #0000cc !important;
     border: none !important;
     color: #FFFFFF;
     font-family: Montserrat-Medium;
     font-size: 20px;
     margin: 10px;
+}
 
+.btn_info_casa{
+    color: #ffffff !important;
+    text-align: center !important;
+    font-family: Montserrat-Medium !important;
+    font-size: 15px !important;
+    margin: 0px !important;
+    width: 100px;
+    border-radius:10px 10px 10px 10px !important;
+    background-color: #0000cc !important;
+    padding: 5px;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    z-index:1;
+}
+.etiqueta_imagen{
+    color: #0000cc !important;
+    text-align: center !important;
+    font-family: Montserrat-Medium !important;
+    font-size: 15px !important;
+    margin: 0px !important;
+    width: 90px;
+    border-radius:10px 10px 10px 10px !important;
+    background-color: #cccccc !important;
+    padding: 5px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    z-index:1;
 }
