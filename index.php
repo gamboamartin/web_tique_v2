@@ -67,6 +67,7 @@ $generales = new generales();
 
                             }else{
                                 include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
+                                include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
                             }
                              ?>
 
