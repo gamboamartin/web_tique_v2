@@ -34,6 +34,11 @@ $generales = new generales();
                             <?php include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
                             <?php if(isset($_POST['seccion'])){
                                 if($_POST['seccion']==1 and $_POST['ubi']=="") {
+
+                                    include $generales->path_base.'templates/lista_casas/_lista_casas.php';
+
+
+
                                     include $generales->path_base.'templates/lista_casas/hogar-venus/_carta_casa.php';
                                     include $generales->path_base.'templates/lista_casas/hogar-pasitea/_carta_casa.php';
                                     include $generales->path_base.'templates/lista_casas/hogar-orquidea/_carta_casa.php';
@@ -61,8 +66,7 @@ $generales = new generales();
                                <?php }
 
                             }else{
-
-                                include $generales->path_base.'templates/lista_casas/_lista_casas.php';
+                                include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
                             }
                              ?>
 

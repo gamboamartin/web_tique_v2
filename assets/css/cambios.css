@@ -42,9 +42,9 @@
     background-color: #FFFFFF !important;
     border-radius:40px 40px 40px 40px !important;
     width: 85%;
-    height: 120px auto;
+
     position: absolute;
-    top: -3.5%;
+    top: -10%;
     left: 7.5%;
     /*transform: translate(-50%, -50%);*/
 }

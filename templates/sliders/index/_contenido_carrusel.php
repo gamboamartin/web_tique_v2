@@ -29,7 +29,7 @@ $generales = new generales();
     </div>
     <div class="item">
         <img id="imagenI" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/1Fachada/Fachada_2.png" alt="Hogar Cihualpilli" height="100%" />
-        <
+
     </div>
     <div class="item">
         <img id="imagenI" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_eden/1Fachada/29.jpg" alt="Hogar Eden" height="100%"/>
