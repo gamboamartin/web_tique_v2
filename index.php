@@ -74,11 +74,13 @@ $generales = new generales();
                                 include $generales->path_base . 'templates/whatsapp/info_whatsapp.php';
                                 ?>
                                 <div class="container" >
-                                <img id="img_whats" style=" display: block;
+                                <img id="img_whats" style="
+                                 display: block;
                                     margin: 0px auto;
                                      border-radius:70px;
                                          width: 100%;
-                                         height: 100%;" src="<?php echo $generales->url_base; ?>assets/img/whatsapp.jpg"  />
+                                         height: 100%;
+                                         " src="<?php echo $generales->url_base; ?>assets/img/whatsapp.jpg"  />
                                 </div>
                             </div>
 
@@ -93,7 +95,7 @@ $generales = new generales();
                 </div>
             </main><!-- /.main-part-->
             <?php /* include $generales->path_base.'templates/noticias/index/_noticias_index.php'*/?>
-            <?php include $generales->path_base.'templates/agentes/index/_agentes_index.php' ?>
+            <?php /*include $generales->path_base.'templates/agentes/index/_agentes_index.php' */?>
             <footer class="footer">
                 <?php include $generales->path_base.'templates/footer/_footer.php' ?>
             </footer>
