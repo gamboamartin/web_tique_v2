@@ -74,15 +74,25 @@
     font-family: Montserrat-Medium !important;
     font-size: 15px !important;
     margin: 0px !important;
-    width: 100px;
-    border-radius:10px 10px 10px 10px !important;
+    width: 200px;
+    border-radius:20px 20px 20px 20px !important;
     background-color: #0000cc !important;
-    padding: 5px;
-    position: absolute;
-    top: 5%;
-    left: 0%;
-    z-index:1;
+    padding: 20px;
 }
+.btn_whatsapp{
+    color: #ffffff !important;
+    text-align: center !important;
+    font-family: Montserrat-Medium !important;
+    font-size: 30px !important;
+    margin: 0px !important;
+    width: 200px;
+    border-radius:20px 20px 20px 20px !important;
+    background-color: #0000cc !important;
+    padding: 10px;
+    border: none !important;
+
+}
+
 .etiqueta_imagen{
     color: #0000cc !important;
     text-align: center !important;
@@ -97,4 +107,22 @@
     top: 5%;
     left: 10%;
     z-index:1;
+}
+.whatsapp_h{
+    background-color: #FFFFFF;
+    color: #0000cc;
+    text-align: center;
+    font-family: Montserrat-Black;
+    font-size: 55px;
+    margin: 0px;
+
+}
+.whatsapp_h2 {
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #999999;
+    font-family: Montserrat-Medium;
+    font-size: 32px;
+    margin: 0px;
+
 }

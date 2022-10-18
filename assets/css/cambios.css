@@ -36,15 +36,14 @@
 .color_grisC{
     background-color: #cccccc !important;
 }
-#cuadro2 {
+#busqueda {
     padding: 10px;
     padding-bottom: 0px;
     background-color: #FFFFFF !important;
     border-radius:40px 40px 40px 40px !important;
     width: 85%;
-
     position: absolute;
-    top: -10%;
+    top: -5%;
     left: 7.5%;
     /*transform: translate(-50%, -50%);*/
 }
@@ -58,4 +57,7 @@
     background-color: #cccccc !important;
     border: none !important;
     margin: 0% !important;
+}
+.cuadro2{
+    background : linear-gradient( hsla(0,0%,80%,20%) 71.5%,#FFFFFF 28.5%);
 }

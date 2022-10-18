@@ -24,7 +24,7 @@ $generales = new generales();
 
 
             </header><!-- /.header--> 
-            <main class="main color_grisC">
+            <main class="main cuadro2">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -68,8 +68,13 @@ $generales = new generales();
                             }else{
                                 include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
                                 include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
-                            }
-                             ?>
+                            }?>
+                            <div class="cuadro2">
+                                <?php
+                                include $generales->path_base . 'templates/whatsapp/info_whatsapp.php';
+                                ?>
+                            </div>
+
 
                         </div><!-- /.center-content -->
 

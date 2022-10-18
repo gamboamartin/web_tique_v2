@@ -5,7 +5,7 @@ require './vendor/autoload.php';
 $generales = new generales();
 ?>
 
-<section class="search-form  parallax" id="cuadro2">
+<section class="search-form  parallax" id="busqueda">
 
     <h3 class="hidden">Search</h3>
     <div class="container">
