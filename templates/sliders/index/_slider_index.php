@@ -14,9 +14,7 @@
             <?php include 'templates/sliders/index/_contenido_carrusel.php'?>
             <!-- Previous/Next controls -->
 
-            <?php include 'templates/sliders/index/links/_boton_atras.php'?>
-            <?php include 'templates/sliders/index/links/_boton_adelante.php'?>
-            <div style="opacity: 0 !important;"></div>
+
         </div >
         <!-- Carousel container -->
     </section><!-- /.header-slider-->

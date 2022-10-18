@@ -9,10 +9,10 @@
             <?php include 'templates/sliders/galeria/_contenido_carrusel.php'?>
             <!-- Previous/Next controls -->
 
-            <?php include 'templates/sliders/galeria/links/_boton_atras.php'?>
-            <?php include 'templates/sliders/galeria/links/_boton_adelante.php'?>
+
 
         </div >
         <!-- Carousel container -->
     </section><!-- /.header-slider-->
 
+<div

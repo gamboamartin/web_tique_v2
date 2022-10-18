@@ -69,10 +69,17 @@ $generales = new generales();
                                 include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
                                 include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
                             }?>
-                            <div class="cuadro2">
+                            <div >
                                 <?php
                                 include $generales->path_base . 'templates/whatsapp/info_whatsapp.php';
                                 ?>
+                                <div class="container" >
+                                <img id="img_whats" style=" display: block;
+                                    margin: 0px auto;
+                                     border-radius:70px;
+                                         width: 100%;
+                                         height: 100%;" src="<?php echo $generales->url_base; ?>assets/img/whatsapp.jpg"  />
+                                </div>
                             </div>
 
 
