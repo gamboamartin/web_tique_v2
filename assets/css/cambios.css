@@ -14,7 +14,7 @@
 
 }
 #fondo_slider{
-    background : linear-gradient( #0000cc 80%, hsla(0,0%,80%,20%) 20% );
+    background : linear-gradient( #0000cc 60%, hsla(0,0%,80%,20%) 40% );
 
 }
 .color_azul{
@@ -24,7 +24,7 @@
     background-color: #FFFFFF !important;
 }
 .color_gris_claro{
-    background-color: hsla(0,0%,80%,20%) !important;
+    background: hsla(0,0%,80%,20%) !important;
 }
 .color_gris_obscuro{
     background-color: #cccccc !important;
@@ -33,19 +33,22 @@
     padding: 10px;
     padding-bottom: 0px;
     background-color: #FFFFFF !important;
-    border-radius:40px 40px 40px 40px !important;
+    border-radius:50px 50px 50px 50px !important;
     width: 75%;
     /*height: 20%;*/
+    position: relative;
+    top: -73px ;
     left: 12%;
-    position: absolute;
-    top: 92% ;
     z-index:3;
+    min-height: 95px;
+
     /*transform: translate(-50%, -50%);*/
 }
 .modificacion_interna_busqueda_index{
-    margin-right: -120px;
-    margin-left: 5px;
+    margin-right: -44px;
+    margin-left: -18px;
 }
+
 
 .carta_img_casa{
     border-radius:40px 40px 40px 40px !important;

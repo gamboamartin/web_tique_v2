@@ -8,7 +8,7 @@ $generales = new generales();
 <section class="search-form  parallax" id="busqueda_index">
 
     <h3 class="hidden">Search</h3>
-    <div class="container " >
+    <div class="container " style="overflow: hidden !important;" >
         <form action="<?php echo $generales->url_base; ?>" method="post" >
             <div class="row modificacion_interna_busqueda_index">
                 <?php include 'templates/busqueda/index/links/_proposito_busqueda.php' ?>
