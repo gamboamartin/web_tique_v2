@@ -21,7 +21,7 @@ $generales = new generales();
 
                 <?php include $generales->path_base.'templates/head/_head.php'?>
                 <?php include $generales->path_base.'templates/sliders/index/_slider_index.php' ?>
-                <?php include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
+                <?php //include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
 
 
             </header><!-- /.header--> 

@@ -38,13 +38,12 @@
     /*height: 20%;*/
     left: 12%;
     position: absolute;
-    bottom: -10%;
-
+    top: 92% ;
     z-index:3;
     /*transform: translate(-50%, -50%);*/
 }
 .modificacion_interna_busqueda_index{
-    margin-right: -15px;
+    margin-right: -120px;
     margin-left: 5px;
 }
 

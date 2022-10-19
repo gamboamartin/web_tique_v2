@@ -1,4 +1,7 @@
-
+<?php
+use config\generales;
+$generales = new generales();
+?>
 <div class="container" id="fondo_slider" >
     <section class="center-block">
         <p type="hidden" style="color: #0000CC !important;"> hola</p>
@@ -19,6 +22,9 @@
 
 
         </div >
+
+        <?php include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
         <!-- Carousel container -->
     </section><!-- /.header-slider-->
 
+</div>
