@@ -9,7 +9,7 @@ $generales = new generales();
         <br><br>
         <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar-eirene.php" class="btn_info_cart_casa">  Detalles  </a>
 
-        <div class="property-card-header image-box" >
+        <div class="property-card-header image-box carta_img_casa" >
             <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_eirene/2Sala/20220810_170200.jpg" alt="" class="carta_img" />
             <!--Casa destacada en caso de serlo-->
             <!--<div class="budget"><i class="fa fa-star"></i></div>-->

@@ -9,7 +9,7 @@ $generales = new generales();
         <br><br>
         <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar-cihualpilli.php" class="btn_info_cart_casa" >  Detalles  </a>
 
-        <div class="property-card-header image-box" carta_img>
+        <div class="property-card-header image-box carta_img_casa">
             <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/1Fachada/Fachada_2.png" alt="" class="carta_img" />
             <!--Casa destacada en caso de serlo-->
             <!--<div class="budget"><i class="fa fa-star"></i></div>-->

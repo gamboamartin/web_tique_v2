@@ -8,7 +8,7 @@ $generales = new generales();
         <?php //include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
         <br><br>
         <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar-orquidea.php" class="btn_info_cart_casa" >  Detalles  </a>
-        <div class="property-card-header image-box carta_img">
+        <div class="property-card-header image-box carta_img_casa">
             <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_orquidea/1Fachada/1662066955339.jpg" alt="" class="carta_img" />
             <!--Casa destacada en caso de serlo-->
             <!--<div class="budget"><i class="fa fa-star"></i></div>-->

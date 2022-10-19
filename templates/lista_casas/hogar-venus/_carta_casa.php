@@ -10,7 +10,7 @@ $generales = new generales();
         <br><br>
         <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar-venus.php" class="btn_info_cart_casa" >  Detalles  </a>
 
-        <div class="property-card-header image-box carta_img"  >
+        <div class="property-card-header image-box carta_img_casa"  >
             <h3 class="etiqueta_imagen" style="color: #0000cc !important;
     text-align: center !important;
     font-family: Montserrat-Medium !important;

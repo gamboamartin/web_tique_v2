@@ -12,28 +12,29 @@
     src:url("fonts/fuentes/Montserrat-Medium.otf");
 }
 
-#etiqueta1{
+.titulo_slider{
     color: #ffffff;
-    text-align: center;
+    text-align: center !important;
     font-family: Montserrat-Black;
-    font-size: 50px;
+    font-size: 35px;
     margin: 0px;
+    padding: 0px !important;
 }
-#etiqueta2{
+.subtitulo_slider{
     color: #ffffff;
     text-align: center;
-    font-family: Montserrat-Light;
-    font-size: 20px;
+    font-family: Montserrat-Medium;
+    font-size: 15px;
     margin: 0px;
 }
 
-#links {
+#enlace_menu_principal {
     font-family: Montserrat-Medium;
-    font-size: 20px;
+    font-size: 15px;
     color: #0000cc;
 }
 #select {
-    float:  right;
+    /*float:  right;*/
     text-align: center;
     background-color: #FFFFFF !important;
     border: none !important;
@@ -45,7 +46,7 @@
 
 }
 #select1 {
-    float:  right;
+    /*float:  right;*/
     text-align: center;
     background-color: #FFFFFF !important;
     border: none !important;
@@ -57,16 +58,16 @@
 
 }
 #btn_buscar {
-    float: right !important;
+    /*float: right !important;*/
     display: block;
-    padding: 25px;
+    padding: 20px;
     border-radius:30px;
     text-align: center;
     background-color: #0000cc !important;
     border: none !important;
     color: #FFFFFF;
     font-family: Montserrat-Medium;
-    font-size: 20px;
+    font-size: 15px;
     margin: 10px;
 }
 

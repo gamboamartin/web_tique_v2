@@ -21,6 +21,7 @@ $generales = new generales();
 
                 <?php include $generales->path_base.'templates/head/_head.php'?>
                 <?php include $generales->path_base.'templates/sliders/index/_slider_index.php' ?>
+                <?php include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
 
 
             </header><!-- /.header--> 
@@ -31,8 +32,7 @@ $generales = new generales();
                             <div class="h-side top-pad h-side-slim clearfix">
 
                             </div> <!-- /. content-header -->
-                            <?php include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
-                            <?php if(isset($_POST['seccion'])){
+                           <?php if(isset($_POST['seccion'])){
                                 if($_POST['seccion']==1 and $_POST['ubi']=="") {
 
                                     include $generales->path_base.'templates/lista_casas/_lista_casas.php';
@@ -69,20 +69,7 @@ $generales = new generales();
                                 include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
                                 include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
                             }?>
-                            <div >
-                                <?php
-                                include $generales->path_base . 'templates/whatsapp/info_whatsapp.php';
-                                ?>
-                                <div class="container" >
-                                <img id="img_whats" style="
-                                 display: block;
-                                    margin: 0px auto;
-                                     border-radius:70px;
-                                         width: 100%;
-                                         height: 100%;
-                                         " src="<?php echo $generales->url_base; ?>assets/img/whatsapp.jpg"  />
-                                </div>
-                            </div>
+
 
 
                         </div><!-- /.center-content -->
@@ -92,8 +79,18 @@ $generales = new generales();
                     </div>
 
 
+
                 </div>
+
             </main><!-- /.main-part-->
+            <div class="container">
+                <?php
+                include $generales->path_base . 'templates/whatsapp/info_whatsapp.php';
+                include $generales->path_base . 'templates/whatsapp/img_whatsapp.php';
+                ?>
+
+            </div>
+
             <?php /* include $generales->path_base.'templates/noticias/index/_noticias_index.php'*/?>
             <?php /*include $generales->path_base.'templates/agentes/index/_agentes_index.php' */?>
             <footer class="footer">

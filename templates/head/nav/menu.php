@@ -2,7 +2,7 @@
 use config\generales;
 $generales = new generales();
 ?>
-<div class="pull-left menu">
+<div class="pull-right menu">
     <?php include $generales->path_base.'templates/head/nav/_menu_responsive.php'?>
 
     <nav class="navbar text-color-primary">

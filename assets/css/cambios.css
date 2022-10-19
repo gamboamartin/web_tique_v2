@@ -1,27 +1,9 @@
-#enlace1 {
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 18px;
-    color: #0000cc;
-    font-weight: 600;
-    overflow: hidden;
-    padding: 12px 16px;
-    position: relative;
-    text-transform: none;
-}
-
-/* Style the active class, and buttons on mouse-over */
-.active, #enlace1:hover {
-    color: #ff3300;
-}
-
-#imagenI{
+#imagen_slider{
     display: block;
     margin: 0px auto;
     border-radius:70px;
-    width: 95%;
-    height: 100%;
+    width: 89%;
+    height: 95%;
 }
 #img_whats{
     display: block;
@@ -31,8 +13,8 @@
     height: 100%;
 
 }
-#cuadro1{
-    background : linear-gradient( #0000cc 80%,hsla(0,0%,80%,20%)20%);
+#fondo_slider{
+    background : linear-gradient( #0000cc 80%, hsla(0,0%,80%,20%) 20% );
 
 }
 .color_azul{
@@ -41,22 +23,32 @@
 .color_blanco{
     background-color: #FFFFFF !important;
 }
-.color_grisC{
+.color_gris_claro{
+    background-color: hsla(0,0%,80%,20%) !important;
+}
+.color_gris_obscuro{
     background-color: #cccccc !important;
 }
-#busqueda {
+#busqueda_index{
     padding: 10px;
     padding-bottom: 0px;
     background-color: #FFFFFF !important;
     border-radius:40px 40px 40px 40px !important;
-    width: 85%;
+    width: 75%;
+    /*height: 20%;*/
+    left: 12%;
     position: absolute;
-    top: -5%;
-    left: 7.5%;
+    bottom: -10%;
+
+    z-index:3;
     /*transform: translate(-50%, -50%);*/
 }
+.modificacion_interna_busqueda_index{
+    margin-right: -15px;
+    margin-left: 5px;
+}
 
-.carta_img{
+.carta_img_casa{
     border-radius:40px 40px 40px 40px !important;
     height: 330px !important;
 }
@@ -66,6 +58,10 @@
     border: none !important;
     margin: 0% !important;
 }
-.cuadro2{
-    background : linear-gradient( hsla(0,0%,80%,20%) 71.5%,#FFFFFF 28.5%);
+.fondo_index{
+    background : linear-gradient( hsla(0,0%,80%,20%) 71.5%, #FFFFFF 28.5%);
+}
+.menu_principal{
+    height: 75px !important;
+
 }
