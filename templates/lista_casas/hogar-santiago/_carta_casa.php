@@ -5,7 +5,7 @@ $generales = new generales();
 <div class="col-md-4 col-sm-6" >
 
     <div class="property-card card color_cart_casa" >
-        <?php //include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
+
         <br><br>
         <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar-santiago.php" class="btn_info_cart_casa">  Detalles  </a>
 
@@ -28,7 +28,7 @@ $generales = new generales();
         </div>
 
         <?php //include $generales->path_base.'templates/lista_casas/links/_marca_vendida.php' ?>
-        <?php //include $generales->path_base.'templates/lista_casas/hogar-santiago/_carta_casa_detalles.php' ?>
+        <?php include $generales->path_base.'templates/lista_casas/hogar-santiago/_carta_casa_detalles.php' ?>
     </div>
 </div>
 <script>
