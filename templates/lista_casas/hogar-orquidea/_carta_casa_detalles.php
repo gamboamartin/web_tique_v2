@@ -11,16 +11,15 @@ if(count($a)>2) {
 ?>
 <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
 
-<div class="property-card-box card-box card-block">
-    <h3 class="property-card-title"><a href="<?php echo $generales->url_base; ?>hogares/hogar-orquidea.php">Hogar Orquidea</a></h3>
-    <div class="property-card-descr">
-        La Mancha, Andador Altamesa #209,Edif. E-52,  Int.3, Col. Altagracia, Zapopan, Jal.
-    </div>
-    <div class="property-preview-footer  clearfix">
-        <div class="property-preview-f-left text-color-primary">
-            <span class="property-card-value">
+<div class="property-card-box card-box card-block estilo_carta_casa_texto">
+    <h3 class="titulo_carta_casa"><a class="titulo_carta_casa" href="<?php echo $generales->url_base; ?>hogares/hogar-orquidea.php">Hogar Orquidea</a></h3>
+    <div class="property-card-descr texto_carta_casa">
+        <p class="texto_carta_casa">La Mancha, Andador Altamesa #209,</p>
+        <p class="texto_carta_casa">Edif. E-52, Int.3, Col. Altagracia,</p>
+        <p class="texto_carta_casa"> Zapopan, Jal.</p>
+        <span class="property-card-value" id="texto_carta_casa">
                 <i class="fa fa-dollar"><?php echo $costo ?></i>
             </span>
-        </div>
     </div>
+
 </div>

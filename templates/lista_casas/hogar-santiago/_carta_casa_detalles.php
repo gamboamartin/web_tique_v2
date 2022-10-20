@@ -14,9 +14,11 @@ if(count($a)>2) {
     <div class="property-card-descr texto_carta_casa">
         <p class="texto_carta_casa">Priv Rio Santiago 33,</p>
         <p class="texto_carta_casa"> Urbi Paseos de Santiago, 44760</p>
+        <br>
         <span class="property-card-value" id="texto_carta_casa">
                 <i class="fa fa-dollar"><?php echo $costo ?></i>
         </span>
+
     </div>
 
 </div>
