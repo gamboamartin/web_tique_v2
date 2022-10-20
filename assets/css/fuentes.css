@@ -163,3 +163,32 @@
     margin: 0px;
     padding: 0px;
 }
+.estilo_carta_casa_texto{
+    background-color: #0000cc;
+    color: #FFFFFF !important;
+
+}
+.titulo_carta_casa{
+    background-color: #0000cc;
+    color: #FFF ;
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+.texto_carta_casa{
+    background-color: #0000cc;
+    color: #FFF ;
+    font-family: Montserrat-Medium;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+#texto_carta_casa{
+    background-color: #0000cc;
+    color: #FFF ;
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}

@@ -44,7 +44,7 @@
 
 
 .carta_img_casa{
-    border-radius:40px 40px 40px 40px !important;
+    border-radius:40px 40px 0px 0px !important;
     height: 330px !important;
 }
 .color_cart_casa{
@@ -90,6 +90,6 @@
     top: -42px;
     width: 100% !important;
     align-items: center !important;
-    z-index:3;
+    z-index: 3;
 }
 

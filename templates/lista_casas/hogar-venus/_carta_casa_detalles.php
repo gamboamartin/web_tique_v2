@@ -10,16 +10,15 @@ if(count($a)>2) {
 }
 
 ?>
-<div class="property-card-box card-box card-block">
-    <h3 class="property-card-title"><a href="<?php echo $generales->url_base; ?>hogares/hogar-venus.php">Hogar Venus</a></h3>
-    <div class="property-card-descr">
-        Av. Campo Blasones #36 Fracc. Campo Real, Zapopan.
-    </div> <br>
-    <div class="property-preview-footer  clearfix">
-        <div class="property-preview-f-left text-color-primary">
-            <span class="property-card-value">
+<div class="property-card-box card-box card-block estilo_carta_casa_texto">
+    <h3 class="titulo_carta_casa"><a class="titulo_carta_casa" href="<?php echo $generales->url_base; ?>hogares/hogar-venus.php">Hogar Venus</a></h3>
+    <div class="property-card-descr texto_carta_casa">
+        <p class="texto_carta_casa">Av. Campo Blasones #36</p>
+        <p class="texto_carta_casa"> Fracc. Campo Real, Zapopan.</p>
+        <span class="property-card-value"   id="texto_carta_casa">
                 <i class="fa fa-dollar"><?php echo $costo ?></i>
-            </span>
-        </div>
+        </span>
     </div>
+
+
 </div>
