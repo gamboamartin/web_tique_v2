@@ -1,5 +1,5 @@
 
-<div class="col-md-3">
+<div class="col-md-3 posicion_boton_buscar">
     <div class="form-group">
 <br>
         <select name="Propiedades en venta" id="select">

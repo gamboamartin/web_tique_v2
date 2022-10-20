@@ -16,7 +16,7 @@ $generales = new generales();
     </head>
     <body class="color_blanco" >
         <div id="fb-root"></div>
-        <div class="container container-wrapper contenerdor_img_whats">
+        <div class="container container-wrapper color_gris_claro  contenerdor_img_whats">
             <header class="header">
 
                 <?php include $generales->path_base.'templates/head/_head.php'?>
@@ -25,7 +25,7 @@ $generales = new generales();
 
 
             </header><!-- /.header--> 
-            <main class="main color_gris_claro">
+            <main class="main posicion_main">
                 <div class="container contenerdor_img_whats">
                     <div class="row">
                         <div class="col-md-12">
@@ -84,7 +84,7 @@ $generales = new generales();
 
             </main><!-- /.main-part-->
 
-            <div class="container contenerdor_img_whats" style="background-color: #FFFFFF; padding: 0px;">
+            <div class="container contenerdor_img_whats posicion_whats" style="background-color: #FFFFFF; padding: 0px;">
                 <?php
                 include $generales->path_base . 'templates/whatsapp/info_whatsapp.php';
                 include $generales->path_base . 'templates/whatsapp/img_whatsapp.php';

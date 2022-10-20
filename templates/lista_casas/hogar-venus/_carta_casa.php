@@ -29,12 +29,12 @@ $generales = new generales();
             <a href="<?php echo $generales->url_base; ?>hogares/hogar-venus.php" class="property-card-hover">
                 <img src="<?php echo $generales->url_base; ?>assets/img/plus.png" alt="" class="center-icon" />
                 <img src="<?php echo $generales->url_base; ?>assets/img/icon-notice.png" alt="" class="right-icon" />
-
-                <span id='imagen 1' onclick='getlinkVenus()'>
-                <img alt="Cambiar imagen" onmouseout="this.src='<?php echo $generales->url_base; ?>assets/img/property-hover-arrow.png';"
-                     onmouseover="this.src='<?php echo $generales->url_base; ?>assets/img/compartir.png';"
-                     src="<?php echo $generales->url_base; ?>assets/img/property-hover-arrow.png" class="left-icon copiar" />
-                </span>
+                <img src="<?php echo $generales->url_base; ?>assets/img/property-hover-arrow.png" alt="Cambiar imagen" id="imagen 1" onclick="getlinkVenus()" class="left-icon copiar"  />
+                <!-- <span id='imagen 1' onclick='getlinkVenus()'>
+                <img alt="Cambiar imagen" onmouseout="this.src='<?php //echo $generales->url_base; ?>assets/img/property-hover-arrow.png';"
+                     onmouseover="this.src='<?php //echo $generales->url_base; ?>assets/img/compartir.png';"
+                     src="<?php //echo $generales->url_base; ?>assets/img/property-hover-arrow.png" class="left-icon copiar" />
+                </span> !-->
             </a>
         </div>
 
