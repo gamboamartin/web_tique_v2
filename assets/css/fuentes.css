@@ -136,7 +136,7 @@
 
 
 }
-.whatsapp_h{
+.whatsapp_titulo{
     background-color: #FFFFFF;
     color: #0000cc;
     text-align: center;
@@ -145,12 +145,21 @@
     margin: 0px;
     padding: 0px;
 }
-.whatsapp_h2 {
+.whatsapp_subtitulo {
     background-color: #FFFFFF;
     text-align: center;
     color: #999999;
     font-family: Montserrat-Medium;
     font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+.texto_mapa{
+    background-color: #0000cc;
+    color: #ffffff;
+    text-align: center;
+    font-family: Montserrat-Black;
+    font-size: 30px;
     margin: 0px;
     padding: 0px;
 }

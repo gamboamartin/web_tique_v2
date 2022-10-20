@@ -79,8 +79,17 @@
 .posicion_whats{
     position: relative;
     top: -42px;
+    height: 620px;
 }
 .posicion_boton_buscar{
     position: relative;
     top: 10px;
 }
+.posicion_mapa_texto{
+    position: relative;
+    top: -42px;
+    width: 100% !important;
+    align-items: center !important;
+    z-index:3;
+}
+
