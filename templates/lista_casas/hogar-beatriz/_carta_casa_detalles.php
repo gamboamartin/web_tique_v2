@@ -17,6 +17,5 @@ if(count($a)>2) {
         <span class="property-card-value" id="texto_carta_casa">
                 <i class="fa fa-dollar"><?php echo $costo ?></i>
             </span>
-    </div> 
-
+    </div>
 </div>
