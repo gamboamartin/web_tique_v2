@@ -15,7 +15,6 @@ if(count($a)>2) {
     <div class="property-card-descr texto_carta_casa">
         <p class="texto_carta_casa">Av. Campo Blasones #36</p>
         <p class="texto_carta_casa">Fracc. Campo Real, Zapopan.</p>
-        <br>
         <span class="property-card-value"   id="texto_carta_casa">
                 <i class="fa fa-dollar"><?php echo $costo ?></i>
         </span>
