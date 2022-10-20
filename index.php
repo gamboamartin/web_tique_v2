@@ -14,9 +14,9 @@ $generales = new generales();
 
         <?php include $generales->path_base.'templates/css.php'; ?>
     </head>
-    <body class="">
+    <body class="color_blanco" >
         <div id="fb-root"></div>
-        <div class="container container-wrapper">
+        <div class="container container-wrapper contenerdor_img_whats">
             <header class="header">
 
                 <?php include $generales->path_base.'templates/head/_head.php'?>
@@ -25,11 +25,11 @@ $generales = new generales();
 
 
             </header><!-- /.header--> 
-            <main class="main cuadro2">
-                <div class="container">
+            <main class="main color_gris_claro">
+                <div class="container contenerdor_img_whats">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="h-side top-pad h-side-slim clearfix">
+                            <div class="h-side top-pad h-side-slim clearfix contenerdor_img_whats" style="padding: 0px;">
 
                             </div> <!-- /. content-header -->
                            <?php if(isset($_POST['seccion'])){
@@ -83,14 +83,14 @@ $generales = new generales();
                 </div>
 
             </main><!-- /.main-part-->
-            <div class="container">
+
+            <div class="container contenerdor_img_whats" style="background-color: #FFFFFF; padding: 0px;">
                 <?php
                 include $generales->path_base . 'templates/whatsapp/info_whatsapp.php';
                 include $generales->path_base . 'templates/whatsapp/img_whatsapp.php';
                 ?>
 
             </div>
-
             <?php /* include $generales->path_base.'templates/noticias/index/_noticias_index.php'*/?>
             <?php /*include $generales->path_base.'templates/agentes/index/_agentes_index.php' */?>
             <footer class="footer">

@@ -71,9 +71,11 @@
     margin: 10px;
     width: 300px;
     height: 80px;
+
 }
 
 .btn_info_casa{
+    align-items: center !important;
     color: #ffffff !important;
     text-align: center !important;
     font-family: Montserrat-Medium !important;
@@ -95,6 +97,7 @@
     background-color: #0000cc !important;
     padding: 5px;
     position: absolute;
+    align-items: center;
     top: 5%;
     left: 0%;
     z-index:1;
@@ -103,13 +106,16 @@
     color: #ffffff !important;
     text-align: center !important;
     font-family: Montserrat-Medium !important;
-    font-size: 30px !important;
+    font-size: 20px !important;
     margin: 0px !important;
     width: 200px;
     border-radius:20px 20px 20px 20px !important;
     background-color: #0000cc !important;
-    padding: 10px;
-
+    padding: 15px;
+    position: relative;
+    align-items: center;
+    top: 25px ;
+    z-index:5;
 
 }
 
@@ -119,7 +125,7 @@
     font-family: Montserrat-Medium !important;
     font-size: 15px !important;
     margin: 0px !important;
-    width: 90px;
+    width: 200px;
     border-radius:10px 10px 10px 10px !important;
     background-color: #cccccc !important;
     padding: 5px;
@@ -135,16 +141,16 @@
     color: #0000cc;
     text-align: center;
     font-family: Montserrat-Black;
-    font-size: 55px;
+    font-size: 35px;
     margin: 0px;
-
+    padding: 0px;
 }
 .whatsapp_h2 {
     background-color: #FFFFFF;
     text-align: center;
     color: #999999;
     font-family: Montserrat-Medium;
-    font-size: 32px;
+    font-size: 18px;
     margin: 0px;
-
+    padding: 0px;
 }

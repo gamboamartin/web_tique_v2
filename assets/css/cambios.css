@@ -5,16 +5,9 @@
     width: 89%;
     height: 95%;
 }
-#img_whats{
-    display: block;
-    margin: 0px auto;
-    border-radius:70px;
-    width: 100%;
-    height: 100%;
-
-}
 #fondo_slider{
     background : linear-gradient( #0000cc 60%, hsla(0,0%,80%,20%) 40% );
+    /*height: 650px;*/
 
 }
 .color_azul{
@@ -65,5 +58,18 @@
 }
 .menu_principal{
     height: 75px !important;
+
+}
+.contenerdor_img_whats{
+    width: 100% !important;
+    align-items: center !important;
+}
+.img_whatsapp{
+    align-items: center !important;
+    display: block;
+    margin: 0px auto;
+    border-radius:70px;
+    width: 90%;
+    height: 400px;
 
 }
