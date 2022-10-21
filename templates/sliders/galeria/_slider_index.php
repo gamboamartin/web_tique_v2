@@ -15,4 +15,3 @@
         <!-- Carousel container -->
     </section><!-- /.header-slider-->
 
-<div
