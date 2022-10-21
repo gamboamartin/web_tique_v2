@@ -2,29 +2,28 @@
 use config\generales;
 $generales = new generales();
 ?>
-<div class="container" id="fondo_slider" >
-    <section class="center-block">
-        <p type="hidden" style="color: #0000CC !important;"> hola</p>
+<section class="container-fluid vh-100 color_dos_fondos_azul padding-0" id="fondo_slider" >
+    <div class="center-block">
         <h1 class="titulo_slider" >Encuentra tu próxima casa</h1>
         <h1 class="subtitulo_slider" >Nosotros te ayudamos con nuestro servicio personalizado</h1>
 
-    </section>
+    </div>
 
-    <section class="header-slider" >
+    <div class="header-slider" >
 
         <!-- Carousel container -->
-        <div id="header-slider" class="carousel slide"  data-ride="carousel" >
-            <!-- Indicators -->
-            <?php // include 'templates/sliders/index/_indicador_carrusel.php'?>
-            <!-- Content -->
+        <div id="header-slider" class="carousel slide vh-70"  data-ride="carousel" >
+
             <?php include 'templates/sliders/index/_contenido_carrusel.php'?>
             <!-- Previous/Next controls -->
 
 
         </div >
 
-        <?php include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
-        <!-- Carousel container -->
-    </section><!-- /.header-slider-->
 
-</div>
+        <!-- Carousel container -->
+    </div><!-- /.header-slider-->
+
+
+
+</section>

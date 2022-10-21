@@ -14,11 +14,10 @@
 
 .titulo_slider{
     color: #ffffff;
-    text-align: center !important;
+    text-align: center;
     font-family: Montserrat-Black;
     font-size: 35px;
-    margin: 0px;
-    padding: 0px !important;
+
 }
 .subtitulo_slider{
     color: #ffffff;

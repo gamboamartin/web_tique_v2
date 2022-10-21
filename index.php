@@ -18,13 +18,11 @@ $generales = new generales();
         <div id="fb-root"></div>
         <div class="container container-wrapper color_gris_claro  contenerdor_img_whats">
             <header class="header">
-
                 <?php include $generales->path_base.'templates/head/_head.php'?>
-                <?php include $generales->path_base.'templates/sliders/index/_slider_index.php' ?>
-                <?php //include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
-
-
-            </header><!-- /.header--> 
+            </header><!-- /.header-->
+            <?php include $generales->path_base.'templates/sliders/index/_slider_index.php' ?>
+            <?php include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
+            <?php //include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
             <main class="main posicion_main">
                 <div class="container contenerdor_img_whats">
                     <div class="row">

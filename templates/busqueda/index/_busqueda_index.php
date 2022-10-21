@@ -5,18 +5,17 @@ require './vendor/autoload.php';
 $generales = new generales();
 ?>
 
-<section class="search-form  parallax" id="busqueda_index">
+<div class="container fixed">
+    <div class="col-md-12">
+        <div class="col-md-6 col-lg-offset-3" id="buscador">
+    <form action="<?php echo $generales->url_base; ?>" method="post" >
 
-    <h3 class="hidden">Search</h3>
-    <div class="container" >
-        <form action="<?php echo $generales->url_base; ?>" method="post" >
-            <div class="row modificacion_interna_busqueda_index">
-                <?php include 'templates/busqueda/index/links/_proposito_busqueda.php' ?>
-                <?php include 'templates/busqueda/index/links/_ubicacion_busqueda.php' ?>
-                <?php include 'templates/busqueda/index/links/_boton_buscar.php' ?>
-
-            </div>
-        </form>
+            <?php include 'templates/busqueda/index/links/_proposito_busqueda.php' ?>
+            <?php include 'templates/busqueda/index/links/_ubicacion_busqueda.php' ?>
+            <?php include 'templates/busqueda/index/links/_boton_buscar.php' ?>
+    </form>
+        </div>
     </div>
-</section><!-- /.header-search-->
+
+</div><!-- /.header-search-->
 
