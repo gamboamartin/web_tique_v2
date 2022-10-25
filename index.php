@@ -24,10 +24,10 @@ $generales = new generales();
             <?php include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
             <?php //include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
             <main class="main posicion_main">
-                <div class="container contenerdor_img_whats">
+                <div class="container contenedor_index">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="h-side top-pad h-side-slim clearfix contenerdor_img_whats" style="padding: 0px;">
+                            <div class="h-side top-pad h-side-slim clearfix contenedor_index" style="padding: 0px;">
 
                             </div> <!-- /. content-header -->
                            <?php if(isset($_POST['seccion'])){

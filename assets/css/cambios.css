@@ -57,9 +57,19 @@
     width: 100%;
 
 }
-.contenerdor_img_whats{
+.contenedor_img_whats{
     width: 100% !important;
     align-items: center !important;
+}
+.contenedor_index{
+    width: 100% !important;
+    align-items: center !important;
+}
+.contenedor_slider{
+    width: 100% !important;
+    align-items: center !important;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .img_whatsapp{
     align-items: center !important;
@@ -147,7 +157,7 @@ element.style {
     padding-left: 8%;
     width: 80%;
     position: relative;
-    top: -12vh;
+    bottom: 10vh;
     left: 10vw;
     right: 10vw;
     z-index:3;

@@ -1,5 +1,5 @@
 
-<div class="container">
+<div class="container contenedor_slider">
     <section class="header-slider">
         <!-- Carousel container -->
         <div id="slide_carousel" class="carousel slide" data-ride="carousel">
