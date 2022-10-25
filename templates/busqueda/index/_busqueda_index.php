@@ -5,17 +5,17 @@ require './vendor/autoload.php';
 $generales = new generales();
 ?>
 
-<div class="container fixed">
-    <div class="col-md-12">
-        <div class="col-md-6 col-lg-offset-3" id="buscador">
-    <form action="<?php echo $generales->url_base; ?>" method="post" >
+<div class=" box position-relative">
+    <div class="col-md-12 buscador" >
 
-            <?php include 'templates/busqueda/index/links/_proposito_busqueda.php' ?>
-            <?php include 'templates/busqueda/index/links/_ubicacion_busqueda.php' ?>
+    <form action="<?php echo $generales->url_base; ?>" method="post"  >
+
+            <?php include 'templates/busqueda/index/links/_busqueda_hogar_venta.php' ?>
+            <?php include 'templates/busqueda/index/links/_busqueda_tipo_hogar.php' ?>
             <?php include 'templates/busqueda/index/links/_boton_buscar.php' ?>
     </form>
-        </div>
     </div>
+
 
 </div><!-- /.header-search-->
 
