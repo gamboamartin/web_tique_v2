@@ -2,7 +2,7 @@
 use config\generales;
 $generales = new generales();
 ?>
-<div class="carousel-inner" role="listbox">
+<div class="carousel-inner" role="listbox" id="altura_slider">
     <!-- Slide 1 -->
     <div class="item active">
         <?php

@@ -16,7 +16,7 @@ $generales = new generales();
     </head>
     <body class="color_blanco" >
         <div id="fb-root"></div>
-        <div class="container container-wrapper color_gris_claro  contenerdor_img_whats">
+        <div class="container container-wrapper color_gris_claro  contenedor_index">
             <header class="header">
                 <?php include $generales->path_base.'templates/head/_head.php'?>
             </header><!-- /.header-->
@@ -64,11 +64,19 @@ $generales = new generales();
                                <?php }
 
                             }else{
+                           ?><div class="contenedor_whats"> <?php
                                 include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
                                 include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
+                                ?> </div> <?php
                             }?>
 
+                            <div class="contenedor_whats posicion_whats" style="background-color: #FFFFFF; padding: 0px;">
+                                <?php
+                                include $generales->path_base . 'templates/whatsapp/info_whatsapp.php';
+                                include $generales->path_base . 'templates/whatsapp/img_whatsapp.php';
+                                ?>
 
+                            </div>
 
                         </div><!-- /.center-content -->
 
@@ -82,13 +90,7 @@ $generales = new generales();
 
             </main><!-- /.main-part-->
 
-            <div class="container contenerdor_img_whats posicion_whats" style="background-color: #FFFFFF; padding: 0px;">
-                <?php
-                include $generales->path_base . 'templates/whatsapp/info_whatsapp.php';
-                include $generales->path_base . 'templates/whatsapp/img_whatsapp.php';
-                ?>
 
-            </div>
             <div class="container posicion_mapa_texto " style="background-color: #0000CC; padding: 0px;">
                 <?php include $generales->path_base . 'templates/mapa/texto_mapa.php'; ?>
             </div>

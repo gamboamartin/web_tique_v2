@@ -60,10 +60,13 @@
 .contenedor_img_whats{
     width: 100% !important;
     align-items: center !important;
+
 }
 .contenedor_index{
     width: 100% !important;
     align-items: center !important;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 .contenedor_slider{
     width: 100% !important;
@@ -71,22 +74,27 @@
     padding-left: 4%;
     padding-right: 4%;
 }
+.contenedor_whats{
+    width: 100% !important;
+    align-items: center !important;
+    padding-left: 0%;
+    padding-right: 0%;
+}
 .img_whatsapp{
     align-items: center !important;
     display: block;
     margin: 0px auto;
     border-radius:70px;
     width: 90%;
-    height: 400px;
+    height: 650px;
 }
 .posicion_main{
     position: relative;
     top: -65px;
 }
 .posicion_whats{
-    position: relative;
-    top: -42px;
-    height: 620px;
+
+    
 }
 .posicion_boton_buscar{
     position: relative;
@@ -100,10 +108,10 @@
     z-index: 3;
 }
 .carousel-indicators .active{
-    background-color: #000000 !important;
+    background-color: #0000CC !important;
 }
 #viñeta_slider{
-    background-color: #FFFFFF;
+    background-color: #6666ff;
 }
 
 .header-inner .logo {
@@ -165,4 +173,6 @@ element.style {
     justify-content: center;
 
 }
-
+#altura_slider{
+    height: 77.5vh;
+}
