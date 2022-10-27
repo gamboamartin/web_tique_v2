@@ -100,7 +100,7 @@ function LoadMap_main(color) {
 
         var mapOptions = {
             center: new google.maps.LatLng(20.66682, -103.39182),
-            zoom: 10,
+            zoom: 12,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: scrollwheelEnabled,
             styles: style_map

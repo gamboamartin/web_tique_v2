@@ -57,9 +57,9 @@ foreach ($wt_hogar_modelo->obten_registros_activos()->registros as $registro){
     var valor = <?php echo json_encode($hogares); ?>;
 
 
-</script>>
+</script>
 
 <section class="header-slider header-map">
     <h2 class="hidden">Map</h2>
-    <div class="main-map" id="main-map" style='height:500px'></div>
+    <div class="main-map" id="main-map" style='height:500px'> <div</div>
 </section><!-- /.header-video-->

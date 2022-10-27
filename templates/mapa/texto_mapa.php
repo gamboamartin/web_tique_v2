@@ -13,7 +13,7 @@ $generales = new generales();
                 <br>
             </div>
             <?php include $generales->path_base.'templates/mapa/menu_mapa.php'?>
-            <?php include $generales->path_base.'templates/ubicaciones/_ubicaciones_hogares.php'?>
+
         </div>
     </div>
 </div>
