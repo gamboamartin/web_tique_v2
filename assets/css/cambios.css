@@ -86,15 +86,23 @@
     margin: 0px auto;
     border-radius:70px;
     width: 90%;
-    height: 650px;
+    width: 89%;
 }
 .posicion_main{
     position: relative;
     top: -65px;
 }
-.posicion_whats{
-
-    
+.contenido_boton_mapa_text{
+    border: #0000Cc;
+    border-radius:0px 0px 40px 40px;
+    background-color: #0000Cc;
+    padding-bottom: 10%;
+}
+.contenedor_mapa_text{
+    padding: 10px;
+}
+.estilo_redondo_abajo{
+    border-radius:0px 0px 40px 40px;
 }
 .posicion_boton_buscar{
     position: relative;

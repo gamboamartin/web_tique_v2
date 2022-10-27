@@ -155,7 +155,7 @@
     color: #ffffff;
     text-align: center;
     font-family: Montserrat-Black;
-    font-size: 30px;
+    font-size: 35px;
     margin: 0px;
     padding: 0px;
 }
@@ -163,6 +163,8 @@
     background-color: #0000cc;
     color: #FFFFFF !important;
     height: 150px;
+    border-radius: 0px 0px 40px 40px;
+
 }
 .titulo_carta_casa{
     background-color: #0000cc;
@@ -185,6 +187,43 @@
     color: #FFF ;
     font-family: MontserratAlternates-MediumItalic;
     font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+.boton_mapa {
+    background-color: #0000CC; /* Green */
+    border: none;
+    color: white;
+    font-family: Montserrat-Medium;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.boton_mapa:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.numero_boton_mapa{
+    background-color: #0000cc;
+    color: #FFF ;
+    text-align: center;
+    font-family: Montserrat-Medium;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+.texto_boton_mapa{
+    background-color: #0000cc;
+    color: #FFF ;
+    text-align: center;
+    font-family: Montserrat-Medium;
+    font-size: 20px;
     margin: 0px;
     padding: 0px;
 }
