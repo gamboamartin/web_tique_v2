@@ -199,7 +199,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -214,16 +214,17 @@
     color: #FFF ;
     text-align: center;
     font-family: Montserrat-Medium;
-    font-size: 40px;
+    font-size: 30px;
     margin: 0px;
     padding: 0px;
 }
 .texto_boton_mapa{
+
     background-color: #0000cc;
     color: #FFF ;
     text-align: center;
     font-family: Montserrat-Medium;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0px;
     padding: 0px;
 }

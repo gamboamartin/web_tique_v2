@@ -93,10 +93,12 @@
     top: -65px;
 }
 .contenido_boton_mapa_text{
+    top: 70%;
     border: #0000Cc;
     border-radius:0px 0px 40px 40px;
     background-color: #0000Cc;
     padding-bottom: 10%;
+    padding-top: 0%;
 }
 .contenedor_mapa_text{
     padding: 10px;
