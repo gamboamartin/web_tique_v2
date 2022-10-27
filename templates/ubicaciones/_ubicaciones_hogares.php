@@ -61,5 +61,5 @@ foreach ($wt_hogar_modelo->obten_registros_activos()->registros as $registro){
 
 <section class="header-slider header-map">
     <h2 class="hidden">Map</h2>
-    <div class="main-map" id="main-map" style='height:500px'> <div</div>
+    <div class="main-map" id="main-map" style='height:500px'></div>
 </section><!-- /.header-video-->
