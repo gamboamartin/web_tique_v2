@@ -124,7 +124,7 @@ function LoadMap_main(color) {
                 tipo_hogar="Depa";
             }
 
-            var arreglop = new Array(Lat, Long, 'assets/img/markers/'+prefix+'house.png', arreglo[i][2], arreglo[i][3], 'hogares/'+arreglo[i][4]+'.php',arreglo[i][5],tipo_hogar,arreglo[i][7],arreglo[i][8]);
+            var arreglop = new Array(Lat, Long, 'assets/img/markers/'+prefix+'marcador.svg', arreglo[i][2], arreglo[i][3], 'hogares/'+arreglo[i][4]+'.php',arreglo[i][5],tipo_hogar,arreglo[i][7],arreglo[i][8]);
 
 
             markers_map.push(arreglop);

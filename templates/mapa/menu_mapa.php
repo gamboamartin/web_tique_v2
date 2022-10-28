@@ -4,7 +4,7 @@
                 <button class="boton_mapa">Zapopan</button> !-->
 
                 <div class="btn-group">
-                    <button type="button" class="btn dropdown-toggle boton_mapa" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" id="btn_gdl" class="btn dropdown-toggle boton_mapa" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Guadalajara
                     </button>
                     <div class="dropdown-menu contenido_boton_mapa_text ">
