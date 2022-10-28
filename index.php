@@ -70,14 +70,21 @@ $generales = new generales();
                                 ?> </div> <?php
                             }?>
 
-                            <div class="contenedor_whats posicion_whats" style="background-color: #FFFFFF; padding: 0px;">
+                            <div class="contenedor_whats posicion_whats" style="background-color: #FFFFFF; padding-bottom: 30px">
                                 <?php
                                 include $generales->path_base . 'templates/whatsapp/info_whatsapp.php';
                                 include $generales->path_base . 'templates/whatsapp/img_whatsapp.php';
                                 ?>
 
                             </div>
+                            <div class="container posicion_mapa_texto " style="background-color: #0000CC; padding: 0px;">
+                                <?php include $generales->path_base . 'templates/mapa/texto_mapa.php'; ?>
 
+                            </div>
+                            <div class="contenedor_whats posicion_whats" style="background-color: #FFFFFF; padding-bottom: 30px">
+
+                            </div>
+                            <?php  include $generales->path_base.'templates/noticias/index/_noticias_index.php'?>
                         </div><!-- /.center-content -->
 
 
@@ -91,11 +98,8 @@ $generales = new generales();
             </main><!-- /.main-part-->
 
 
-            <div class="container posicion_mapa_texto " style="background-color: #0000CC; padding: 0px;">
-                <?php include $generales->path_base . 'templates/mapa/texto_mapa.php'; ?>
 
-            </div>
-            <?php /* include $generales->path_base.'templates/noticias/index/_noticias_index.php'*/?>
+
             <?php /*include $generales->path_base.'templates/agentes/index/_agentes_index.php' */?>
             <footer class="footer">
                 <?php include $generales->path_base.'templates/footer/_footer.php' ?>

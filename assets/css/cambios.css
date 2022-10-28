@@ -101,7 +101,10 @@
     padding-top: 0%;
 }
 .contenedor_mapa_text{
-    padding: 10px;
+    padding-top: 10px;
+    position: relative;
+    top: 30px;
+
 }
 .estilo_redondo_abajo{
     border-radius:0px 0px 40px 40px;
@@ -111,8 +114,6 @@
     top: 10px;
 }
 .posicion_mapa_texto{
-    position: relative;
-    top: -42px;
     width: 100% !important;
     align-items: center !important;
     z-index: 3;

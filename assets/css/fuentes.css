@@ -141,6 +141,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 .whatsapp_subtitulo {
     background-color: #FFFFFF;
     text-align: center;
@@ -223,6 +224,23 @@
     background-color: #0000cc;
     color: #FFF ;
     text-align: center;
+    font-family: Montserrat-Medium;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+.titulo_notice{
+    background-color: #FFFFFF;
+    color: #0000cc;
+    text-align: left;
+    font-family: Montserrat-Black;
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+.texto_notice{
+    color: #999999 ;
+    text-align: left;
     font-family: Montserrat-Medium;
     font-size: 15px;
     margin: 0px;

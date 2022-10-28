@@ -1,8 +1,6 @@
-<section class="section news section-color-secondary">
-    <div class="container">
-        <div class="section-title">
-            <h2 class="section-title text-center"><span>Noticias</span></h2>
-        </div>
+<section class="section news color_blanco">
+    <div class="container" style="width: 100%">
+
         <div class="news-slide">
             <div id="news-carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
