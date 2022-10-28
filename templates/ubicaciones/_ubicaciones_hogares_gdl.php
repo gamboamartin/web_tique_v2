@@ -26,7 +26,7 @@ foreach ($wt_hogar_modelo->obten_registros_activos()->registros as $registro){
     $hogar = array();
 
     //$estado = "Guadalajara";
-    $estado = "Fuente Agua Marina";
+    $estado = "Lázaro Pavia";
     $buscar = stripos($registro['wt_hogar_ubicacion'], $estado);
     if ($buscar !== false) {
         $hogar[]=$registro['wt_hogar_georeferencia'];
