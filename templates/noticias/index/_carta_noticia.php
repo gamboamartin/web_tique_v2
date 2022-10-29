@@ -3,8 +3,10 @@
 
         <div class="row">
             <div class="col-md-4">
-                <div class="news-thumbnail hover-default contenido_video_notice"">
-
+                <div class="altura_video hover-default contenido_video_notice"">
+                <iframe width="310" height="180" src=""
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                         picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-md-6 contenido_texto_notice" >
