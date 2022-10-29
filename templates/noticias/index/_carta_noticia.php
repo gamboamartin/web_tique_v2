@@ -1,18 +1,13 @@
 <div class="col-sm-6">
-    <div class="card">
+    <div class="card ">
 
         <div class="row">
             <div class="col-md-4">
-                <div class="news-thumbnail hover-default">
-                    <img src="assets/img/placeholders/700x350.png" alt="" />
-                    <a href="listing.html" class="property-card-hover">
-                        <img src="assets/img/property-hover-arrow.png" alt="" class="left-icon" />
-                        <img src="assets/img/plus.png" alt="" class="center-icon" />
-                        <img src="assets/img/icon-notice.png" alt="" class="right-icon" />
-                    </a>
+                <div class="news-thumbnail hover-default contenido_video_notice"">
+
                 </div>
             </div>
-            <div class="col-md-7 description" >
+            <div class="col-md-6 contenido_texto_notice" >
                 <h1 class="titulo_notice"> Qué dicen nuestros clientes</h1>
                 <p class="texto_notice">
                     Lorem ipsum dolor sit amet, adipiscing

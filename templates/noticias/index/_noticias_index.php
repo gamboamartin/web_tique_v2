@@ -1,9 +1,9 @@
 <section class="section news color_blanco">
-    <div class="container" style="width: 100%">
+    <div class="container dimenciones_laterale_0" style="width: 100%">
 
-        <div class="news-slide">
-            <div id="news-carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
+        <div class="news-slide ">
+            <div id="news-carousel " class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner " role="listbox" >
                     <?php include 'templates/noticias/index/_pagina_activa.php'?>
                     <?php include 'templates/noticias/index/_pagina.php'?>
                     <?php include 'templates/noticias/index/_pagina.php'?>

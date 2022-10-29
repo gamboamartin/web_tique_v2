@@ -187,3 +187,35 @@ element.style {
 #altura_slider{
     height: 77.5vh;
 }
+.contenido_texto_notice{
+    justify-content: left;
+    border-radius: 40px 0px 0px 40px;
+    background: hsla(0,0%,80%,20%);
+    padding: 20px;
+    width: 65%;
+    padding-left: 50px;
+
+
+}
+.contenido_video_notice{
+    justify-content: left;
+    border-radius: 30px 30px 30px 30px;
+    background: hsla(0,0%,80%,20%);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    z-index:6;
+
+    #padding-left: 100px;
+
+
+}
+.dimenciones_laterale_0{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
