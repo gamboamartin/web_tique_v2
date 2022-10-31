@@ -1,15 +1,9 @@
-<div class="col-sm-12">
+<div class="col-sm-4">
     <div class="card ">
 
         <div class="row">
-            <div class="col-md-4">
-                <div class="altura_video hover-default contenido_video_notice color_azul">
-                <iframe class="altura_video_contenido" src="https://www.youtube.com/embed/ZK9iP5PEhSU"
-                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-                         picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="col-md-7 contenido_texto_notice" >
+
+            <div class="col-md-12 contenido_texto_notice_lateral" >
                 <h1 class="titulo_notice"> Qué dicen nuestros clientes</h1>
                 <p class="texto_notice">
                     Lorem ipsum dolor sit amet, adipiscing
