@@ -258,6 +258,9 @@ contenido_video_secundario{
     height: 20%;
     padding: 0;
 }
+.abajo_10{
+    bottom: 0%;
+}
 @media screen and (min-width: 480px) {
     .contenido_texto_notice_lateral{
         padding-left: 10%;
@@ -298,5 +301,8 @@ contenido_video_secundario{
     .usuario_comentario{
         padding-top: 50px;
 
+    }
+    .abajo_10{
+        bottom: -10%;
     }
 }
