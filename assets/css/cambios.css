@@ -214,8 +214,7 @@ element.style {
     border-radius: 40px;
     background: #6666ff;
     width: 100%;
-    padding-left: 10px;
-
+    padding-left: 20px;
 
 }
 .contenido_video_notice{
@@ -229,13 +228,11 @@ element.style {
 
 }
 contenido_video_secundario{
-    border-radius:  0px 0px 20px 0px;
+    border-radius: 20px 20px 20px 20px ;
     background: hsla(0,0%,80%,20%);
-    padding: 20px;
-    right: 0%;
     z-index:6;
-    height: 50vh;
-    width: 100vw;
+    height: 70vh;
+    width: 85vw;
 
 }
 .dimenciones_laterale_0{
@@ -253,8 +250,8 @@ contenido_video_secundario{
     width: 90vw;
 }
 .altura_video_contenido_secundario{
-    height: 40vh;
-    width: 90vw;
+    height: 50vh;
+    width: 100vw;
 }
 .img_comillas{
     width: 20%;
@@ -267,6 +264,7 @@ contenido_video_secundario{
         width: 85%;
         height: 55vh;
         left: 10%;
+
         #position: absolute;
         top: 30px;
     }
@@ -296,5 +294,9 @@ contenido_video_secundario{
     .altura_video{
         height: 55vh;
         width: 30vw;
+    }
+    .usuario_comentario{
+        padding-top: 50px;
+
     }
 }
