@@ -246,3 +246,22 @@
     margin: 0px;
     padding: 0px;
 }
+.texto_notice_secundario{
+    color: #ffffff;
+    text-align: left;
+    font-family: Montserrat-Medium;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+.usuario_comentario{
+    color: #ffffff;
+    text-align: left;
+    font-family: Montserrat-Medium;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+
+}
