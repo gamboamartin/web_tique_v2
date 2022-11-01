@@ -23,7 +23,7 @@ $generales = new generales();
             <?php include $generales->path_base.'templates/sliders/index/_slider_index.php' ?>
             <?php include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
             <?php //include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
-            <main class="main posicion_main">
+            <main class="main ">
                 <div class="container contenedor_index">
                     <div class="row">
                         <div class="col-md-12">
@@ -101,7 +101,7 @@ $generales = new generales();
 
 
             <?php /*include $generales->path_base.'templates/agentes/index/_agentes_index.php' */?>
-            <footer class="footer">
+            <footer class="footer ">
                 <?php include $generales->path_base.'templates/footer/_footer.php' ?>
             </footer>
             <a class="btn btn-scoll-up color-secondary" id="btn-scroll-up"></a>

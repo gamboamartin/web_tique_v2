@@ -152,9 +152,12 @@ element.style {
 
 
 .padding-0{
-    padding: 0;
+    padding: 0 !important;
 }
+.padding-20{
+    padding: 20px !important;
 
+}
 
 element.style {
     user-select: none;
@@ -185,7 +188,7 @@ element.style {
 
 }
 #altura_slider{
-    height: 77.5vh;
+    height: 270vh;
 }
 .contenido_texto_notice{
     border-radius: 0px 40px 0px 0px;
@@ -196,12 +199,26 @@ element.style {
     padding-left: 8%;
 
 }
+.abajo_5{
+    bottom: 10%;
+}
+.borde{
+    border-top-style:  solid ;
+    border-top-color: #FFFFFF;
+
+}
 @media screen and (min-width: 480px) {
     .contenido_texto_notice {
         width: 65%;
         padding: 5%;
         height: 60vh;
         border-radius: 0px 40px 40px 0px;
+    }
+    #altura_slider{
+        height: 85vh;
+    }
+    .abajo_5{
+        bottom: 0%;
     }
 }
 .width_90vh {
@@ -303,6 +320,6 @@ contenido_video_secundario{
 
     }
     .abajo_10{
-        bottom: -10%;
+        bottom: -5%;
     }
 }
