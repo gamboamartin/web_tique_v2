@@ -8,7 +8,7 @@ $generales = new generales();
             <div class="container-fluid h-100">
                 <div class="row w-100 align-items-center">
                     <div class="col text-center">
-                        <h1 id="titulo_slider"> TIQUE</h1>
+                        <div class="logo"><a href="#"><img src="assets/img/icons/icono_tique.png" alt="" /></a></div>
                     </div>
                 </div>
             </div>
