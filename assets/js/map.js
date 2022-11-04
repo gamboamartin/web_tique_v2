@@ -100,7 +100,7 @@ function LoadMap_main(color) {
 
         var mapOptions = {
             center: new google.maps.LatLng(20.66682, -103.39182),
-            zoom: 12,
+            zoom: 11,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: scrollwheelEnabled,
             styles: style_map
@@ -124,7 +124,7 @@ function LoadMap_main(color) {
                 tipo_hogar="Depa";
             }
 
-            var arreglop = new Array(Lat, Long, 'assets/img/markers/'+prefix+'marcador.svg', arreglo[i][2], arreglo[i][3], 'hogares/'+arreglo[i][4]+'.php',arreglo[i][5],tipo_hogar,arreglo[i][7],arreglo[i][8]);
+            var arreglop = new Array(Lat, Long, 'assets/img/markers/'+prefix+'marcador.png', arreglo[i][2], arreglo[i][3], 'hogares/'+arreglo[i][4]+'.php',arreglo[i][5],tipo_hogar,arreglo[i][7],arreglo[i][8]);
 
 
             markers_map.push(arreglop);
