@@ -79,7 +79,6 @@ $generales = new generales();
                             </div>
                             <div class="container posicion_mapa_texto " style="background-color: #0000CC; padding: 0px;">
                                 <?php include $generales->path_base . 'templates/mapa/texto_mapa.php'; ?>
-                                <?php include $generales->path_base.'templates/ubicaciones/_ubicaciones_hogares.php'?>
 
 
                             </div>
