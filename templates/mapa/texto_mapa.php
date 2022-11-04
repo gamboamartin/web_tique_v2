@@ -43,9 +43,8 @@ $generales = new generales();
                     </div>
                 </div>
             </div>
-            <p id="ubicacion">
-                <?php include $generales->path_base.'templates/ubicaciones/_ubicaciones_hogares.php'?>
-            </p>
+
+
 
         </div>
     </div>

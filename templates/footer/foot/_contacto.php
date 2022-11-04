@@ -9,4 +9,5 @@
         <li><i class="fa fa-whatsapp"><a href="https://wa.me/523316052732" target="_blank"> 33 1605 2732</a></i>
         <li><i class="fa fa-envelope"></i>  contacto@inmobiliariatique.com</li>
     </ul>
+    <?php include $generales->path_base.'templates/footer/foot/_redes_sociales.php'?>
 </div>

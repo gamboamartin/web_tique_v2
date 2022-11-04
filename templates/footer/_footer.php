@@ -13,8 +13,8 @@ $generales = new generales();
                 </div>
             </div>
             <div class="col-md-3 hidden-sm hidden-xs"><!--Div img-->
-                <?php //include $generales->path_base.'templates/footer/foot/_icono.php' ?>
-                <?php include $generales->path_base.'templates/footer/foot/_redes_sociales.php'?>
+                <?php include $generales->path_base.'templates/footer/foot/_links.php' ?>
+
             </div>
 
             <?php include $generales->path_base.'templates/footer/foot/_contacto.php'?>

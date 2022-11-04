@@ -7,7 +7,37 @@
         }
     },
     "require": {
-        "phpmailer/phpmailer": "^6.6"
+        "phpmailer/phpmailer": "^6.6",
+        "gamboa.martin/errores": "^1.0.0",
+        "gamboa.martin/test": "dev-main",
+        "gamboa.martin/administrador": "^v1.23.12",
+        "gamboa.martin/base_modelos": "dev-main",
+        "gamboa.martin/validacion": "dev-main",
+        "gamboa.martin/calculo": "dev-main",
+        "gamboa.martin/compresor": "dev-main",
+        "gamboa.martin/configuraciones": "dev-main",
+        "gamboa.martin/plugins": "dev-main",
+        "gamboa.martin/template_1": "dev-main",
+        "gamboa.martin/template": "dev-main",
+        "gamboa.martin/inmobiliaria": "dev-main",
+        "gamboa.martin/system": "dev-main",
+        "gamboa.martin/services": "dev-main",
+        "gamboa.martin/documento": "dev-master",
+        "gamboa.martin/comercial": "dev-master",
+        "gamboa.martin/js_base": "dev-master",
+        "gamboa.martin/xml_cfdi_4": "dev-master",
+        "gamboa.martin/nomina": "dev-master",
+        "gamboa.martin/cat_sat": "dev-main",
+        "gamboa.martin/empleado": "dev-main",
+        "gamboa.martin/im_registro_patronal": "dev-main",
+        "gamboa.martin/direccion_postal": "dev-main",
+        "gamboa.martin/organigrama": "dev-main",
+        "gamboa.martin/banco": "dev-main",
+        "gamboa.martin/facturacion": "dev-main",
+        "gamboa.martin/proceso": "dev-main",
+
+
+        "ext-pdo": "*"
     }
     ,
     "require-dev": {
