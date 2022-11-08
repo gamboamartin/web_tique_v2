@@ -307,11 +307,16 @@ contenido_video_secundario{
     margin-right: 10px;
     padding: 0 4px;
     width: 25%;
+    background: transparent !important;
 
 }
 
 
 @media screen and (min-width: 480px) {
+    .transparente {
+        background: transparent !important;
+    }
+
     .ul_links_footer{
 
         list-style-type: none;

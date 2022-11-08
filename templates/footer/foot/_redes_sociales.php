@@ -1,7 +1,8 @@
 <div >
     <ul style="padding-left: 0;">
-        <li class="lineal_hori"><a href="https://www.facebook.com/TiqueInmobiliaria" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
-        <li class="lineal_hori"><a href="https://twitter.com/TIQUE_Inmobi" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li class="lineal_hori"><a href="https://www.instagram.com/inmobiliariaconstruccion_tique/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li class="lineal_hori"><a class="transparente" href="https://www.facebook.com/TiqueInmobiliaria" target="_blank"><img src="assets/img/icons/ICONO-10.svg" alt="" /></i></a></li>
+        <li class="lineal_hori"><a class="transparente" href="https://twitter.com/TIQUE_Inmobi" target="_blank"><img src="assets/img/icons/ICONO-09.svg" alt="" /></i></a></li>
+        <li class="lineal_hori"><a class="transparente" href="https://www.instagram.com/inmobiliariaconstruccion_tique/" target="_blank"><img src="assets/img/icons/ICONO-11.svg" alt="" /></i></a></li>
+        <li class="lineal_hori"><a class="transparente" href="https://www.youtube.com/channel/UCpeEvj0lj9Adhl4OtevaMZA/videos" target="_blank"><img src="assets/img/icons/ICONO-12.svg" alt="" /></i></a></li>
     </ul>
 </div>
