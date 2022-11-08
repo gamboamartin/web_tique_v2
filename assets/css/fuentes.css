@@ -265,3 +265,15 @@
     padding-top: 0px;
 
 }
+.texto_footer{
+    color: #ffffff;
+    font-family: Montserrat-Medium;
+    font-size: 18px !important;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.texto_footer:hover {
+
+    color: #EEF7FD !important;
+    background-color: transparent !important;
+}

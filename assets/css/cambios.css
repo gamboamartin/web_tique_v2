@@ -154,9 +154,13 @@ element.style {
 .padding-0{
     padding: 0 !important;
 }
+.padding-21{
+    padding: 21px;
+}
 .padding-20{
-    padding: 20px !important;
 
+
+    padding-right: 20px;
 }
 
 element.style {
@@ -207,6 +211,11 @@ element.style {
     border-top-color: #FFFFFF;
 
 }
+.borde_footer_contenido{
+    border-bottom-style: ridge ;
+    border-bottom-color: #FFFFFF;
+
+}
 @media screen and (min-width: 480px) {
     .contenido_texto_notice {
         width: 65%;
@@ -214,11 +223,21 @@ element.style {
         height: 60vh;
         border-radius: 0px 40px 40px 0px;
     }
+    .borde_footer_contenido{
+        border-bottom-style: hidden ;
+
+    }
+
     #altura_slider{
         height: 85vh;
     }
     .abajo_5{
         bottom: 0%;
+    }
+    .padding-20{
+        padding-bottom: 20px !important;
+
+
     }
 }
 .width_90vh {
@@ -278,7 +297,26 @@ contenido_video_secundario{
 .abajo_10{
     bottom: 0%;
 }
+.ul_links_footer{
+    padding-top: 25px !important;
+    list-style-type: none;
+
+}
+.lineal_hori{
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+    width: 25%;
+
+}
+
+
 @media screen and (min-width: 480px) {
+    .ul_links_footer{
+
+        list-style-type: none;
+
+    }
     .contenido_texto_notice_lateral{
         padding-left: 10%;
         width: 85%;
@@ -322,4 +360,5 @@ contenido_video_secundario{
     .abajo_10{
         bottom: -5%;
     }
+
 }

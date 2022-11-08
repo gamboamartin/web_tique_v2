@@ -10,7 +10,7 @@
         "phpmailer/phpmailer": "^6.6",
         "gamboa.martin/errores": "^1.0.0",
         "gamboa.martin/test": "dev-main",
-        "gamboa.martin/administrador": "^v1.23.12",
+        "gamboa.martin/administrador": "v2.0.0",
         "gamboa.martin/base_modelos": "dev-main",
         "gamboa.martin/validacion": "dev-main",
         "gamboa.martin/calculo": "dev-main",
@@ -35,6 +35,8 @@
         "gamboa.martin/banco": "dev-main",
         "gamboa.martin/facturacion": "dev-main",
         "gamboa.martin/proceso": "dev-main",
+
+
 
 
         "ext-pdo": "*"

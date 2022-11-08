@@ -1,13 +1,11 @@
-<div class="col-md-3 col-sm-6">
-    <div class="title">
-        <h4>Contacto</h4>
-    </div>
-    <ul class="list list-contact  list-news">
-        <li>Av. Vallarta 6503 Int. H-12,
-            Col. Ciudad Granja 45010 Zapopan,
-            Jalisco, México</li>
-        <li><i class="fa fa-whatsapp"><a href="https://wa.me/523316052732" target="_blank"> 33 1605 2732</a></i>
-        <li><i class="fa fa-envelope"></i>  contacto@inmobiliariatique.com</li>
-    </ul>
-    <?php include $generales->path_base.'templates/footer/foot/_redes_sociales.php'?>
+<?php
+use config\generales;
+$generales = new generales();
+?>
+<div class="col-md-4 col-sm-6" >
+    <ul class="ul_links_footer list">
+        <li class="padding-20 texto_footer">¡Contáctanos!</li>
+        <li class="padding-20"><a class="texto_footer" href="mailto:contacto@inmobiliariatique.com" target="_blank">mail: contacto@inmobiliariatique.com</a></li>
+        <li ><?php include $generales->path_base.'templates/footer/foot/_redes_sociales.php' ?></li>
+    </ul >
 </div>
