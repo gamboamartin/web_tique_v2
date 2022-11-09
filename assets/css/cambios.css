@@ -140,7 +140,6 @@
 element.style {
 }
 #enlace_menu_principal:hover {
-
     color: #FF3300;
 }
 .vh-100{
@@ -239,6 +238,7 @@ element.style {
 
 
     }
+
 }
 .width_90vh {
     width: 90%;
@@ -407,5 +407,13 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     .abajo_10{
         bottom: -5%;
     }
+    #enlace_menu_principal {
+        font-family: Montserrat-Medium;
+        font-size: 15px;
+        color: #0000cc;
+    }
+    #enlace_menu_principal:hover {
 
+        color: #FF3300;
+    }
 }
