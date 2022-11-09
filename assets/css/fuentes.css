@@ -277,3 +277,11 @@
     color: #EEF7FD !important;
     background-color: transparent !important;
 }
+.texto_footer_bottom{
+    color: #ffffff;
+    font-family: Montserrat-Medium;
+    font-size: 10px !important;
+    margin: 0px;
+    text-align: center;
+    #padding-bottom: 10px;
+}

@@ -105,7 +105,7 @@ $generales = new generales();
             <footer class="footer ">
                 <?php include $generales->path_base.'templates/footer/_footer.php' ?>
             </footer>
-            <a class="btn btn-scoll-up color-secondary" id="btn-scroll-up"></a>
+            <a class="btn  " id="btn-scroll-up"> <img src="<?php echo $generales->url_base;?>assets/img/ICONO-16.jpg" alt="" class="img_scroll" /></a>
         </div>
 
         <?php include $generales->path_base.'templates/java.php' ?>
