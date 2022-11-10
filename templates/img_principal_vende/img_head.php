@@ -15,7 +15,7 @@ $generales = new generales();
         <div id="header-slider" class="carousel slide vh-70"  data-ride="carousel" >
 
             <div class="">
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_venus/1Fachada/im_principal.jpg" alt="Hogar Venus" height="100%"/>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/img_vende/imge_principal.jpg" alt="Hogar Venus" height="100%"/>
 
             </div>
             <!-- Previous/Next controls -->
