@@ -15,13 +15,15 @@ $generales = new generales();
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <?php include $generales->path_base.'templates/css.php'?>
 </head>
-<body class="">
+<body class="color_blanco">
 <div id="fb-root"></div>
 <div class="container container-wrapper">
     <header class="header">
         <?php include $generales->path_base.'templates/head/_head.php'?>
     </header><!-- /.header-->
-    <main class="main section-color-primary">
+    <?php include $generales->path_base . 'templates/img_principal_vende/img_head.php' ?>
+    <?php #include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
+    <main class="main ">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
