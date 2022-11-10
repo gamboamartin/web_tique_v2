@@ -350,6 +350,33 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     right: 78px;
     z-index: 15;
 }
+#btn_head_vende{
+    left: 0vw;
+    right: 0vw;
+    width: 95%;
+    padding: 12px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #0000cc;
+    border: none;
+    color: #FFFFFF;
+    font-family: Montserrat-Medium;
+    font-size: 20px;
+    margin: 10px;
+    height: 10%;
+    position: relative;
+    bottom: 7vh;
+    display: flex;
+    justify-content: center;
+
+}
+#imagen_head_vende{
+    display: block;
+    margin: 0px auto;
+    border-radius:70px;
+    width: 89%;
+    height: 85%;
+}
 @media screen and (min-width: 480px) {
     .ancho_fotter{
         padding-left: 15%;
@@ -415,5 +442,24 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     #enlace_menu_principal:hover {
 
         color: #FF3300;
+    }
+    #btn_head_vende{
+        padding: 12px;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #0000cc;
+        border: none;
+        color: #FFFFFF;
+        font-family: Montserrat-Medium;
+        font-size: 30px;
+        margin: 10px;
+        width: 35%;
+        height: 10%;
+        position: relative;
+        bottom: 7vh;
+        display: flex;
+        justify-content: center;
+        left: 30vw;
+        right: 30vw;
     }
 }

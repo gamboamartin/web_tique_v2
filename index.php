@@ -22,7 +22,7 @@ $generales = new generales();
             </header><!-- /.header-->
             <?php include $generales->path_base.'templates/sliders/index/_slider_index.php' ?>
             <?php include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
-            <?php //include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
+            <?php //include $generales->path_base.'templates/busqueda/index/_btn.php' ?>
             <main class="main ">
                 <div class="container contenedor_index">
                     <div class="row">

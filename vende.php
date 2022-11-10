@@ -22,7 +22,7 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/head/_head.php'?>
     </header><!-- /.header-->
     <?php include $generales->path_base . 'templates/img_principal_vende/img_head.php' ?>
-    <?php #include $generales->path_base.'templates/busqueda/index/_busqueda_index.php' ?>
+    <?php include $generales->path_base.'templates/boton_head_vende/_btn.php' ?>
     <main class="main ">
         <div class="container">
             <div class="row">

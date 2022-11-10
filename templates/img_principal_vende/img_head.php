@@ -12,10 +12,10 @@ $generales = new generales();
     <div class="header-slider" >
 
         <!-- Carousel container -->
-        <div id="header-slider" class="carousel slide vh-70"  data-ride="carousel" >
+        <div id="header-slider" >
 
             <div class="">
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/img_vende/imge_principal.jpg" alt="Hogar Venus" height="100%"/>
+                <img id="imagen_head_vende" src="<?php echo $generales->url_base; ?>assets/img/img_vende/imge_principal.jpg" height="100%"/>
 
             </div>
             <!-- Previous/Next controls -->
