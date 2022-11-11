@@ -30,9 +30,8 @@ $generales = new generales();
                     <div class="contenedor_whats posicion_whats" style="background-color: #FFFFFF; padding-bottom: 30px">
                         <?php
                         include $generales->path_base . 'templates/porque_vender/porque_vender.php';
-                       // include $generales->path_base . 'templates/porque_vender/porque_vender_img.php';
+                        include $generales->path_base . 'templates/porque_vender/porque_vender_img.php';
                         ?>
-
                     </div>
 
 

@@ -86,7 +86,7 @@
     margin: 0px auto;
     border-radius:70px;
     width: 90%;
-    width: 89%;
+    height: 90%;
 }
 .posicion_main{
     position: relative;
@@ -480,4 +480,7 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     width: 70px;
     height: 60px;
 
+}
+.padding_bottom_10{
+    padding-bottom: 20px;
 }
