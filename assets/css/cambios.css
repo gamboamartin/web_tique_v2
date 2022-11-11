@@ -350,6 +350,12 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     right: 78px;
     z-index: 15;
 }
+.contenedor_porque_vender{
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 90%;
+    padding-top: 5vh;
+}
 #btn_head_vende{
     left: 0vw;
     right: 0vw;
@@ -376,6 +382,10 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     border-radius:70px;
     width: 89%;
     height: 85%;
+}
+.lineas_paralelas{
+    border-left-style: solid;
+    border-right-style: solid;
 }
 @media screen and (min-width: 480px) {
     .ancho_fotter{
@@ -462,4 +472,12 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
         left: 31vw;
         right: 31vw;
     }
+}
+.img_pq_vender{
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+    width: 70px;
+    height: 60px;
+
 }
