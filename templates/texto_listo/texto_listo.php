@@ -1,4 +1,4 @@
-<div class="col-md-12 " style="padding-bottom: 7vh;">
+<div class="col-md-12 padding_bottom_5vh" >
     <div class="">
         <h1 class="whatsapp_titulo">¿Estas listo para vender?</h1>
     </div >
