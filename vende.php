@@ -5,7 +5,6 @@ require './vendor/autoload.php';
 $generales = new generales();
 ?>
 
-</style>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,17 +26,21 @@ $generales = new generales();
         <div class="container contenedor_index">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contenedor_whats posicion_whats" style="background-color: #FFFFFF; padding-bottom: 30px">
+                    <div class="contenedor_whats posicion_whats" >
                         <?php
                         include $generales->path_base . 'templates/porque_vender/porque_vender.php';
+                        ?>
+                    </div>
+                    <div >
+                        <?php
                         include $generales->path_base . 'templates/porque_vender/porque_vender_img.php';
                         include $generales->path_base . 'templates/boton_head_vende/_btn_quiero_vender.php';
+                        include $generales->path_base . 'templates/texto_listo/texto_listo.php';
 
                         ?>
                     </div>
 
-
-
+                    <?php  include $generales->path_base.'templates/noticias/index/_noticias_index.php'?>
                 </div>
             </div>
         </div>

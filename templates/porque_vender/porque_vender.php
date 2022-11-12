@@ -7,7 +7,7 @@ $generales = new generales();
     <h1 class="whatsapp_titulo">¿Por qué vendernos tu casa?</h1>
 </div>
 <div class="row">
-    <div class="col-md-12 contenedor_porque_vender padding_bottom_10">
+    <div class="col-md-12 contenedor_porque_vender padding_bottom_5vh">
         <div class="col-md-4 " align="center" >
 
                 <img  class="img_pq_vender" src="<?php echo $generales->url_base; ?>assets/img/img_vende/ICONO-17.png" height="100%"/>

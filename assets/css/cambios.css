@@ -325,7 +325,6 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     padding-left: 0;
 }
 .scroll_change{
-    background: #0000Cc url(../img/ICONO-16.svg) no-repeat 50% 50% !important;
     opacity: 1 !important;
     outline: 0px solid #F8F8F8 !important;
     outline-offset: 0px !important;
@@ -356,6 +355,10 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     width: 90%;
     padding-top: 5vh;
 }
+.contenedor_vender{
+
+    width: 90%;
+}
 #btn_head_vende{
     left: 0vw;
     right: 0vw;
@@ -378,16 +381,26 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 #imagen_head_vende{
     display: block;
-    margin: 0px auto;
+    margin-right: 12px;
+    margin-left: 12px;
     border-radius:70px;
-    width: 89%;
+    width: 88%;
     height: 85%;
 }
 .lineas_paralelas{
-    border-left-style: solid;
-    border-right-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-right-style: none;
 }
+
 @media screen and (min-width: 480px) {
+    .lineas_paralelas{
+        border-top-style: none;
+        border-bottom-style: none;
+        border-left-style: solid;
+        border-right-style: solid;
+    }
     .ancho_fotter{
         padding-left: 15%;
     }
@@ -481,6 +494,6 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     height: 60px;
 
 }
-.padding_bottom_10{
-    padding-bottom: 20px;
+.padding_bottom_5vh{
+    padding-bottom: 5vh;
 }
