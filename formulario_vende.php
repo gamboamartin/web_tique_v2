@@ -34,10 +34,15 @@ $generales = new generales();
                         </div>
                         <div class=" pull-sm-up  col-xs-12 " style="text-align: center; float: none;">
                             <a href="<?php echo $generales->url_base; ?>formulario_vende.php">
-                                 <img class="num_img" src="<?php echo $generales->url_base; ?>assets/img/formulario_vende/ICONO-20.svg" alt="" />
+                                 <img class="num_img" src="<?php echo $generales->url_base; ?>assets/img/formulario_vende/ICONO-20.png" alt="" />
                             </a>
 
                          </div>
+                    <div class="contenedor_whats posicion_whats" >
+                        <?php
+                        include $generales->path_base . 'templates/formulario/formulario_1.php';
+                        ?>
+                    </div>
 
                 </div>
             </div>
