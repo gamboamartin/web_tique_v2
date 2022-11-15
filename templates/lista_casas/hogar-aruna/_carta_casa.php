@@ -7,20 +7,14 @@ $generales = new generales();
     <div class="property-card card color_cart_casa" >
         <?php //include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
         <br><br>
-        <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar-aruna.php" class="btn_info_cart_casa">  Detalles  </a>
+        <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar-aruna.php" class="btn_casa_vendida">  Vendida  </a>
 
         <div  class="property-card-header image-box carta_img_casa" >
             <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_aruna/1Fachada/1662066848694.jpg" alt="" class="carta_img" />
             <!--Casa destacada en caso de serlo-->
             <!--<div class="budget"><i class="fa fa-star"></i></div>-->
             <a href="<?php echo $generales->url_base; ?>hogares/hogar-aruna.php" class="property-card-hover">
-                <img src="<?php echo $generales->url_base; ?>assets/img/plus.png" alt="" class="center-icon" />
-                <img src="<?php echo $generales->url_base; ?>assets/img/icon-notice.png" alt="" class="right-icon" />
-                <span id='imagen 1' onclick='getlink1()()'>
-                <img alt="Cambiar imagen" onmouseout="this.src='<?php echo $generales->url_base; ?>assets/img/property-hover-arrow.png';"
-                     onmouseover="this.src='<?php echo $generales->url_base; ?>assets/img/compartir.png';"
-                     src="<?php echo $generales->url_base; ?>assets/img/property-hover-arrow.png" class="left-icon copiar" />
-                </span>
+
             </a>
 
         </div>

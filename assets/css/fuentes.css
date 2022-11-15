@@ -101,6 +101,22 @@
     left: 0%;
     z-index:1;
 }
+.btn_casa_vendida{
+    color: #ffffff !important;
+    text-align: center !important;
+    font-family: Montserrat-Medium !important;
+    font-size: 15px !important;
+    margin: 0px !important;
+    width: 100px;
+    border-radius:10px 10px 10px 10px !important;
+    background-color: #FF3300 !important;
+    padding: 5px;
+    position: absolute;
+    align-items: center;
+    top: 5%;
+    left: 0%;
+    z-index:1;
+}
 .btn_whatsapp{
     color: #ffffff !important;
     text-align: center !important;
@@ -305,6 +321,6 @@
 .texto_vender_listo{
     font-family: Montserrat-Medium;
     text-align: center;
-    font-size: 29px;
+    font-size: 22px;
     color: #999999;
 }

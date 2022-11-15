@@ -35,8 +35,13 @@ $generales = new generales();
                         <?php
                         include $generales->path_base . 'templates/porque_vender/porque_vender_img.php';
                         include $generales->path_base . 'templates/boton_head_vende/_btn_quiero_vender.php';
-                        include $generales->path_base . 'templates/texto_listo/texto_listo.php';
 
+
+                        ?>
+                    </div>
+                    <div class="contenedor_whats posicion_whats" >
+                        <?php
+                        include $generales->path_base . 'templates/texto_listo/texto_listo.php';
                         ?>
                     </div>
 
