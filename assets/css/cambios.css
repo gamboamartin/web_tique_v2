@@ -497,3 +497,9 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .padding_bottom_5vh{
     padding-bottom: 5vh;
 }
+.num_img{
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+
+}

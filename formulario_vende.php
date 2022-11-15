@@ -31,8 +31,14 @@ $generales = new generales();
                                 <img src="<?php echo $generales->url_base; ?>assets/img/icons/Logotipo-TIQUE.png" alt="" />
                             </a>
 
+                        </div>
+                        <div class=" pull-sm-up  col-xs-12 " style="text-align: center; float: none;">
+                            <a href="<?php echo $generales->url_base; ?>formulario_vende.php">
+                                 <img class="num_img" src="<?php echo $generales->url_base; ?>assets/img/formulario_vende/ICONO-20.svg" alt="" />
+                            </a>
 
-                    </div>
+                         </div>
+
                 </div>
             </div>
         </div>
