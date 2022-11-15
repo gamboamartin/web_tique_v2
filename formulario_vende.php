@@ -18,17 +18,19 @@ $generales = new generales();
 <div id="fb-root"></div>
 <div class="container container-wrapper">
     <header class="header">
-        <?php include $generales->path_base . 'templates/head/_head.php' ?>
+        <?php //include $generales->path_base . 'templates/head/_head.php' ?>
     </header><!-- /.header-->
 
     <main class="main ">
         <div class="container contenedor_index">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="center-icon">
+
+                        <div class="logo  pull-sm-up  col-xs-12 " style="text-align: center; float: none;">
                             <a href="<?php echo $generales->url_base; ?>index.php">
                                 <img src="<?php echo $generales->url_base; ?>assets/img/icons/Logotipo-TIQUE.png" alt="" />
                             </a>
+
 
                     </div>
                 </div>
