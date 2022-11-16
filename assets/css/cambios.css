@@ -503,3 +503,29 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     text-align: center;
 
 }
+.barra{
+    text-align: center;
+    width: 40%;
+    height: 5%;
+    background: #cccccc;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.btn_barra{
+    width: 25%;
+    height: 5%;
+    background: #0000Cc;
+    border-radius: 20px;
+
+}
+.btn_barra_1{
+    width: 25%;
+    height: 5%;
+    background: pink;
+    border-radius: 20px;
+
+}
+.padding-top-5vh{
+    padding-top: 5vh;
+}
