@@ -76,6 +76,12 @@ $generales = new generales();
                                 <input type="text" name="descripcion" value="" class="form-control respuesta_formulario" required="" id="descripcion" >
                             </div>
                         </div>
+                        <div class="control-group col-sm-12 texto_checkbox center_item">
+                            <input type="checkbox" id="terminos" name="terminos" value="terminos">
+                            <label for="terminos">Acepto todos los términos y condiciones</label><br>
+
+                        </div>
+
 
 
                     </form>
