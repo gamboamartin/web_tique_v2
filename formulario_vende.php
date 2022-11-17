@@ -51,37 +51,32 @@ $generales = new generales();
 
 
                     </div>
-                    <form class="texto_vender padding-top-5vh" action="/my-handling-form-page" method="post">
+                    <form class=" padding-top-5vh  contenedor_formulario" action="/my-handling-form-page" method="post">
                         <div class="control-group col-sm-12 center_item">
-                            <label class="control-label texto_vender" for="descripcion">Descripcion</label>
+                            <label class="control-label texto_formulario" for="descripcion">Nombre</label>
                             <div class="controls">
-                                <input type="text" name="descripcion" value="" class="form-control" required="" id="descripcion" placeholder="Descripcion">
+                                <input type="text" name="descripcion" value="" class="form-control respuesta_formulario" required="" id="descripcion" >
                             </div>
                         </div>
-                        <div class="control-group col-sm-6">
-                            <label class="control-label" for="codigo">Codigo</label>
+                        <div class="control-group col-sm-12 center_item">
+                            <label class="control-label texto_formulario" for="descripcion">Apellido</label>
                             <div class="controls">
-                                <input type="text" name="codigo" value="" class="form-control" required="" id="codigo" placeholder="Codigo">
+                                <input type="text" name="descripcion" value="" class="form-control respuesta_formulario" required="" id="descripcion" >
                             </div>
                         </div>
-                        <div class="control-group col-sm-6">
-                            <label class="control-label" for="descripcion_select">Descripcion Select</label>
+                        <div class="control-group col-sm-12 center_item">
+                            <label class="control-label texto_formulario" for="descripcion">Teléfono</label>
                             <div class="controls">
-                                <input type="text" name="descripcion_select" value="" class="form-control" required="" id="descripcion_select" placeholder="Descripcion Select">
+                                <input type="text" name="descripcion" value="" class="form-control respuesta_formulario" required="" id="descripcion" >
                             </div>
                         </div>
-                        <div class="control-group col-sm-6">
-                            <label class="control-label" for="wt_context_img">vivienda Img</label>
+                        <div class="control-group col-sm-12 center_item">
+                            <label class="control-label texto_formulario" for="descripcion">Correo electrónico</label>
                             <div class="controls">
+                                <input type="text" name="descripcion" value="" class="form-control respuesta_formulario" required="" id="descripcion" >
+                            </div>
+                        </div>
 
-                            </div>
-                        </div>
-                        <div class="control-group btn-alta">
-                            <div class="controls">
-                                <button type="submit" class="btn btn-success" name="guarda">Alta</button>
-                                <button type="submit" class="btn btn-success" name="guarda_otro">Genero Otro</button>
-                            </div>
-                        </div>
 
                     </form>
 

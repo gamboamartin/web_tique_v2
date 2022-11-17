@@ -324,6 +324,18 @@
     font-size: 22px;
     color: #999999;
 }
-.fprmulario{
-    text-align: center;
+.texto_formulario{
+    padding-top: 3vh;
+    font-family: Montserrat-Light;
+    text-align: left;
+    font-size: 15px;
+    color: #999999;
+}
+.respuesta_formulario{
+    font-family: Montserrat-Medium;
+    text-align: left;
+    font-size: 11px;
+    color: #000000;
+    border-radius: 20px;
+    background: #cccccc;
 }
