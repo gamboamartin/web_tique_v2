@@ -53,33 +53,36 @@ $generales = new generales();
                     </div>
                     <form class=" padding-top-5vh  contenedor_formulario" action="/my-handling-form-page" method="post">
                         <div class="control-group col-sm-12 center_item">
-                            <label class="control-label texto_formulario" for="descripcion">Nombre</label>
+                            <label class="control-label texto_formulario" for="nombre">Nombre</label>
                             <div class="controls">
-                                <input type="text" name="descripcion" value="" class="form-control respuesta_formulario" required="" id="descripcion" >
+                                <input type="text" name="nombre" value="" class="form-control respuesta_formulario" required="" id="nombre" >
                             </div>
                         </div>
                         <div class="control-group col-sm-12 center_item">
-                            <label class="control-label texto_formulario" for="descripcion">Apellido</label>
+                            <label class="control-label texto_formulario" for="apellido">Apellido</label>
                             <div class="controls">
-                                <input type="text" name="descripcion" value="" class="form-control respuesta_formulario" required="" id="descripcion" >
+                                <input type="text" name="apellido" value="" class="form-control respuesta_formulario" required="" id="apellido" >
                             </div>
                         </div>
                         <div class="control-group col-sm-12 center_item">
-                            <label class="control-label texto_formulario" for="descripcion">Teléfono</label>
+                            <label class="control-label texto_formulario" for="telefono">Teléfono</label>
                             <div class="controls">
-                                <input type="text" name="descripcion" value="" class="form-control respuesta_formulario" required="" id="descripcion" >
+                                <input type="text" name="telefono" value="" class="form-control respuesta_formulario" required="" id="telefono" >
                             </div>
                         </div>
                         <div class="control-group col-sm-12 center_item">
-                            <label class="control-label texto_formulario" for="descripcion">Correo electrónico</label>
+                            <label class="control-label texto_formulario" for="correo">Correo electrónico</label>
                             <div class="controls">
-                                <input type="text" name="descripcion" value="" class="form-control respuesta_formulario" required="" id="descripcion" >
+                                <input type="text" name="correo" value="" class="form-control respuesta_formulario" required="" id="correo" >
                             </div>
                         </div>
                         <div class="control-group col-sm-12 texto_checkbox center_item">
-                            <input type="checkbox" id="terminos" name="terminos" value="terminos">
+                            <input type="checkbox" id="terminos" name="terminos" value="terminos" required="">
                             <label for="terminos">Acepto todos los términos y condiciones</label><br>
 
+                        </div>
+                        <div class="control-group col-sm-12 centrar padding-top-5vh center_item">
+                            <input class="btn_info_casa " type="submit" value="Enviar">
                         </div>
 
 

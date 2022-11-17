@@ -534,3 +534,6 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     margin-left: 30%;
     margin-right: 30%;
 }
+.centrar{
+    text-align: center;
+}
