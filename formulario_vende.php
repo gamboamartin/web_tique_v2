@@ -47,33 +47,34 @@ $generales = new generales();
                         <h1 class="whatsapp_titulo">¿Cómo te contactamos?</h1>
                     </div >
                     <div class="barra btn-group ">
-                        <a type="button" href="<?php echo $generales->url_base; ?>formulario_vende.php" class="btn btn_barra"></a>
+                        <a type="button" href="<?php echo $generales->url_base; ?>comprar_hogar.php" class="btn btn_barra"></a>
 
 
                     </div>
-                    <form class=" padding-top-5vh  contenedor_formulario" action="/my-handling-form-page" method="post">
+                    <form class=" padding-top-5vh  contenedor_formulario" action="<?php echo $generales->url_base; ?>compra_hogar.php" method="post">
                         <div class="control-group col-sm-12 center_item">
                             <label class="control-label texto_formulario" for="nombre">Nombre</label>
                             <div class="controls">
-                                <input type="text" name="nombre" value="" class="form-control respuesta_formulario" required="" id="nombre" >
+                                <input type="text" name="name" value="" class="form-control respuesta_formulario" required="" id="nombre" >
                             </div>
                         </div>
                         <div class="control-group col-sm-12 center_item">
                             <label class="control-label texto_formulario" for="apellido">Apellido</label>
                             <div class="controls">
-                                <input type="text" name="apellido" value="" class="form-control respuesta_formulario" required="" id="apellido" >
+                                <input type="text" name="lastName" value="" class="form-control respuesta_formulario" required="" id="apellido" >
                             </div>
                         </div>
                         <div class="control-group col-sm-12 center_item">
                             <label class="control-label texto_formulario" for="telefono">Teléfono</label>
                             <div class="controls">
-                                <input type="text" name="telefono" value="" class="form-control respuesta_formulario" required="" id="telefono" >
+                                <input pattern="[0-9]{10}" title="Ingresa 10 digitos. Ejemplo: 3316052732" type="tel" name="phone" value="" class="form-control respuesta_formulario" required="" id="telefono" >
                             </div>
                         </div>
                         <div class="control-group col-sm-12 center_item">
                             <label class="control-label texto_formulario" for="correo">Correo electrónico</label>
                             <div class="controls">
-                                <input type="text" name="correo" value="" class="form-control respuesta_formulario" required="" id="correo" >
+                                <input type="email"  pattern="[a-z0-9!#$%&\'*+=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&\'*+=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+                                       title="Agregar alguna extencion valida. Ejemplo: nombre@ejemplo.algo" name="mail" value="" class="form-control respuesta_formulario" required="" id="correo" >
                             </div>
                         </div>
                         <div class="control-group col-sm-12 texto_checkbox center_item">
@@ -81,8 +82,9 @@ $generales = new generales();
                             <label for="terminos">Acepto todos los términos y condiciones</label><br>
 
                         </div>
+                        <input name="url_siguiente" value="formulario/formulario2.php" hidden>
                         <div class="control-group col-sm-12 centrar padding-top-5vh center_item">
-                            <input class="btn_info_casa " type="submit" value="Enviar">
+                            <input class="btn_info_casa " name='submit' type="submit" value="Siguiente">
                         </div>
 
 
