@@ -59,7 +59,73 @@ require ($generales->path_base.'src/landing.php');
                             <a type="button" href="<?php echo $generales->url_base; ?>formulario/formulario2.php" class="btn btn_barra"></a>
 
                         </div>
-                        
+                        <form class=" padding-top-5vh  contenedor_formulario" action="<?php echo $generales->url_base; ?>compra_hogar.php" method="post">
+                            <div class="control-group col-sm-12 center_item">
+                                <label class="control-label texto_formulario" for="tipo_vivienda">Tipo de vivienda</label>
+                                <div class="controls">
+                                    <select name="tipo_vivienda" required class="form-control respuesta_formulario">
+                                        <option>Casa</option>
+                                        <option>Departamento</option>
+                                        <option>Duplex</option>
+                                        <option>Terreno</option>
+                                        <option>Otro</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="control-group col-sm-12 center_item">
+                                <label class="control-label texto_formulario" for="Calle">Calle</label>
+                                <div class="controls">
+                                    <input type="text" name="Calle" value="" class="form-control respuesta_formulario" required="" id="calle" >
+                                </div>
+                            </div>
+                            <div class="control-group col-sm-6 center_item">
+                                <label class="control-label texto_formulario" for="num_ext">Número Exterior</label>
+                                <div class="controls">
+                                    <input  type="tel" name="num_ext" value="" class="form-control respuesta_formulario" required="" id="num_ext" >
+                                </div>
+                            </div>
+                            <div class="control-group col-sm-6 center_item">
+                                <label class="control-label texto_formulario" for="num_int">Número Interior</label>
+                                <div class="controls">
+                                    <input  type="tel" name="num_int" value="" class="form-control respuesta_formulario" required="" id="num_int" >
+                                </div>
+                            </div>
+                            <div class="control-group col-sm-12 center_item">
+                                <label class="control-label texto_formulario" for="colonia">Colonia</label>
+                                <div class="controls">
+                                    <input type="text"  name="colonia" value="" class="form-control respuesta_formulario" required="" id="colonia" >
+                                </div>
+                            </div>
+                            <div class="control-group col-sm-12 center_item">
+                                <label class="control-label texto_formulario" for="municipio">Municipio</label>
+                                <div class="controls">
+                                    <input type="email"  name="municipio" value="" class="form-control respuesta_formulario" required="" id="municipio" >
+                                </div>
+                            </div>
+                            <div class="control-group col-sm-12 texto_checkbox center_item">
+                                <label class="control-label texto_formulario" for="pregunta">¿La vivienda esta en un coto?</label>
+                            </div>
+                            <div class="control-group col-sm-5 texto_checkbox center_item">
+                                <label for="terminos">No</label>
+                                <input type="checkbox" id="terminos" name="terminos" value="terminos" required="">
+                            </div>
+                            <div class="control-group col-sm-7 center_item">
+
+                                <label class="control-label padding-right_1vw texto_formulario" for="si">Si</label>
+
+                                    <input type="text" name="resp_si" placeholder="¿como se llama el coto?" value="" class="form-control respuesta_formulario_si" required="" id="calle" >
+
+                            </div>
+                            <input name="url_siguiente" value="formulario/formulario2.php" hidden>
+                            <div class="control-group col-sm-12 centrar padding-top-5vh center_item">
+                                <input class="btn_info_casa " name='submit' type="submit" value="Siguiente">
+                            </div>
+
+
+
+                        </form>
+
                     </div>
 
 
