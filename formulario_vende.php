@@ -3,6 +3,8 @@ use config\generales;
 include "./init.php";
 require './vendor/autoload.php';
 $generales = new generales();
+
+
 ?>
 
 <!DOCTYPE html>

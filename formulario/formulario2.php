@@ -9,6 +9,8 @@ require '../vendor/autoload.php';
 $generales = new generales();
 
 require ($generales->path_base.'src/landing.php');
+//session_start();
+//echo $_SESSION["datos"];
 
 ?>
 
@@ -50,14 +52,14 @@ require ($generales->path_base.'src/landing.php');
 
                     <div class="col-md-12 padding_bottom_5vh contenedor_porque_vender" >
                         <div class="padding_bottom_5vh">
-                            <h1 class="whatsapp_titulo">¿Cómo te contactamos?</h1>
+                            <h1 class="whatsapp_titulo">¿Qué propiedad quieres vender?</h1>
                         </div >
                         <div class="barra btn-group">
                             <a type="button" href="<?php echo $generales->url_base; ?>formulario_vende.php" class="btn btn_barra"></a>
-                            <a type="button" href="<?php echo $generales->url_base; ?>formulario_2.php" class="btn btn_barra"></a>
+                            <a type="button" href="<?php echo $generales->url_base; ?>formulario/formulario2.php" class="btn btn_barra"></a>
 
                         </div>
-
+                        
                     </div>
 
 

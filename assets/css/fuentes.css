@@ -343,6 +343,21 @@
     text-align: left;
     font-size: 11px;
     color: #000000;
-    border-radius: 20px;
+    border-radius: 15px;
     background: #cccccc;
+}
+.padding-right_1vw{
+    padding-right: 1vw;
+}
+.respuesta_formulario_si{
+    font-family: Montserrat-Medium;
+    width: 80%;
+    text-align: center;
+    font-size: 11px;
+    color: #000000;
+    border-radius: 15px;
+    background: #cccccc;
+    height: 44px;
+    display: revert;
+
 }
