@@ -11,7 +11,8 @@ $generales = new generales();
 require ($generales->path_base.'src/landing.php');
 //session_start();
 //echo $_SESSION["datos"];
-
+$georeferencia_hogar ="";
+$ubicacion_hogar="";
 ?>
 
 <!DOCTYPE html>
@@ -78,7 +79,7 @@ require ($generales->path_base.'src/landing.php');
                         <div class="control-group col-sm-12 center_item">
                             <label class="control-label texto_formulario" for="Calle">Calle</label>
                             <div class="controls">
-                                <input type="text" name="calle" value="" class="form-control respuesta_formulario" required="" id="calle" >
+                                <input type="text" name="calle" value="" class="form-control respuesta_formulario" required="" id="calle">
                             </div>
                         </div>
                         <div class="control-group col-sm-6 center_item">
@@ -100,47 +101,69 @@ require ($generales->path_base.'src/landing.php');
                             </div>
                         </div>
                         <div class="control-group col-sm-12 center_item">
-                            <label  class="control-label texto_formulario" for="municipio">Municipio</label>
+                            <label  class="control-label texto_formulario"   for="municipio">Municipio</label>
                             <div class="controls">
-                                <input  type="text"  name="municipio" value="" class="form-control respuesta_formulario" required="" id="municipio" >
+                                <input  type="text" onchange="this.form.submit()" name="municipio" value="" class="form-control respuesta_formulario" required="" id="municipio" >
                             </div>
                         </div>
-                    </form>
-                    <?php
-                        if (!isset($_POST['municipio']) ) { ?>
-                        <div class="control-group col-sm-12 centrar padding-top-5vh center_item">
-                            <input class="btn_info_casa " name='submit' type="submit" onchange="initMap()"  value="Siguiente">
+                        <div class="control-group col-sm-12 texto_checkbox center_item">
+                            <label class="control-label texto_formulario" for="pregunta">¿La vivienda esta en un coto?</label>
                         </div>
-                    <?php } ?>
+                        <div class="control-group col-sm-5 texto_checkbox center_item">
+                            <label for="resp_no">No</label>
+                            <input type="checkbox" id="resp_no" name="resp_no"  value="" >
+                        </div>
+                        <div class="control-group col-sm-7 center_item">
+
+                            <label class="control-label padding-right_1vw texto_formulario" for="si">Sí</label>
+
+                            <input type="text" name="resp_si"  placeholder="¿como se llama el coto?" value="" class="form-control respuesta_formulario_si" id="resp_si" >
+
+                        </div>
+                        <?php
+                        if (isset($_POST['municipio']) ) { ?>
+
+                            <div class="control-group col-sm-7 center_item">
+
+                                <label class="control-label padding-right_1vw texto_formulario" for="si">¿La ubicación es correcta?</label>
+
+
+                            </div>
+                            <div class="control-group col-sm-5 texto_checkbox center_item">
+
+                                <label for="resp_no">Si</label>
+                                <input type="checkbox" id="resp_no" name="resp_no"  value="" >
+                            </div>
+
+                        <?php } ?>
+                        <div class=" padding-top-5vh  contenedor_mapa" id="map"></div>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                        <script type="text/javascript" src="https://unpkg.com/xlsx@0.14.1/dist/xlsx.full.min.js"></script>
+                        <script
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABFoveisZMRWysqm4eCzhf_Jx2Yka4jEg&callback=initMap&v=weekly"
+                                defer
+                        ></script>
+
+                    </form>
+
 
                     <script>
+                        var calle = document.getElementById("calle").value  = "<?php echo($_POST["calle"]);?>";
+                        var num_ext = document.getElementById("num_ext").value = "<?php echo($_POST["num_ext"]);?>";
+                        var municipio = document.getElementById("municipio").value = "<?php echo($_POST["municipio"]);?>";
+                        var direccion = calle+ " " +num_ext+ ", "+ municipio+ ", Jalisco";
                         var cords;
                         var direc;
-                        var calle = document.getElementById("calle").value;
-                        var num_ext = document.getElementById("num_ext").value;
-                        var num_int = document.getElementById("num_int").value;
-                        var colonia = document.getElementById("colonia").value;
-                        var municipio = document.getElementById("municipio").value;
+                        var latlong;
                         function initMap() {
-                            const myLatLng = { lat: 19.373191219984808, lng: -99.1649069195726 };
+                            const myLatLng = { lat: 20.6595328, lng: -103.3516331 };
                             const newLatIng = {lat: 20.73566186958581, lng: -103.3776738885237};
                             const map = new google.maps.Map(document.getElementById("map"), {
-                                zoom: 4,
+                                zoom: 11,
                                 center: myLatLng,
                             });
-
-                            new google.maps.Marker({
-                                position: myLatLng,
-                                map,
-                                title: "",
-                            });
-                            new google.maps.Marker({
-                                position: newLatIng,
-                                map,
-                                title: "Casa",
-                            })
                             var geocoder = new google.maps.Geocoder();
-                            var inputAddress = document.getElementById("calle").value + " " + document.getElementById("num_ext").value + ", "+ document.getElementById("municipio").value + ", Jalisco";
+                            var inputAddress = direccion;
                             direc = inputAddress;
                             console.log(inputAddress);
                             geocoder.geocode({
@@ -150,6 +173,9 @@ require ($generales->path_base.'src/landing.php');
                                     console.log(status);
 
                                     if (status == google.maps.GeocoderStatus.OK) {
+
+
+
                                         var cordenada = {
                                             lat: results[0].geometry.location.lat(),
                                             lng: results[0].geometry.location.lng()
@@ -158,34 +184,27 @@ require ($generales->path_base.'src/landing.php');
                                         new google.maps.Marker({
                                             position: cordenada,
                                             map,
-                                            title: 'ubicacion A'
+                                            title: 'Mi ubicacion'
                                         })
                                     }
                                 }
                             );
 
+
                         }
 
                         window.initMap = initMap;
 
-                        function get_maker(colonia, calle, numero, entre_calles) {
-                            console.log(cordenada);
-                        }
+
+                        initMap();
                     </script>
 
 
-                    <div id="map"></div>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                    <script type="text/javascript" src="https://unpkg.com/xlsx@0.14.1/dist/xlsx.full.min.js"></script>
-                    <script
-                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABFoveisZMRWysqm4eCzhf_Jx2Yka4jEg&callback=initMap&v=weekly"
-                            defer
-                    ></script>
-                    <?php
-                    if (isset($_POST['municipio']) ) {
-                        echo "hola"?>
 
-                    <?php } ?>
+                        <div class="control-group col-sm-12 centrar padding-top-5vh center_item">
+                            <input class="btn_info_casa " name='submit' type="submit"  onclick="initMap()"  value="Siguiente">
+                        </div>
+
                 </div>
 
 

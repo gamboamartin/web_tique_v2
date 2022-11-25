@@ -537,3 +537,12 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .centrar{
     text-align: center;
 }
+.contenedor_mapa{
+    width: 100%;
+    height: 50vh;
+    border-radius: 20px;
+
+}
+.padding_top{
+    padding-top: 10vh;
+}
