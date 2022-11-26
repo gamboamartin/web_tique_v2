@@ -132,7 +132,7 @@ $ubicacion_hogar="";
                             <div class="control-group col-sm-5 texto_checkbox center_item">
 
                                 <label for="resp_no">Si</label>
-                                <input type="checkbox" id="resp_no" name="resp_no"  value="" >
+                                <input type="checkbox" id="resp_map" name="resp_map"  value="" >
                             </div>
 
                         <?php } ?>
@@ -146,6 +146,9 @@ $ubicacion_hogar="";
 
                     </form>
 
+                    <div class="control-group col-sm-12 centrar padding-top-5vh center_item">
+                        <input class="btn_info_casa " name='submit' type="submit"  onclick="url_siguiente()"  value="Siguiente">
+                    </div>
 
                     <script>
                         var calle = document.getElementById("calle").value  = "<?php echo($_POST["calle"]);?>";
@@ -197,13 +200,22 @@ $ubicacion_hogar="";
 
 
                         initMap();
+                        function url_siguiente(){
+                            var resp_no = document.getElementById("resp_no").checked;
+                            var resp_si = document.getElementById("resp_si").value;
+                            var resp_map = document.getElementById("resp_map").checked;
+                            var url = "<?php echo $generales->url_base; ?>formulario/formulario3.php?resp_no=" + encodeURIComponent(resp_no)
+                                + "&resp_si=" + encodeURIComponent(resp_si)+ "&resp_map=" + encodeURIComponent(resp_map);
+                            window.location.href = url;
+
+                        }
+
+
                     </script>
 
 
 
-                        <div class="control-group col-sm-12 centrar padding-top-5vh center_item">
-                            <input class="btn_info_casa " name='submit' type="submit"  onclick="initMap()"  value="Siguiente">
-                        </div>
+
 
                 </div>
 
