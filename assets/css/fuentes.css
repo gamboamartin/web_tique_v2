@@ -338,6 +338,12 @@
     font-size: 15px;
     color: #999999;
 }
+.texto_checkbox_list{
+    padding-top: 3vh;
+    font-family: Montserrat-Light;
+    font-size: 15px;
+    color: #999999;
+}
 .respuesta_formulario{
     font-family: Montserrat-Medium;
     text-align: left;

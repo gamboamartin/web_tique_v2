@@ -9,8 +9,8 @@ require '../vendor/autoload.php';
 $generales = new generales();
 
 require ($generales->path_base.'src/landing.php');
-//session_start();
-//echo $_SESSION["datos"];
+session_start();
+$datos=$_SESSION["datos"];
 $georeferencia_hogar ="";
 $ubicacion_hogar="";
 ?>
@@ -85,13 +85,13 @@ $ubicacion_hogar="";
                         <div class="control-group col-sm-6 center_item">
                             <label class="control-label texto_formulario" for="num_ext">Número Exterior</label>
                             <div class="controls">
-                                <input  type="tel" name="num_ext" value="" class="form-control respuesta_formulario"  id="num_ext" >
+                                <input  type="text" name="num_ext" value="" class="form-control respuesta_formulario"  id="num_ext" >
                             </div>
                         </div>
                         <div class="control-group col-sm-6 center_item">
                             <label class="control-label texto_formulario" for="num_int">Número Interior</label>
                             <div class="controls">
-                                <input  type="tel" name="num_int" value="" class="form-control respuesta_formulario"  id="num_int" >
+                                <input  type="text" name="num_int" value="" class="form-control respuesta_formulario"  id="num_int" >
                             </div>
                         </div>
                         <div class="control-group col-sm-12 center_item">
@@ -121,7 +121,15 @@ $ubicacion_hogar="";
 
                         </div>
                         <?php
-                        if (isset($_POST['municipio']) ) { ?>
+                        if (isset($_POST['municipio']) ) {
+                            $datos_cliente = '<h3>Calle: ' . utf8_decode($_POST['calle']).
+                                '</h3><br><h3> Número exterior: ' . utf8_decode($_POST['num_ext']) .
+                                '</h3><br><h3> Número interior: ' . utf8_decode($_POST['num_int']) .
+                                '</h3><br><h3> Colonia: ' . utf8_decode($_POST['colonia']) .
+                                '</h3><br><h3> Municipio: ' . utf8_decode($_POST['municipio']);
+
+                            $_SESSION["datos_form2"]= $datos_cliente;
+                            ?>
 
                             <div class="control-group col-sm-7 center_item">
 
@@ -153,6 +161,8 @@ $ubicacion_hogar="";
                     <script>
                         var calle = document.getElementById("calle").value  = "<?php echo($_POST["calle"]);?>";
                         var num_ext = document.getElementById("num_ext").value = "<?php echo($_POST["num_ext"]);?>";
+                        var num_int = document.getElementById("num_int").value = "<?php echo($_POST["num_int"]);?>";
+                        var colonia = document.getElementById("colonia").value = "<?php echo($_POST["colonia"]);?>";
                         var municipio = document.getElementById("municipio").value = "<?php echo($_POST["municipio"]);?>";
                         var direccion = calle+ " " +num_ext+ ", "+ municipio+ ", Jalisco";
                         var cords;
