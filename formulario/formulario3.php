@@ -52,7 +52,7 @@ session_start();
                         </div>
                 </div>
 
-                    <div class="col-md-12 padding_bottom_5vh contenedor_porque_vender" >
+                    <div class="col-md-12 padding_bottom_5vh " >
                         <div class="padding_bottom_5vh">
                             <h1 class="whatsapp_titulo">Descripción del inmueble</h1>
                         </div >
@@ -73,15 +73,15 @@ session_start();
                             <div class="control-group col-sm-12 center_item">
                                 <label class="control-label texto_formulario" for="pregunta">¿Tu vivienda tiene adeudo?</label>
                             </div>
-                            <div class="control-group col-sm-5 texto_checkbox center_item">
+                            <div class="control-group col-sm-6 texto_checkbox center_item">
                                 <label for="terminos">No</label>
-                                <input type="checkbox" id="terminos" name="terminos" value="terminos" required="">
+                                <input type="checkbox" id="terminos" name="terminos" value="terminos" >
                             </div>
-                            <div class="control-group col-sm-7 ">
+                            <div class="control-group col-sm-6 ">
 
                                 <label class="control-label padding-right_1vw texto_formulario" for="si">Si</label>
 
-                                <input type="text" name="resp_si" placeholder="¿Cuanto?" value="" class="form-control respuesta_formulario_si" required="" id="calle" >
+                                <input type="text" name="resp_si" placeholder="¿Cuanto?" value="" class="form-control respuesta_formulario_si" id="calle" >
 
                             </div>
                             <div class="control-group col-sm-12 center_item">
@@ -104,13 +104,13 @@ session_start();
                             <div class="control-group col-sm-6 center_item">
                                 <label class="control-label texto_formulario" for="mts_terreno">Mts de terreno</label>
                                 <div class="controls">
-                                    <input  type="text" name="mts_terreno" value="" class="form-control respuesta_formulario"  id="mts_terreno" >
+                                    <input  type="text" name="mts_terreno" value="" class="form-control respuesta_formulario" required="" id="mts_terreno" >
                                 </div>
                             </div>
                             <div class="control-group col-sm-6 center_item">
                                 <label class="control-label texto_formulario" for="mts_construc">Mts de construcción</label>
                                 <div class="controls">
-                                    <input  type="text" name="mts_construc" value="" class="form-control respuesta_formulario" required="" id="mts_construc" >
+                                    <input  type="text" name="mts_construc" value="" class="form-control respuesta_formulario" id="mts_construc" >
                                 </div>
                             </div>
                             <div class="control-group col-sm-6 center_item">
@@ -128,31 +128,34 @@ session_start();
                             <div class="control-group col-sm-12 center_item">
                                 <label class="control-label texto_formulario" for="depa">Sí es departamento ¿En qué piso está?</label>
                                 <div class="controls">
-                                    <input type="text"  name="depa" value="" class="form-control respuesta_formulario"  id="depa" >
+                                    <input type="number" min="0" name="depa" value="" class="form-control respuesta_formulario"  id="depa" >
                                 </div>
                             </div>
                             <div class="control-group col-sm-12 center_item">
                                 <label class="control-label texto_formulario" for="pisos">Sí es casa ¿Cuántos pisos son?</label>
                                 <div class="controls">
-                                    <input type="email"  name="pisos" value="" class="form-control respuesta_formulario" required="" id="pisos" >
+                                    <input type="number" min="0" name="pisos" value="" class="form-control respuesta_formulario" id="pisos" >
                                 </div>
                             </div>
                             <div class="control-group col-sm-12 texto_checkbox center_item">
                                 <label class="control-label texto_formulario" for="pregunta">Sí es coto ¿Tiene alguna amenidades?</label>
                             </div>
-                            <div class="control-group col-sm-5 texto_checkbox center_item">
+                            <div class="control-group col-sm-6 texto_checkbox center_item">
                                 <label for="terminos">No</label>
-                                <input type="checkbox" id="terminos" name="terminos" value="terminos" required="">
+                                <input type="checkbox" id="terminos" name="terminos" value="terminos" >
                             </div>
-                            <div class="control-group col-sm-7 center_item">
+                            <div class="control-group col-sm-6 center_item">
 
                                 <label class="control-label padding-right_1vw texto_formulario" for="si">Si</label>
 
-                                    <input type="text" name="resp_si" placeholder="¿Cuales?" value="" class="form-control respuesta_formulario_si" required="" id="calle" >
+                                <input type="text" name="resp_si" placeholder="¿Cuales?" value="" class="form-control respuesta_formulario_si" id="calle" >
 
                             </div>
+
                         </div>
-                            <div class="control-group col-sm-12 center_item color_azul margin_top">
+
+
+                            <div class="control-group col-sm-12 center_item color_azul  margin_top contenedor_formulario_4 padding_bottom_10vh">
                                 <div class=" pull-sm-up  col-xs-12 " style="text-align: center; float: none;">
                                     <a href="<?php echo $generales->url_base; ?>formulario/formulario3.php">
                                         <img class="num_img4" src="<?php echo $generales->url_base; ?>assets/img/formulario_vende/ICONO-23.png" alt="" />
@@ -160,14 +163,52 @@ session_start();
 
                                 </div>
                                 <h1 class="titulo_slider">Día de la cita</h1>
-                                <h2 class="subtitulo_slider">Por favor compartenos tu disponibilidad de horario
+                                <h2 class="subtitulo_formulario_4">Por favor compartenos tu disponibilidad de horario
                                     para ir a la vivienda que quieres vender</h2>
-                                <label class="control-label texto_formulario" for="pregunta">Selecciona los tipos de adeudo</label>
+                                <br>
+
+                                <div class="control-group col-sm-6 margin_top center_item">
+                                    <label class="control-label contenedor_hora_fecha subtitulo_slider" for="mts_terreno">Día de la semana</label>
+                                    <div class="controls contenedor_hora_fecha">
+                                        <input class="form-control redondear_esquinas" type="date" name="fecha" id="fecha" placeholder="Introduce una fecha" required min=<?php $hoy=date("Y-m-d"); echo $hoy;?> />
+
+                                    </div>
+                                </div>
+
+                                <div class="control-group col-sm-6 margin_top center_item">
+                                    <label class="control-label contenedor_hora_fecha subtitulo_slider" for="tipo_vivienda">Día de la semana</label>
+                                    <div class="controls contenedor_hora_fecha">
+                                        <select name="tipo_vivienda" id="tipo_vivienda" required class="form-control redondear_esquinas">
+                                            <option value="">Selecciona</option>
+                                            <option value="09:00">09:00 A.M</option>
+                                            <option value="09:30">09:30 A.M</option>
+                                            <option value="10:00">10:00 A.M</option>
+                                            <option value="10:30">10:30 A.M</option>
+                                            <option value="11:00">11:00 A.M</option>
+                                            <option value="11:30">11:30 A.M</option>
+                                            <option value="12:00">12:00 P.M</option>
+                                            <option value="12:30">12:30 P.M</option>
+                                            <option value="01:00">01:00 P.M</option>
+                                            <option value="01:30">01:30 P.M</option>
+                                            <option value="02:00">02:00 P.M</option>
+                                            <option value="02:30">02:30 P.M</option>
+                                            <option value="03:00">03:00 P.M</option>
+                                            <option value="03:30">03:30 P.M</option>
+                                            <option value="04:00">04:00 P.M</option>
+                                            <option value="04:30">04:30 P.M</option>
+                                            <option value="05:00">05:00 P.M</option>
+                                            <option value="05:30">05:30 P.M</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+
+
                             </div>
 
                             <input name="url_siguiente" value="formulario/formulario2.php" hidden>
                             <div class="control-group col-sm-12 centrar padding-top-5vh center_item">
-                                <input class="btn_info_casa " name='submit' type="submit" value="Siguiente">
+                                <input class="btn_info_casa " name='submit' type="submit" value="Enviar">
                             </div>
 
 

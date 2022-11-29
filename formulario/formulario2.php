@@ -10,7 +10,7 @@ $generales = new generales();
 
 require ($generales->path_base.'src/landing.php');
 session_start();
-$datos=$_SESSION["datos"];
+//$datos=$_SESSION["datos"];
 $georeferencia_hogar ="";
 $ubicacion_hogar="";
 ?>
@@ -50,12 +50,12 @@ $ubicacion_hogar="";
 
                     </div>
                 </div>
-                <div class="col-md-12 padding_bottom_5vh contenedor_porque_vender" >
+                <div class="col-md-12 padding_bottom_5vh " >
                     <div class="padding_bottom_5vh">
                         <h1 class="whatsapp_titulo">¿Qué propiedad quieres vender?</h1>
                     </div >
                     <div class="barra btn-group">
-                        <a type="button" href="<?php echo $generales->url_base; ?>formulario_vende.php" class="btn btn_barra"></a>
+                        <a type="button" href="javascript:history.back()" class="btn btn_barra"></a>
                         <a type="button" href="<?php echo $generales->url_base; ?>formulario/formulario2.php" class="btn btn_barra"></a>
 
                     </div>
@@ -109,11 +109,11 @@ $ubicacion_hogar="";
                         <div class="control-group col-sm-12 texto_checkbox center_item">
                             <label class="control-label texto_formulario" for="pregunta">¿La vivienda esta en un coto?</label>
                         </div>
-                        <div class="control-group col-sm-5 texto_checkbox center_item">
+                        <div class="control-group col-sm-6 texto_checkbox center_item">
                             <label for="resp_no">No</label>
                             <input type="checkbox" id="resp_no" name="resp_no"  value="" >
                         </div>
-                        <div class="control-group col-sm-7 center_item">
+                        <div class="control-group col-sm-6 center_item">
 
                             <label class="control-label padding-right_1vw texto_formulario" for="si">Sí</label>
 
@@ -131,13 +131,13 @@ $ubicacion_hogar="";
                             $_SESSION["datos_form2"]= $datos_cliente;
                             ?>
 
-                            <div class="control-group col-sm-7 center_item">
+                            <div class="control-group col-sm-6 center_item">
 
                                 <label class="control-label padding-right_1vw texto_formulario" for="si">¿La ubicación es correcta?</label>
 
 
                             </div>
-                            <div class="control-group col-sm-5 texto_checkbox center_item">
+                            <div class="control-group col-sm-6 texto_checkbox center_item">
 
                                 <label for="resp_no">Si</label>
                                 <input type="checkbox" id="resp_map" name="resp_map"  value="" >
