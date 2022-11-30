@@ -122,9 +122,10 @@ $ubicacion_hogar="";
                         </div>
                         <?php
                         if (isset($_POST['municipio']) ) {
-                            $datos_cliente = '<h3>Calle: ' . utf8_decode($_POST['calle']).
-                                '</h3><br><h3> Número exterior: ' . utf8_decode($_POST['num_ext']) .
-                                '</h3><br><h3> Número interior: ' . utf8_decode($_POST['num_int']) .
+                            $datos_cliente = '<h3>Tipo de vivienda: ' . utf8_decode($_POST['tipo_vivienda']).
+                                '</h3><br><h3> Calle: ' . utf8_decode($_POST['calle']).
+                                '</h3><br><h3> '.utf8_decode("Número exterior").':' . utf8_decode($_POST['num_ext']) .
+                                '</h3><br><h3> '.utf8_decode("Número interior").':'  . utf8_decode($_POST['num_int']) .
                                 '</h3><br><h3> Colonia: ' . utf8_decode($_POST['colonia']) .
                                 '</h3><br><h3> Municipio: ' . utf8_decode($_POST['municipio']);
 
@@ -193,7 +194,7 @@ $ubicacion_hogar="";
                                             lat: results[0].geometry.location.lat(),
                                             lng: results[0].geometry.location.lng()
                                         }
-                                        cords = cordenada;
+                                        cords = results[0].geometry.location.lat()+" "+results[0].geometry.location.lng();
                                         new google.maps.Marker({
                                             position: cordenada,
                                             map,
@@ -215,7 +216,7 @@ $ubicacion_hogar="";
                             var resp_si = document.getElementById("resp_si").value;
                             var resp_map = document.getElementById("resp_map").checked;
                             var url = "<?php echo $generales->url_base; ?>formulario/formulario3.php?resp_no=" + encodeURIComponent(resp_no)
-                                + "&resp_si=" + encodeURIComponent(resp_si)+ "&resp_map=" + encodeURIComponent(resp_map);
+                                + "&resp_si=" + encodeURIComponent(resp_si)+ "&resp_map=" + encodeURIComponent(resp_map)+ "&cords=" + encodeURIComponent(cords);
                             window.location.href = url;
 
                         }
