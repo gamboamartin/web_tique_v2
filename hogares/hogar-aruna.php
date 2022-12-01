@@ -30,13 +30,22 @@ $wt_hogar = $wt_hogar_modelo->obtener_registro_wt_hogar($landing_url_sin_ext);
 
 $img_hogar = '';
 $nombre_hogar = '';
-
-if($wt_hogar > 0){
+$municipio = "Zapopan";
+$buscar = stripos($wt_hogar['wt_hogar_ubicacion'], $municipio);
+if($wt_hogar > 0 and $buscar !== false){
+    $direccion = $wt_hogar['wt_hogar_ubicacion'];
     $img_hogar = $wt_hogar['wt_hogar_img_descripcion'];
     $nombre_hogar = $wt_hogar['wt_hogar_descripcion'];
     $proposito_hogar_id = $wt_hogar['wt_hogar_wt_proposito_id'];
-}
 
+}
+$numero=1190000;
+$costo= number_format($numero, 2);
+$a = explode(",", $costo);
+if(count($a)>2) {
+    $b = explode(",", $costo,2);
+    $costo=$b[0]."'".$b[1];
+}
 $descripcion_twitter = 'Hogar Aruna es una bonita vivienda, que se encuentra ubicado en Campo Real un bonito 
 Fraccionamiento Residencial dentro del  Municipio de Zapopan, Jalisco, el cual se caracteriza por sus parques lineales,  
 sus extensas áreas verdes y su bonito lago artificial. En Hogar Aruna se puede sentir un ambiente familiar ideal para la 
@@ -63,19 +72,44 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
 <img src="<?php echo $generales->url_base.$img_hogar; ?>" hidden>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v14.0" nonce="Ug42YVNC"></script>
-<div class="container container-wrapper">
+<div class="container container-wrapper color_blanco">
     <header class="header">
         <?php include $generales->path_base.'templates/head/_head.php' ?>
     </header><!-- /.header-->
-    <main class="main section-color-primary">
-        <div class="container">
-            <section class="top-title">
-                <ul class="breadcrumb">
-                    <li class="item"><a href="<?php echo $generales->url_base; ?>index.php"> Inicio </a></li>
-                    <li class="item"> <?php echo $nombre_hogar;?> </li>
-                </ul>
-                <h1 class="h-side-title page-title page-title-big text-color-primary"><?php echo $nombre_hogar;?></h1>
-            </section> <!-- /. content-header -->
+    <main class="main color_blanco">
+        <div class="container contenedor_index ">
+            <div class="col-sm-12 padding-top-5vh">
+                <div class="control-group margen_izquierda col-sm-8">
+
+                        <ul class="breadcrumb">
+                            <li class="item"><a href="<?php echo $generales->url_base; ?>index.php"> Inicio </a></li>
+                            <li class="item"> <?php echo $nombre_hogar;?> </li>
+                        </ul>
+                        <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
+                        <h1 class="titulo_notice"><?php echo $nombre_hogar;?></h1>
+                        <h3 class="texto_hoagar_h3"><?php echo $direccion;?></h3>
+
+                </div>
+
+                <div class="control-group col-4 margen_derecha float_right">
+                    <div class="btn_casa_vendida_x float_right ">
+                        <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
+
+                    </div>
+
+                    <div class="">
+                        <br>
+                        <br>
+                        <br>
+                        <h4 class="texto_hoagar_h3" >Precio total (MXN) </h4>
+
+                    </div>
+                    <div class="float_right">
+                        <h4 class="subtitulo_hogar_gris"><?php echo $costo;?> </h4>
+                    </div>
+
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-9">
                     <div class="widget widget-box box-container widget-property">

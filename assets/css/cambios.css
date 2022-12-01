@@ -595,3 +595,25 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+.margen_izquierda{
+    margin-left: 5vw;
+
+}
+.margen_derecha{
+    margin-right: 5vw;
+}
+.btn_casa_vendida_x{
+
+    margin: 0px !important;
+    width: 100px;
+    border-radius:10px 10px 10px 10px !important;
+    background-color: #FF3300 !important;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+.float_right{
+    float: right;
+}

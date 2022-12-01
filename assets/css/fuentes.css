@@ -117,6 +117,7 @@
     left: 0%;
     z-index:1;
 }
+
 .btn_whatsapp{
     color: #ffffff !important;
     text-align: center !important;
@@ -324,11 +325,23 @@
     font-size: 22px;
     color: #999999;
 }
+.subtitulo_hogar_gris{
+    font-family: Montserrat-Black;
+    text-align: left;
+    font-size: 22px;
+    color: #999999;
+}
 .texto_formulario{
     padding-top: 3vh;
     font-family: Montserrat-Light;
     text-align: left;
     font-size: 15px;
+    color: #999999;
+}
+.texto_hoagar_h3{
+    font-family: Montserrat-Medium;
+    text-align: left;
+    font-size: 17px;
     color: #999999;
 }
 .texto_checkbox{
@@ -373,4 +386,13 @@
     font-family: Montserrat-Medium;
     font-size: 20px;
     margin: 0px;
+}
+.texto_btn_casa_vendida_x{
+
+    color: #ffffff !important;
+    text-align: left !important;
+    align-items: center;
+    font-family: Montserrat-Medium !important;
+    font-size: 17px !important;
+
 }
