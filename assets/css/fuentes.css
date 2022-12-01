@@ -396,3 +396,9 @@
     font-size: 17px !important;
 
 }
+.texto_icono_hogar{
+    font-family: Montserrat-Medium;
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+}

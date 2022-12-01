@@ -114,11 +114,11 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
 
                 <div class="col-md-12 padding_bottom_5vh " >
                     <div class="color_azul padding-top-10vh padding_bottom_5vh">
+
                         <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
                     </div>
-                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     <div class="margen_izquierda margen_derecha">
-                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
+                        <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     </div>
 
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general_celular.php' ?>
@@ -129,7 +129,7 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
                     <?php include $generales->path_base.'templates/facebook/_fb_comments_hogar_general.php'?>
                 </div><!-- /.center-content -->
                 <div class="col-md-3">
-                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
+
                     <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-<?php echo $url_landing_limpia?>' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
                     <?php include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
                     <?php if ($proposito_hogar_id == 1)
@@ -143,7 +143,7 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
 
 
 
-                    
+
 
 
 

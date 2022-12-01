@@ -397,6 +397,10 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     width: 100%;
 
 }
+.contenedor_centrado{
+    display: flex;
+    justify-content: center;
+}
 @media screen and (min-width: 480px) {
     .lineas_paralelas{
         border-top-style: none;
@@ -643,4 +647,12 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 .float_right{
     float: right;
+}
+.ul_img_hogar{
+    list-style-type: none;
+}
+
+.li_img_hogar{
+    float: left;
+
 }

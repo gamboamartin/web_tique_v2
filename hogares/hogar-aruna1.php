@@ -76,11 +76,12 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
     <header class="header">
         <?php include $generales->path_base.'templates/head/_head.php' ?>
     </header><!-- /.header-->
-    <main class="main ">
-        <div class="container contenedor_index">
+    <main class="main color_blanco">
+        <div class="container contenedor_index ">
             <div class="row">
-                <div class="col-md-12 padding-top-5vh padding_bottom_5vh ">
-                    <div class="control-group col-sm-8 margen_izquierda center_item">
+                <div class="col-sm-12 padding-top-5vh">
+                    <div class="control-group margen_izquierda col-sm-8">
+
                         <ul class="breadcrumb">
                             <li class="item"><a href="<?php echo $generales->url_base; ?>index.php"> Inicio </a></li>
                             <li class="item"> <?php echo $nombre_hogar;?> </li>
@@ -88,39 +89,37 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
                         <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
                         <h1 class="titulo_notice"><?php echo $nombre_hogar;?></h1>
                         <h3 class="texto_hoagar_h3"><?php echo $direccion;?></h3>
+
                     </div>
-                    <div class="control-group col-sm-2 margen_izquierda center_item">
-                        <div class="contenido_"  >
-                            <div class="inner_ ">
-                                <div class="btn_casa_vendida_x float_right">
-                                    <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
 
-                                </div>
-                            </div>
+                    <div class="control-group col-sm-4 margen_derecha ">
+                        <div class="btn_casa_vendida_x ">
+                            <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
 
+                        </div>
 
-                            <div class="padding-top-3vh inner_"  >
+                        <div class="">
+                            <br><br><br>
+                            <h4 class="texto_hoagar_h3" >Precio total (MXN) </h4>
 
-                                <h4 class="texto_hoagar_h3 texto_derecha"  >Precio total (MXN) </h4>
-
-                                <h4 class="subtitulo_hogar_gris texto_derecha"><?php echo $costo;?> </h4>
-
-                            </div>
+                        </div>
+                        <div class="">
+                        <h4 class="subtitulo_hogar_gris"><?php echo $costo;?> </h4>
                         </div>
 
                     </div>
-
                 </div>
-
-                <div class="col-md-12 padding_bottom_5vh " >
+            </div>
+            <div class="row">
+                <div class="col-md-12 ">
                     <div class="color_azul padding-top-10vh padding_bottom_5vh">
                         <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
-                    </div>
-                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
-                    <div class="margen_izquierda margen_derecha">
-                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
-                    </div>
 
+                    </div>
+                    <div class="margen_derecha margen_izquierda">
+
+                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
+                    </div> <!-- /. widget-body -->
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general_celular.php' ?>
                     <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?> <!-- falta por automatizar -->
@@ -128,41 +127,23 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
 
                     <?php include $generales->path_base.'templates/facebook/_fb_comments_hogar_general.php'?>
                 </div><!-- /.center-content -->
-                <div class="col-md-3">
+                <div class="col-md-12">
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-<?php echo $url_landing_limpia?>' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
                     <?php include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
                     <?php if ($proposito_hogar_id == 1)
-                        include $generales->path_base.'templates/informacion/_informacion_hogar_general.php' ?>
+                    include $generales->path_base.'templates/informacion/_informacion_hogar_general.php' ?>
 
                 </div>
-
-
-
-
-
-
-
-                    
-
-
-
-
-
-
-                </div>
+                <!-- /.right side bar -->
             </div>
         </div>
-    </main>
-
+    </main><!-- /.main-part-->
     <footer class="footer">
-        <?php include $generales->path_base . 'templates/footer/_footer.php' ?>
+        <?php include $generales->path_base.'templates/footer/_footer.php' ?>
     </footer>
-    <a class="btn  " id="btn-scroll-up"> <img src="<?php echo $generales->url_base;?>assets/img/ICONO-16.jpg" alt="" class="img_scroll" /></a>
+    <a class="btn btn-scoll-up color-secondary" id="btn-scroll-up"></a>
 </div>
-
-<?php include $generales->path_base . 'templates/java.php' ?>
-
+<?php include $generales->path_base.'templates/java.php' ?>
 </body>
-
 </html>

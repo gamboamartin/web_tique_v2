@@ -66,53 +66,58 @@ if($wt_tipo_inmueble > 0){
 
 
 ?>
+<div class="col-md-12 contenedor_centrado">
+    <ul class="ul_img_hogar">
 
+        <li  class="li_img_hogar ">
+            <div>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/habitacion.png" alt="Hogar Venus" height="80%"/>
 
-<div class="widget widget-box box-container widget-overview">
-    <div class="widget-header text-uppercase">
-        <h2>Detalles</h2>
-    </div>
-    <ul class="list-overview">
-        <li>
-            <span class="list-overview-option">Dirección</span>
-            <span class="list-overview-value"><?php echo $direccion_hogar;?></span>
+            </div>
+            <h3 class="texto_icono_hogar"><?php echo $recamara_hogar; ?></h3>
+
         </li>
-        <li>
-            <span class="list-overview-option">Propósito: </span>
-            <?php include $generales->path_base.$url_proposito.$tipo_proposito[$proposito_hogar_id-1];?>
+        <li  class="li_img_hogar ">
+            <div>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/baño.png" alt="Hogar Venus" height="80%"/>
+                <h3 class="texto_icono_hogar"><?php echo $banio_hogar; ?></h3>
+            </div>
         </li>
-        <li>
-            <span class="list-overview-option">Tipo: </span>
-            <span class="list-overview-value"><?php echo $tipo_hogar; ?></span>
+        <li  class="li_img_hogar ">
+            <div>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/cochera.png" alt="Hogar Venus" height="80%"/>
+                <h3 class="texto_icono_hogar"><?php echo $estacionamiento_hogar; ?></h3>
+            </div>
         </li>
-        <li>
-            <span class="list-overview-option">Terreno: </span>
-            <span class="list-overview-value"> <?php echo $terreno_hogar; ?></span>
+        <li  class="li_img_hogar ">
+            <div>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/terreno.png" alt="Hogar Venus" height="80%"/>
+                <h3 class="texto_icono_hogar"><?php echo $terreno_hogar; ?></h3>
+            </div>
         </li>
-        <li>
-            <span class="list-overview-option">Construcción:    </span>
-            <span class="list-overview-value"> <?php echo $construccion_hogar; ?></span>
+        <li  class="li_img_hogar ">
+            <div>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png" alt="Hogar Venus" height="80%"/>
+                <h3 class="texto_icono_hogar"><?php echo $construccion_hogar; ?></h3>
+            </div>
         </li>
-        <li>
-            <span class="list-overview-option"><?php echo $niveles_label; ?></span>
-            <span class="list-overview-value"><?php echo $niveles_hogar; ?></span>
+        <li  class="li_img_hogar ">
+            <div>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tipo_hogar.png" alt="Hogar Venus" height="80%"/>
+                <h3 class="texto_icono_hogar"><?php echo $tipo_hogar." ".$niveles_label." ".$niveles_hogar; ?></h3>
+
+            </div>
         </li>
-        <li>
-            <span class="list-overview-option">Baños:   </span>
-            <span class="list-overview-value"><?php echo $banio_hogar; ?></span>
+        <li  class="li_img_hogar ">
+            <div>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/patio.png" alt="Hogar Venus" height="80%"/>
+                <h3 class="texto_icono_hogar"><?php echo  $patio_hogar; ?></h3>
+            </div>
         </li>
-        <li>
-            <span class="list-overview-option">Recámaras: </span>
-            <span class="list-overview-value"><?php echo $recamara_hogar; ?></span>
-        </li>
-        <li>
-            <span class="list-overview-option">Patio: </span>
-            <span class="list-overview-value"><?php echo $patio_hogar; ?></span>
-        </li>
-        <li>
-            <span class="list-overview-option">Estacionamiento: </span>
-            <span class="list-overview-value"><?php echo $estacionamiento_hogar; ?></span>
-        </li>
+
 
     </ul>
-</div><!-- /. widget-OVERVIEW -->
+
+</div>
+
+
