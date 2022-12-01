@@ -39,7 +39,7 @@ $generales = new generales();
                     if ($es_imagen){
                             ?>
                             <div class="item<?php echo $item_activo ?>">
-                                <img src="<?php echo $direccion_hogar.$carpeta.$archivo?>" alt="<?php echo $archivo ?>" width="100%"/>
+                                <img id="imagen_slider" src="<?php echo $direccion_hogar.$carpeta.$archivo?>" alt="<?php echo $archivo ?>" />
                             </div>
                             <?php
                     }
@@ -48,6 +48,7 @@ $generales = new generales();
             }
             ?>
         </div>
+
         <!-- Previous/Next controls -->
         <?php include $generales->path_base.'templates/sliders/hogar_general/links/_boton_atras.php'?>
         <?php include $generales->path_base.'templates/sliders/hogar_general/links/_boton_adelante.php'?>

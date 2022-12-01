@@ -493,6 +493,12 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
         margin-left: 20%;
         margin-right: 20%;
     }
+    .padding-top-3vh{
+        padding-top: 0vh;
+    }
+    .float_right{
+        float: left;
+    }
 }
 .img_pq_vender{
     padding-top: 10px;
@@ -547,6 +553,9 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 .padding-top-5vh{
     padding-top: 5vh;
+}
+.padding-top-3vh{
+    padding-top: 2vh;
 }
 .padding-top-10vh{
     padding-top: 10vh;
@@ -613,6 +622,24 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     padding-left: 15px;
 
 
+}
+.right{
+   align: right;
+}
+.texto_derecha{
+    text-align: right !important;
+}
+.contenido_{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.inner_{
+    margin-right:5px;
+    margin-left:5px;
+    flex:1;
+    min-width:150px;
+    padding:0px;
 }
 .float_right{
     float: right;
