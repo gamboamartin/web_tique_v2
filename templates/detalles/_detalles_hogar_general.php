@@ -72,9 +72,10 @@ if($wt_tipo_inmueble > 0){
         <li  class="li_img_hogar ">
             <div>
                 <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/habitacion.png" alt="Hogar Venus" height="80%"/>
-
+                <br>
+                <h3 class="texto_icono_hogar"><?php echo $recamara_hogar; ?></h3>
             </div>
-            <h3 class="texto_icono_hogar"><?php echo $recamara_hogar; ?></h3>
+
 
         </li>
         <li  class="li_img_hogar ">
@@ -98,19 +99,21 @@ if($wt_tipo_inmueble > 0){
         <li  class="li_img_hogar ">
             <div>
                 <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png" alt="Hogar Venus" height="80%"/>
+                <br>
                 <h3 class="texto_icono_hogar"><?php echo $construccion_hogar; ?></h3>
             </div>
         </li>
         <li  class="li_img_hogar ">
             <div>
                 <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tipo_hogar.png" alt="Hogar Venus" height="80%"/>
+                <br>
                 <h3 class="texto_icono_hogar"><?php echo $tipo_hogar." ".$niveles_label." ".$niveles_hogar; ?></h3>
-
             </div>
         </li>
         <li  class="li_img_hogar ">
             <div>
                 <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/patio.png" alt="Hogar Venus" height="80%"/>
+                <br>
                 <h3 class="texto_icono_hogar"><?php echo  $patio_hogar; ?></h3>
             </div>
         </li>

@@ -32,11 +32,8 @@ if($wt_hogar > 0){
 }
 ?>
 <div class="widget-body">
-    <div class="widget-header widget-title text-uppercase">
-        <h2>Descripción</h2>
-    </div>
-    <div class="widget-content wide-p">
-        <img src="<?php echo $generales->url_base.$img_hogar; ?>"  class="pull-right-img" alt="" />
+
+    <div class="widget-content wide-p texto_descripcion">
         <?php echo $descripcion_hogar; ?>
     </div>
 </div>
