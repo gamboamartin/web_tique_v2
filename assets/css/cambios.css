@@ -578,6 +578,9 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     width: 100%;
     border-radius: 40px;
 }
+.img_borddes{
+    border-radius: 40px;
+}
 .padding_top{
     padding-top: 10vh;
 }
