@@ -33,17 +33,15 @@ if($wt_hogar > 0){
 }
 ?>
 
-<div class="widget widget-box box-container widget-property-map">
+<div class="">
     <form name="formulario" method="post" >
     <input name="georeferencia" id="georeferencia" value="<?php echo $georeferencia_hogar; ?>" hidden>
     <input name="ubicacion" id="ubicacion" value="<?php echo $ubicacion_hogar; ?>" hidden>
-    <div class="widget-header text-uppercase">
-        <h2>Ubicación</h2>
-    </div>
-    <div class="property-map" id='property-map-general' style='height: 385px;'></div>
-    <div class="route_suggestion form-additional" action="_ubicacion_general.php">
-        <input id="route_from" class="inputtext w360 form-control" type="text" value="" placeholder="Escribe tu dirección" name="route_from" onchange="pasarvariable()" required/>
-        <input type='submit' class="btn-second" value='Ruta sugerida'>
+
+    <div class="property-map mapa_hogar" id='property-map-general' style='height: 385px;'></div>
+    <div class="route_suggestion contenedor_centrado" action="_ubicacion_general.php">
+        <input id="route_from" class="form-control busca_tu_ubicacion" type="text" value="" placeholder="Escribe tu dirección" name="route_from" onchange="pasarvariable()" required/>
+        <input type='submit' class="btn_busca_tu_ubicacion" value='Ruta sugerida'>
 
     </div>
     </form>

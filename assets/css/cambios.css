@@ -574,6 +574,10 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     border-radius: 20px;
 
 }
+.mapa_hogar{
+    width: 100%;
+    border-radius: 40px;
+}
 .padding_top{
     padding-top: 10vh;
 }

@@ -85,6 +85,20 @@
     background-color: #0000cc !important;
     padding: 20px;
 }
+.btn_busca_tu_ubicacion{
+    align-items: center !important;
+    color: #ffffff !important;
+    text-align: center !important;
+    font-family: Montserrat-Medium !important;
+    font-size: 15px !important;
+    margin: 0px !important;
+    width: 200px;
+    border-radius:100px !important;
+    background-color: #0000cc !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
 .btn_info_cart_casa{
     color: #ffffff !important;
     text-align: center !important;
@@ -368,8 +382,20 @@
     font-size: 11px;
     color: #000000;
     border-radius: 15px;
-    background: #cccccc;
+    background: hsla(0,0%,80%,20%);
 }
+.busca_tu_ubicacion{
+    font-family: Montserrat-Medium;
+    text-align: left;
+    font-size: 11px;
+    color: #000000;
+    border-radius: 10px;
+    width: 60vh !important;
+    background: hsla(0,0%,80%,20%);
+}
+
+
+
 .padding-right_1vw{
     padding-right: 0.5vw;
 }

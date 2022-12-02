@@ -120,9 +120,12 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
                     <div class="margen_izquierda margen_derecha ">
                         <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
                     </div>
+                    <div class="margen_izquierda margen_derecha padding-top-5vh">
+                        <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
+                    </div>
 
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general_celular.php' ?>
-                    <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
+
                     <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?> <!-- falta por automatizar -->
 
 
