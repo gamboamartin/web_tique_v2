@@ -117,13 +117,23 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
                         <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
                     </div>
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
-                    <div class="margen_izquierda margen_derecha ">
+                    <div class="margen_izquierda margen_derecha color_blanco">
                         <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
                     </div>
                     <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?>
-                    <div class="margen_izquierda margen_derecha padding-top-5vh">
+                    <div class="margen_izquierda margen_derecha padding-top-5vh ">
                         <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     </div>
+                    <div class="margen_izquierda margen_derecha color_blanco">
+
+                            <h1 class="texto_vender_listo">Imprimir visatde hogar  <?php echo $nombre_hogar;?> </h1>
+                        <div class="contenedor_centrado">
+                            <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-<?php echo $url_landing_limpia?>' class="btn btn-danger regular-button btn_info_casa">Vista de impresión</a>
+                        </div>
+
+                    </div>
+
+                    <?php // include $generales->path_base . 'templates/informacion/_texto_informacion_hogar.php' ?>
 
 
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general_celular.php' ?>
@@ -135,7 +145,7 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
                 </div><!-- /.center-content -->
                 <div class="col-md-3">
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
-                    <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-<?php echo $url_landing_limpia?>' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
+
                     <?php include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
                     <?php if ($proposito_hogar_id == 1)
                         include $generales->path_base.'templates/informacion/_informacion_hogar_general.php' ?>

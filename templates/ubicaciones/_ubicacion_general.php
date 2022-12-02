@@ -33,7 +33,7 @@ if($wt_hogar > 0){
 }
 ?>
 
-<div class="">
+<div class="color_blanco">
     <form name="formulario" method="post" >
     <input name="georeferencia" id="georeferencia" value="<?php echo $georeferencia_hogar; ?>" hidden>
     <input name="ubicacion" id="ubicacion" value="<?php echo $ubicacion_hogar; ?>" hidden>

@@ -66,7 +66,7 @@ if($wt_tipo_inmueble > 0){
 
 
 ?>
-<div class="col-md-12 contenedor_centrado">
+<div class="col-md-12 contenedor_centrado color_blanco">
     <ul class="ul_img_hogar">
 
         <li  class="li_img_hogar ">

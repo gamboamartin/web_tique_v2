@@ -31,7 +31,7 @@ if($wt_hogar > 0){
     $descripcion_hogar = $wt_hogar['wt_hogar_observaciones'];
 }
 ?>
-<div class="widget-body">
+<div class="widget-body color_blanco">
     <div class="widget-header widget-title text-uppercase">
         <h2>Descripción</h2>
     </div>
