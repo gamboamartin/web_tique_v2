@@ -133,8 +133,8 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
 
                     </div>
 
-                    
-                    <?php // include $generales->path_base . 'templates/informacion/_texto_informacion_hogar.php' ?>
+
+                    <?php  include $generales->path_base . 'templates/informacion/_texto_informacion_hogar.php' ?>
 
 
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general_celular.php' ?>
