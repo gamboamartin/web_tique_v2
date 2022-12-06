@@ -14,7 +14,7 @@ $generales = new generales();
         <!-- Carousel container -->
         <div id="header-slider" class="carousel slide vh-70"  data-ride="carousel" >
 
-            <?php include 'templates/sliders/index/_contenido_carrusel.php'?>
+            <?php include $generales->path_base.'templates/sliders/index/_contenido_carrusel.php'?>
             <!-- Previous/Next controls -->
 
 

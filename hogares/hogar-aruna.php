@@ -135,14 +135,15 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
 
 
                     <?php if ($proposito_hogar_id == 1)
-                    include $generales->path_base . 'templates/informacion/_texto_informacion_hogar.php' ?>
+                    include $generales->path_base . 'templates/informacion/_texto_informacion_hogar.php'; ?>
 
                     <?php //include  $generales->path_base.'templates/facebook/_fb_comments_hogar_general.php'?>
                     <div class="padding-top-5vh">
                         <h2 class="titulo_slider_hogares">También te podría interesar</h2>
                     </div>
                     <!-- /.ES EN ESTA LINEA INGE!!! -->
-                    <?php // include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
+                    <?php
+                    include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
                     ?>
 
 
