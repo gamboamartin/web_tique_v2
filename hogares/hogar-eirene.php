@@ -87,13 +87,15 @@ $descripcion_twitter = "Hogar Eirene se encuentra situado en un tranquilo y armo
                     </div>
                     <div class="control-group col-sm-2 margen_izquierda center_item">
                         <div class="contenido_"  >
-                            <div class="inner_ ">
-                                <div class="btn_casa_vendida_x float_right">
-                                    <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
+                            <?php if ($proposito_hogar_id == 2){?>
 
+                                <div class="inner_ ">
+                                    <div class="btn_casa_vendida_x float_right">
+                                        <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
+
+                                    </div>
                                 </div>
-                            </div>
-
+                            <?php } ?>
 
                             <div class="padding-top-3vh inner_"  >
 

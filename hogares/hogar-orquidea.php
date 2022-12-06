@@ -91,8 +91,16 @@ fácil y rápido acceso a, hospitales, escuelas, tiendas de autoservicio, unidad
                     <div class="control-group col-sm-2 margen_izquierda center_item">
                         <div class="contenido_"  >
                             <div class="inner_ ">
-                                <div class="btn_casa_vendida_x float_right">
-                                    <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
+                                <div class="float_right">
+                                    <?php if ($proposito_hogar_id == 2){?>
+                                            <div class="btn_casa_vendida_x ">
+                                                <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
+
+                                            </div>
+
+                                    <?php } ?>
+                                    <h4 class=" btn_info_casa" style=" color: #0000cc !important; background-color: #cccccc !important"> Renovada </h4>
+
 
                                 </div>
                             </div>

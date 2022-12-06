@@ -91,12 +91,15 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
                     </div>
                     <div class="control-group col-sm-2 margen_izquierda center_item">
                         <div class="contenido_"  >
+                        <?php if ($proposito_hogar_id == 2){?>
+
                             <div class="inner_ ">
                                 <div class="btn_casa_vendida_x float_right">
                                     <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
 
                                 </div>
                             </div>
+                            <?php } ?>
 
 
                             <div class="padding-top-3vh inner_"  >
