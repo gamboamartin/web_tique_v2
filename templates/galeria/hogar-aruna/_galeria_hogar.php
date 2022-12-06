@@ -1,7 +1,7 @@
 <?php
-    $a = $generales->url_base."assets/img/venta_casas/hogar_aruna/1Fachada/1662066848694.jpg";
-    $b = $generales->url_base."assets/img/venta_casas/hogar_aruna/8Entorno/8.jpg";
-    $c = $generales->url_base."assets/img/venta_casas/hogar_aruna/2Sala/1662066848627.jpg";
+$a = $generales->url_base."assets/img/venta_casas/hogar_orquidea/1Fachada/1662066955339.jpg";
+$b = $generales->url_base."assets/img/venta_casas/hogar_orquidea/3Cocina/03.jpeg";
+$c = $generales->url_base."assets/img/venta_casas/hogar_orquidea/4Recamara1/recamara1.jpeg";
 ?>
 
 

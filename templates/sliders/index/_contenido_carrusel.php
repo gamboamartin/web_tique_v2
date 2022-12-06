@@ -6,18 +6,15 @@ $generales = new generales();
     <!-- Slide 1 -->
     <div class="item active">
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_venus/1Fachada/9 (1).jpg" alt="Hogar Venus" height="100%"/>
-
+    </div>
+    <div class="item">
+        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_orquidea/1Fachada/1662066955339.jpg" alt="Hogar Orquidea" height="100%"/>
     </div>
     <div class="item">
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_pasitea/1Fachada/Hacienda Real.png" alt="Hogar Pasítea" height="100%"/>
     </div>
     <div class="item">
-        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_orquidea/1Fachada/1662066955339.jpg" alt="Hogar Orquidea" height="100%"/>
-
-    </div>
-    <div class="item">
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_aruna/1Fachada/1662066848694.jpg" alt="Hogar Aruna" height="100%"/>
-
     </div>
     <div class="item">
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_beatriz/1Fachada/1.jpg" alt="Hogar Beatriz" height="100%" />
