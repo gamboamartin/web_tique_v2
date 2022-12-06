@@ -46,6 +46,7 @@ if(count($a)>2) {
     $b = explode(",", $costo,2);
     $costo=$b[0]."'".$b[1];
 }
+
 $descripcion_twitter ='Hogar Edén se encuentra dentro de Campo Real un bonito Fraccionamiento Residencial ubicado en el Municipio de Zapopan,
                         Jalisco, característico por sus extensas áreas verdes, parque lineal y su bonito lago artificial. Hogar Edén es ideal 
                         para la convivencia y recreación familiar ya que cuenta con canchas deportivas, terraza familiar, Hogar Edén cuenta con 
