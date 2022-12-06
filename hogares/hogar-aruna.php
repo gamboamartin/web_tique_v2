@@ -155,20 +155,6 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
 
 
                 </div>
-
-
-
-
-
-
-
-                    
-
-
-
-
-
-
                 </div>
             </div>
         </div>
