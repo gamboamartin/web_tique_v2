@@ -344,6 +344,12 @@
     font-size: 22px;
     color: #999999;
 }
+.titulo_slider_hogares{
+    font-family: Montserrat-Black;
+    text-align: center;
+    font-size: 35px;
+    color: #999999;
+}
 .subtitulo_hogar_gris{
     font-family: Montserrat-Black;
     text-align: left;

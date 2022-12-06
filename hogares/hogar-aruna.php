@@ -134,22 +134,24 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
                     </div>
 
 
-                    <?php  include $generales->path_base . 'templates/informacion/_texto_informacion_hogar.php' ?>
+                    <?php if ($proposito_hogar_id == 1)
+                    include $generales->path_base . 'templates/informacion/_texto_informacion_hogar.php' ?>
+
+                    <?php //include  $generales->path_base.'templates/facebook/_fb_comments_hogar_general.php'?>
+                    <div class="padding-top-5vh">
+                        <h2 class="titulo_slider_hogares">También te podría interesar</h2>
+                    </div>
+                    <!-- /.ES EN ESTA LINEA INGE!!! -->
+                    <?php // include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
+                    ?>
 
 
-                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general_celular.php' ?>
 
-                     <!-- falta por automatizar -->
-
-
-                    <?php include $generales->path_base.'templates/facebook/_fb_comments_hogar_general.php'?>
                 </div><!-- /.center-content -->
                 <div class="col-md-3">
-                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
 
-                    <?php include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
-                    <?php if ($proposito_hogar_id == 1)
-                        include $generales->path_base.'templates/informacion/_informacion_hogar_general.php' ?>
+                    <?php //include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
+
 
                 </div>
 

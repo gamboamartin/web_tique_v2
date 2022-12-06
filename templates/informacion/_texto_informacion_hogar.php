@@ -3,7 +3,6 @@ use config\generales;
 $generales = new generales();
 
 use base\conexion;
-use gamboamartin\errores\errores;
 use models\wt_hogar;
 
 $conf_database = new stdClass();

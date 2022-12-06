@@ -1,6 +1,8 @@
 <?php
 use config\generales;
 $generales = new generales();
+
+
 ?>
 <div class="carousel-inner" role="listbox" id="altura_slider">
     <!-- Slide 1 -->
