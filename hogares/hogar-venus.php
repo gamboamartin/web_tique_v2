@@ -30,11 +30,21 @@ $wt_hogar = $wt_hogar_modelo->obtener_registro_wt_hogar($landing_url_sin_ext);
 
 $img_hogar = '';
 $nombre_hogar = '';
-
-if($wt_hogar > 0){
+$municipio = "Zapopan";
+$buscar = stripos($wt_hogar['wt_hogar_ubicacion'], $municipio);
+if($wt_hogar > 0 and $buscar !== false){
+    $direccion = $wt_hogar['wt_hogar_ubicacion'];
     $img_hogar = $wt_hogar['wt_hogar_img_descripcion'];
     $nombre_hogar = $wt_hogar['wt_hogar_descripcion'];
     $proposito_hogar_id = $wt_hogar['wt_hogar_wt_proposito_id'];
+
+}
+$numero=1190000;
+$costo= number_format($numero, 2);
+$a = explode(",", $costo);
+if(count($a)>2) {
+    $b = explode(",", $costo,2);
+    $costo=$b[0]."'".$b[1];
 }
 
 $descripcion_twitter = 'Hogar Venus es una bonita vivienda dentro del Fraccionamiento Residencial Campo Real ubicado en el  Municipio de Zapopan, Jalisco, esta vivienda es muy confortable por su amplia distribución y su magnífica construcción, hogar venus se caracteriza por su ubicación excepcional rodeada de extensas áreas verdes, además dentro del fraccionamiento se encuentra parque lineal y su bonito lago artificial. Hogar Venus es ideal para la convivencia y recreación familiar ya que cuenta con canchas deportivas, terraza familiar.'; //falta por automatizar
@@ -58,49 +68,106 @@ $descripcion_twitter = 'Hogar Venus es una bonita vivienda dentro del Fraccionam
 <img src="<?php echo $generales->url_base.$img_hogar; ?>" hidden>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v14.0" nonce="Ug42YVNC"></script>
-<div class="container container-wrapper">
+<div class="container container-wrapper color_blanco">
     <header class="header">
         <?php include $generales->path_base.'templates/head/_head.php' ?>
     </header><!-- /.header-->
-    <main class="main section-color-primary">
-        <div class="container">
-            <section class="top-title">
-                <ul class="breadcrumb">
-                    <li class="item"><a href="<?php echo $generales->url_base; ?>index.php"> Inicio </a></li>
-                    <li class="item"> <?php echo $nombre_hogar;?> </li>
-                </ul>
-                <h1 class="h-side-title page-title page-title-big text-color-primary"><?php echo $nombre_hogar;?></h1>
-            </section> <!-- /. content-header -->
+    <main class="main ">
+        <div class="container contenedor_index">
             <div class="row">
-                <div class="col-md-9">
-                    <div class="widget widget-box box-container widget-property">
-                        <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
-                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
-                    </div> <!-- /. widget-body -->
-                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general_celular.php' ?>
-                    <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
-                    <?php include $generales->path_base.'templates/galeria/hogar-venus/_galeria_hogar.php' ?> <!-- falta por automatizar -->
+                <div class="col-md-12 padding-top-5vh padding_bottom_5vh ">
+                    <div class="control-group col-sm-8 margen_izquierda center_item">
+                        <ul class="breadcrumb">
+                            <li class="item"><a href="<?php echo $generales->url_base; ?>index.php"> Inicio </a></li>
+                            <li class="item"> <?php echo $nombre_hogar;?> </li>
+                        </ul>
+                        <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
+                        <h1 class="titulo_notice"><?php echo $nombre_hogar;?></h1>
+                        <h3 class="texto_hoagar_h3"><?php echo $direccion;?></h3>
+                    </div>
+                    <div class="control-group col-sm-2 margen_izquierda center_item">
+                        <div class="contenido_"  >
+                            <?php if ($proposito_hogar_id == 2){?>
+
+                                <div class="inner_ ">
+                                    <div class="btn_casa_vendida_x float_right">
+                                        <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
+
+                                    </div>
+                                </div>
+                            <?php } ?>
+                            <h4 class=" btn_info_casa" style=" color: #0000cc !important; background-color: #cccccc !important"> Renovada </h4>
 
 
-                    <?php include $generales->path_base.'templates/facebook/_fb_comments_hogar_general.php'?>
-                </div><!-- /.center-content -->
-                <div class="col-md-3">
-                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
-                    <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-<?php echo $url_landing_limpia?>' class="btn btn-primary color-primary btn-property btn-print">Vista de impresión</a>
-                    <?php include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
-                    <?php if ($proposito_hogar_id == 1)
-                        include $generales->path_base.'templates/informacion/_informacion_hogar_general.php' ?>
+                            <div class="padding-top-3vh inner_"  >
+
+                                <h4 class="texto_hoagar_h3 texto_derecha"  >Precio total (MXN) </h4>
+
+                                <h4 class="subtitulo_hogar_gris texto_derecha"><?php echo $costo;?> </h4>
+
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
-                <!-- /.right side bar -->
+
+                <div class="col-md-12 padding_bottom_5vh " >
+                    <div class="color_azul padding-top-10vh padding_bottom_5vh">
+                        <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
+                    </div>
+                    <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
+                    <div class="margen_izquierda margen_derecha color_blanco">
+                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
+                    </div>
+                    <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?>
+                    <div class="margen_izquierda margen_derecha padding-top-5vh ">
+                        <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
+                    </div>
+                    <div class="margen_izquierda margen_derecha color_blanco">
+
+                        <h1 class="texto_vender_listo">Imprimir visatde hogar  <?php echo $nombre_hogar;?> </h1>
+                        <div class="contenedor_centrado">
+                            <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-<?php echo $url_landing_limpia?>' class="btn btn-danger regular-button btn_info_casa">Vista de impresión</a>
+                        </div>
+
+                    </div>
+
+
+                    <?php if ($proposito_hogar_id == 1)
+                        include $generales->path_base . 'templates/informacion/_texto_informacion_hogar.php'; ?>
+
+                    <?php //include  $generales->path_base.'templates/facebook/_fb_comments_hogar_general.php'?>
+                    <div class="padding-top-5vh">
+                        <h2 class="titulo_slider_hogares">También te podría interesar</h2>
+                    </div>
+                    <!-- /.ES EN ESTA LINEA INGE!!! -->
+                    <?php
+                    include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
+                    ?>
+
+
+
+                </div><!-- /.center-content -->
+                <div class="col-md-3">
+
+                    <?php //include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
+
+
+                </div>
             </div>
         </div>
-    </main><!-- /.main-part-->
-    <footer class="footer">
-        <?php include $generales->path_base.'templates/footer/_footer.php' ?>
-    </footer>
-    <a class="btn btn-scoll-up color-secondary" id="btn-scroll-up"></a>
 </div>
-<?php include $generales->path_base.'templates/java.php' ?>
+</main>
+
+<footer class="footer">
+    <?php include $generales->path_base . 'templates/footer/_footer.php' ?>
+</footer>
+<a class="btn  " id="btn-scroll-up"> <img src="<?php echo $generales->url_base;?>assets/img/ICONO-16.jpg" alt="" class="img_scroll" /></a>
+</div>
+
+<?php include $generales->path_base . 'templates/java.php' ?>
+
 </body>
+
 </html>
