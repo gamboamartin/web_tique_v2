@@ -37,7 +37,7 @@ if($wt_hogar > 0 and $buscar !== false){
     $img_hogar = $wt_hogar['wt_hogar_img_descripcion'];
     $nombre_hogar = $wt_hogar['wt_hogar_descripcion'];
     $proposito_hogar_id = $wt_hogar['wt_hogar_wt_proposito_id'];
-    $municipio="Tonalá";
+    $municipio="Zapopan";
 }
 $numero=1190000;
 $costo= number_format($numero, 2);
