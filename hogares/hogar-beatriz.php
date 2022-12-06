@@ -27,7 +27,7 @@ $url_landing_limpia = limpia_url_landing(url_landing: $url_landing);
 $landing_url_sin_ext = quitar_php(url_landing_limpia: $url_landing_limpia);
 
 $wt_hogar = $wt_hogar_modelo->obtener_registro_wt_hogar($landing_url_sin_ext);
-$direccion='';
+
 $img_hogar = '';
 $nombre_hogar = '';
 $nombre_calle = "Beatriz Hernández";
