@@ -401,7 +401,22 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     display: flex;
     justify-content: center;
 }
+.oculta{
+    display: none;
+}
+.img_modal_logo{
+    width: 20vw;
+    height: 20vh;
+}
 @media screen and (min-width: 480px) {
+    .img_modal_logo{
+        width: 15vw;
+        height: 15vh;
+    }
+    .oculta{
+        display: flex;
+        justify-content: center;
+    }
     .lineas_paralelas{
         border-top-style: none;
         border-bottom-style: none;
@@ -587,6 +602,9 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .margin_top{
     margin-top: 5vh;
 }
+.margin_bottom{
+    margin-bottom: 5vh;
+}
 .contenedor_formulario_4{
     width: 80%;
     border-radius: 40px;
@@ -628,8 +646,15 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     margin-left: 5vw;
 
 }
+.margen_izquierda3{
+    margin-left: 3vw;
+
+}
 .margen_derecha{
     margin-right: 5vw;
+}
+.margen_derecha3{
+    margin-right: 3vw;
 }
 .btn_casa_vendida_x{
 
@@ -663,6 +688,9 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 .float_right{
     float: right;
+}
+.float_left{
+    float: left;
 }
 .ul_img_hogar{
     list-style-type: none;

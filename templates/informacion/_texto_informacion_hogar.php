@@ -57,7 +57,7 @@ if($wt_hogar > 0){
             background-color: #ffffff;
             margin: auto;
             padding: 0;
-            border: 1px solid #888;
+            border: 0px solid #888;
             width: 80%;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
             -webkit-animation-name: animatetop;
@@ -79,8 +79,8 @@ if($wt_hogar > 0){
 
         /* The Close Button */
         .close {
-            padding-bottom: 10vh;
-            color: white;
+            padding-bottom: 0vh;
+            color: #FFFFFF;
             float: right;
             font-size: 28px;
             font-weight: bold;
@@ -88,13 +88,13 @@ if($wt_hogar > 0){
 
         .close:hover,
         .close:focus {
-            color: #000;
+            color: #FF3300;
             text-decoration: none;
             cursor: pointer;
         }
 
         .modal-header {
-            padding: 2px 16px;
+            padding: 0px;
             background-color: #0000Cc;
             color: #ffffff;
         }
@@ -122,7 +122,7 @@ if($wt_hogar > 0){
             <div class="container-fluid h-100">
                 <div class="row w-100 align-items-center">
                     <div class="col text-center">
-                        <button class="btn btn-danger regular-button btn_info_casa" style="background: #FFFFFF !important; color: #0000Cc !important;" id="myBtn" >  Ver todo  </button>
+                        <button class="btn btn-danger regular-button btn_info_casa" style="background: #FFFFFF !important; color: #0000Cc !important;" id="myBtn" >  Agenda una cita </button>
                     </div>
                 </div>
             </div>
@@ -135,15 +135,35 @@ if($wt_hogar > 0){
 <div id="myModal" class="modal">
 
     <!-- Modal content -->
-    <div class="modal-content redondear_esquinas_30px">
+    <div class="modal-content redondear_esquinas_30px ">
         <div class="modal-header redondear_esquinas_arriba">
-            <span class="close padding-top-5vh"> &times;</span>
-            <h2>Modal Header</h2>
+            <div class="container">
+                <div class=" row">
+                    <div class="logo pull-left pull-sm-up col-sm-3 margen_izquierda3 text-left">
+                        <img class="img_modal_logo" src="<?php echo $generales->url_base; ?>assets/img/icons/Logotipo-TIQUE.png" alt="" />
+                    </div>
+                    <div class="col-sm-7 padding-top-5vh oculta">
+                        <h1 class="texto_mapa"><?php echo $nombre_hogar;?></h1>
+                    </div>
+                    <div class="col-sm-1 ">
+                        <span class="close margen_derecha" style="margin-top: 5vh;"> &times;</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
         </div>
         <div class="modal-body">
 
 
-            <form class=" padding-top-5vh  "  action="<?php echo $_SERVER['PHP_SELF']; ?>"  method="post">
+            <form class=" padding-top-5vh  contenedor_formulario"  action="<?php echo $generales->url_base; ?>pedir-informes.php" method="post">
                 <div class="control-group col-sm-12 center_item">
                     <label class="control-label texto_formulario" for="name">Nombre completo</label>
                     <div class="controls">
