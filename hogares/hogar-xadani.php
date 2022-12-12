@@ -132,7 +132,7 @@ $descripcion_twitter = '    Hogar Xadani se ubica al oriente del Área Metropoli
                     <div class="margen_izquierda margen_derecha color_blanco">
                         <?php include $generales->path_base.'templates/descripcion/_descripcion_general_xadani.php' ?>
                     </div>
-                    <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?>
+                    <?php include $generales->path_base.'templates/galeria/hogar-xadani/_galeria_hogar.php' ?>
                     <div class="margen_izquierda margen_derecha padding-top-5vh ">
                         <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     </div>

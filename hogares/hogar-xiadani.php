@@ -127,7 +127,7 @@ $descripcion_twitter = '    Hogar Xiadani bonita casa en el fraccionamiento  ubi
                     <div class="margen_izquierda margen_derecha color_blanco">
                         <?php include $generales->path_base.'templates/descripcion/_descripcion_general_xiadani.php' ?>
                     </div>
-                    <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?>
+                    <?php include $generales->path_base.'templates/galeria/hogar-xiadani/_galeria_hogar.php' ?>
                     <div class="margen_izquierda margen_derecha padding-top-5vh ">
                         <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     </div>
