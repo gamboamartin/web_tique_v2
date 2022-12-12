@@ -46,28 +46,16 @@ if($wt_hogar > 0){
 	</style>
 </head>
 <body link="#000080" vlink="#800000" dir="ltr"><p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm">
-<font size="2" style="font-size: 10pt">Hogar Xadani se ubica al
-oriente del Área Metropolitana de Guadalajara en un exclusivo y
-Fraccionamiento del municipio de Tonalá, ideal para el bienestar de
-su familia por su tranquilidad y modernidad, Fraccionamiento Urbi, se
-caracteriza por tener una vista hacia la naturaleza inigualable,
-Hogar Xadani cuenta con fácil acceso a escuelas, parques de
-recreación familiar y centros comerciales. </font>
+<font size="2" style="font-size: 10pt">Hogar Xiadani bonita casa en el fraccionamiento  ubicado en la parte Sur del área metropolitana de Guadalajara, ideal para vivir en un ambiente familiar y de tranquilidad, ya que cuenta con ingreso controlado y muro perimetral. Ideal para un estilo de vida armonioso, ya que está consolidado en cuestión de infraestructura, como lo son áreas verdes, áreas infantiles y de recreación familiar, área comercial ideales para la convivencia familiar, es sin duda una vivienda. </font>
 </p>
 <p align="justify" style="margin-bottom: 0cm">
 
 </p>
-<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-size: 10pt">Hogar
-Xadani es una Casa Habitación de dos niveles que se distribuye de la
-siguiente manera, en la planta baja Sala, Comedor, Cocina, patio
-trasero de servicio, y en la planta alta 2 recámaras, 1 baño,
-cuenta con su propia cochera para un auto.</font></p>
+<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-size: 10pt">Hagar Xiadani es una casa amplia distribuida de la siguiente manera, en la planta baja cuenta con sala, cocina, comedor, 1 recamara, cochera para 1 vehículo, patio, la planta  alta está distribuida en 2 recámaras, 1 baño completo, sala de estar.</font></p>
 <p align="justify" style="margin-bottom: 0cm">
 
 </p>
-<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-size: 10pt">A
-solo unos cuantos metros de Nuevo Periférico vialidad principal para
-trasladarte más rápido y más cómodo. </font>
+<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-size: 10pt">Para poder llegar a Hogar Xiadani se encuentra a 5  minutos del Periférico y sobre Av. Adolf B. Horn importantes vías de la ciudad. </font>
 </p>
 <p style="margin-bottom: 0cm"><br/>
 

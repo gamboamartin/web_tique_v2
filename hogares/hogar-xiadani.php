@@ -30,7 +30,7 @@ $wt_hogar = $wt_hogar_modelo->obtener_registro_wt_hogar($landing_url_sin_ext);
 
 $img_hogar = '';
 $nombre_hogar = '';
-$municipio = "Tonalá";
+$municipio = "Tlajomulco de Zuñiga";
 $buscar = stripos($wt_hogar['wt_hogar_ubicacion'], $municipio);
 if($wt_hogar > 0 and $buscar !== false){
     $direccion = $wt_hogar['wt_hogar_ubicacion'];
@@ -39,7 +39,7 @@ if($wt_hogar > 0 and $buscar !== false){
     $proposito_hogar_id = $wt_hogar['wt_hogar_wt_proposito_id'];
 
 }
-$numero=1120000;
+$numero=1200000;
 $costo= number_format($numero, 2);
 $a = explode(",", $costo);
 if(count($a)>2) {
@@ -47,12 +47,7 @@ if(count($a)>2) {
     $costo=$b[0]."'".$b[1];
 }
 
-$descripcion_twitter = '    Hogar Xadani se ubica al oriente del Área Metropolitana de Guadalajara en un
- exclusivo y Fraccionamiento del municipio de Tonalá, ideal para el bienestar de su familia por su 
- tranquilidad y modernidad, Fraccionamiento Urbi, se caracteriza por tener una vista hacia la naturaleza
-  inigualable, Hogar Xadani cuenta con fácil acceso a escuelas, parques de recreación familiar y centros
-  comerciales. 
-    yfyifyi
+$descripcion_twitter = '    Hogar Xiadani bonita casa en el fraccionamiento  ubicado en la parte Sur del área metropolitana de Guadalajara, ideal para vivir en un ambiente familiar y de tranquilidad, ya que cuenta con ingreso controlado y muro perimetral. Ideal para un estilo de vida armonioso, ya que está consolidado en cuestión de infraestructura, como lo son áreas verdes, áreas infantiles y de recreación familiar, área comercial ideales para la convivencia familiar, es sin duda una vivienda.
  '; //falta por automatizar
 ?>
 
@@ -104,7 +99,7 @@ $descripcion_twitter = '    Hogar Xadani se ubica al oriente del Área Metropoli
 
                                     <?php }
                                     else{?>
-                                    <h4 class=" btn_info_casa" style=" color: #0000cc !important; background-color: #cccccc !important"> En renovación </h4>
+                                        <h4 class=" btn_info_casa" style=" color: #0000cc !important; background-color: #cccccc !important"> En renovación </h4>
                                     <?php } ?>
 
                                 </div>
@@ -130,7 +125,7 @@ $descripcion_twitter = '    Hogar Xadani se ubica al oriente del Área Metropoli
                     </div>
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     <div class="margen_izquierda margen_derecha color_blanco">
-                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general_xadani.php' ?>
+                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general_xiadani.php' ?>
                     </div>
                     <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?>
                     <div class="margen_izquierda margen_derecha padding-top-5vh ">
