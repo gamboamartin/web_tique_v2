@@ -22,7 +22,7 @@ $generales = new generales();
             <main class="main section-color-primary">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-md-10">
                             <div class="h-side top-pad h-side-slim clearfix">
 
                             </div> <!-- /. content-header -->
