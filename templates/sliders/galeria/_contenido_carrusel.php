@@ -27,7 +27,7 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/lista_casas/hogar-beatriz/_carta_casa.php';
         include $generales->path_base.'templates/lista_casas/hogar-aruna/_carta_casa.php'; ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-cihualpilli/_carta_casa.php' ?>
-       
+
     </div>
     <div class="item">
         <?php include $generales->path_base.'templates/lista_casas/hogar-eden/_carta_casa.php' ?>
