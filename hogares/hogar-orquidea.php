@@ -127,7 +127,7 @@ fácil y rápido acceso a, hospitales, escuelas, tiendas de autoservicio, unidad
                     <div class="margen_izquierda margen_derecha color_blanco">
                         <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
                     </div>
-                    <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?>
+                    <?php include $generales->path_base.'templates/galeria/hogar-orquidea/_galeria_hogar.php' ?>
                     <div class="margen_izquierda margen_derecha padding-top-5vh ">
                         <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     </div>

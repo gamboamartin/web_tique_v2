@@ -45,17 +45,16 @@ if($wt_hogar > 0){
 		p { line-height: 115%; text-align: left; orphans: 2; widows: 2; margin-bottom: 0.25cm; direction: ltr; background: transparent }
 	</style>
 </head>
-<body link="#000080" vlink="#800000" dir="ltr"><p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm">
-<font size="2" style="font-size: 10pt">Hogar Xiadani bonita casa en el fraccionamiento  ubicado en la parte Sur del área metropolitana de Guadalajara, ideal para vivir en un ambiente familiar y de tranquilidad, ya que cuenta con ingreso controlado y muro perimetral. Ideal para un estilo de vida armonioso, ya que está consolidado en cuestión de infraestructura, como lo son áreas verdes, áreas infantiles y de recreación familiar, área comercial ideales para la convivencia familiar, es sin duda una vivienda. </font>
+        <body link="#000080" vlink="#800000" dir="ltr"><p align="justify" style=" font-family: Montserrat-Light; text-indent: 1.27cm; margin-bottom: 0cm">
+            <font size="2" style="font-size: 13px; font-family: Montserrat-Light;">Hogar Xiadani bonita casa en el fraccionamiento  ubicado en la parte Sur del área metropolitana de Guadalajara, ideal para vivir en un ambiente familiar y de tranquilidad, ya que cuenta con ingreso controlado y muro perimetral. Ideal para un estilo de vida armonioso, ya que está consolidado en cuestión de infraestructura, como lo son áreas verdes, áreas infantiles y de recreación familiar, área comercial ideales para la convivencia familiar, es sin duda una vivienda. </font>
 </p>
-<p align="justify" style="margin-bottom: 0cm">
+        <p align="justify" style="margin-bottom: 0.5cm">
 
-</p>
-<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-size: 10pt">Hagar Xiadani es una casa amplia distribuida de la siguiente manera, en la planta baja cuenta con sala, cocina, comedor, 1 recamara, cochera para 1 vehículo, patio, la planta  alta está distribuida en 2 recámaras, 1 baño completo, sala de estar.</font></p>
-<p align="justify" style="margin-bottom: 0cm">
+        </p>
+        <p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-family: Montserrat-Light; font-size: 13px">Hagar Xiadani es una casa amplia distribuida de la siguiente manera, en la planta baja cuenta con sala, cocina, comedor, 1 recamara, cochera para 1 vehículo, patio, la planta  alta está distribuida en 2 recámaras, 1 baño completo, sala de estar.</font></p>
+        <p align="justify" style="margin-bottom: 0.5cm">
 
-</p>
-<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-size: 10pt">Para poder llegar a Hogar Xiadani se encuentra a 5  minutos del Periférico y sobre Av. Adolf B. Horn importantes vías de la ciudad. </font>
+        <p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-family: Montserrat-Light; font-size: 13px">Para poder llegar a Hogar Xiadani se encuentra a 5  minutos del Periférico y sobre Av. Adolf B. Horn importantes vías de la ciudad. </font>
 </p>
 <p style="margin-bottom: 0cm"><br/>
 

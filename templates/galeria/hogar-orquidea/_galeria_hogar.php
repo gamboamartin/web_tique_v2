@@ -1,34 +1,34 @@
 <?php
-    $a = $generales->url_base."assets/img/venta_casas/hogar_orquidea/1Fachada/1662066955339.jpg";
-    $b = $generales->url_base."assets/img/venta_casas/hogar_orquidea/2Sala/1662066955093.jpg";
-    $c = $generales->url_base."assets/img/venta_casas/hogar_orquidea/3Comedor/1662066955123.jpg";
+$a = $generales->url_base."assets/img/venta_casas/hogar_orquidea/1Fachada/1662066955339.jpg";
+$b = $generales->url_base."assets/img/venta_casas/hogar_orquidea/2Sala/IMG_20221211_125840.jpg";
+$c = $generales->url_base."assets/img/venta_casas/hogar_orquidea/3Comedor/IMG_02.jpg";
+
 ?>
 
 
-<div class="widget widget-box box-container">
-    <div class="widget-header text-uppercase">
-        <h2>Imágenes</h2>
-    </div>
+
+<div class="margen_izquierda margen_derecha padding-top-5vh">
+
     <ul data-target="#modal-gallery" data-toggle="modal-gallery" class="images-gallery clearfix">
 
 
-        <li class="col-xs-4">
-            <a data-gallery="gallery" href="<?php echo $a ?>" title="" download="<?php echo $a ?>" class="preview show-icon">
-                <img src="<?php echo $a ?>" class="" alt=""/>
+        <li class="col-xs-4 ">
+            <a data-gallery="gallery" href="<?php echo $a ?>" title="" download="<?php echo $a ?>" class="preview show-icon ">
+                <img  src="<?php echo $a ?>" class="" alt=""/>
             </a>
-            <div class="preview-img"><img src="<?php echo $a ?>" data-src="<?php echo $a ?>" alt="" class="" width="10px"/></div>
+            <div class="preview-img img_borddes"><img src="<?php echo $a ?>" data-src="<?php echo $a ?>" alt="" class="img_borddes" width="10px"/></div>
         </li>
         <li class="col-xs-4">
             <a data-gallery="gallery" href="<?php echo $b ?>" title="" download="<<?php echo $b ?>" class="preview show-icon">
                 <img src="<?php echo $b ?>" class="" alt=""/>
             </a>
-            <div class="preview-img"><img src="<?php echo $b ?>" data-src="<?php echo $b ?>" alt="" class="" /></div>
+            <div class="preview-img img_borddes"><img src="<?php echo $b ?>" data-src="<?php echo $b ?>" alt="" class="img_borddes" /></div>
         </li>
         <li class="col-xs-4">
             <a data-gallery="gallery" href="<?php echo $c ?>" title="" download="<?php echo $c ?>" class="preview show-icon">
                 <img src="<?php echo $c ?>" class="" alt=""/>
             </a>
-            <div class="preview-img"><img src="<?php echo $c ?>" data-src="<?php echo $c ?>" alt="" class="" /></div>
+            <div class="preview-img img_borddes"><img src="<?php echo $c ?>" data-src="<?php echo $c ?>" alt="" class="img_borddes" /></div>
         </li>
 
     </ul>

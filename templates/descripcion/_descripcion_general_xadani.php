@@ -45,8 +45,8 @@ if($wt_hogar > 0){
 		p { line-height: 115%; text-align: left; orphans: 2; widows: 2; margin-bottom: 0.25cm; direction: ltr; background: transparent }
 	</style>
 </head>
-<body link="#000080" vlink="#800000" dir="ltr"><p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm">
-<font size="2" style="font-size: 10pt">Hogar Xadani se ubica al
+<body link="#000080" vlink="#800000" dir="ltr"><p align="justify" style=" font-family: Montserrat-Light; text-indent: 1.27cm; margin-bottom: 0cm">
+<font size="2" style="font-size: 13px; font-family: Montserrat-Light;">Hogar Xadani se ubica al
 oriente del Área Metropolitana de Guadalajara en un exclusivo y
 Fraccionamiento del municipio de Tonalá, ideal para el bienestar de
 su familia por su tranquilidad y modernidad, Fraccionamiento Urbi, se
@@ -54,18 +54,17 @@ caracteriza por tener una vista hacia la naturaleza inigualable,
 Hogar Xadani cuenta con fácil acceso a escuelas, parques de
 recreación familiar y centros comerciales. </font>
 </p>
-<p align="justify" style="margin-bottom: 0cm">
+<p align="justify" style="margin-bottom: 0.5cm">
 
 </p>
-<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-size: 10pt">Hogar
+<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-family: Montserrat-Light; font-size: 13px">Hogar
 Xadani es una Casa Habitación de dos niveles que se distribuye de la
 siguiente manera, en la planta baja Sala, Comedor, Cocina, patio
 trasero de servicio, y en la planta alta 2 recámaras, 1 baño,
 cuenta con su propia cochera para un auto.</font></p>
-<p align="justify" style="margin-bottom: 0cm">
+<p align="justify" style="margin-bottom: 0.5cm">
 
-</p>
-<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-size: 10pt">A
+<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-family: Montserrat-Light; font-size: 13px">A
 solo unos cuantos metros de Nuevo Periférico vialidad principal para
 trasladarte más rápido y más cómodo. </font>
 </p>
