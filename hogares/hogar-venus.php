@@ -120,7 +120,7 @@ $descripcion_twitter = 'Hogar Venus es una bonita vivienda dentro del Fraccionam
                     <div class="margen_izquierda margen_derecha color_blanco">
                         <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
                     </div>
-                    <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?>
+                    <?php include $generales->path_base.'templates/galeria/hogar-venus/_galeria_hogar.php' ?>
                     <div class="margen_izquierda margen_derecha padding-top-5vh ">
                         <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     </div>
