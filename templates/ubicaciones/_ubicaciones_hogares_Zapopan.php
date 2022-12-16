@@ -25,13 +25,11 @@ $hogares = array();
 foreach ($wt_hogar_modelo->obten_registros_activos()->registros as $registro){
     $hogar = array();
 
-    $estado = "Zapopan";
-    $call_nom= "Fuente Agua Marina";
-    $calle_nombre = "Av. Paraíso Poniente No. 267";
-    $buscar = stripos($registro['wt_hogar_ubicacion'], $estado);
-    $busqueda = stripos($registro['wt_hogar_ubicacion'], $call_nom);
-    $busquedaN = stripos($registro['wt_hogar_ubicacion'], $calle_nombre);
-    if ($buscar !== false or $busqueda !== false or $busquedaN !== false) {
+    $municipio = "Zapopan";
+
+    $buscar = stripos($registro['wt_hogar_ubicacion'], $municipio);
+
+    if ($buscar !== false ) {
         $hogar[]=$registro['wt_hogar_georeferencia'];
         $hogar[]='assets/img/icons/Icono-TIQUE-pin.png';
         $hogar[]=$registro['wt_hogar_img_descripcion'];

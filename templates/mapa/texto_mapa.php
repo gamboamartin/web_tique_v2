@@ -12,57 +12,80 @@ $generales = new generales();
                 <br>
             </div>
             <div class="container">
+                <form  method="post" >
                 <div class="btn-group">
-                    <button type="button" id="btn_gdl" class="btn dropdown-toggle boton_mapa" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Guadalajara
-                    </button>
-                    <div class="dropdown-menu contenido_boton_mapa_text ">
-                        <p class="numero_boton_mapa">1</p>
-                        <p class="texto_boton_mapa">Propiedades</p>
-                        <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
-                    </div>
+                    <input type="submit" id="btn_gdl" value="Guadalajara" name="btn_gdl" class="btn  boton_mapa" >
                 </div>
                 <div class="btn-group">
-                    <button type="button" class="btn dropdown-toggle boton_mapa" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Tonalá
-                    </button>
-                    <div class="dropdown-menu contenido_boton_mapa_text ">
-                        <p class="numero_boton_mapa">3</p>
-                        <p class="texto_boton_mapa">Propiedades</p>
-                        <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
-                    </div>
+                    <input type="submit" id="btn_tonala" value="Tonalá" name="btn_tonala" class="btn  boton_mapa">
                 </div>
                 <div class="btn-group">
-                    <button type="button" class="btn dropdown-toggle boton_mapa" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Zapopan
-                    </button>
-                    <div class="dropdown-menu contenido_boton_mapa_text ">
-                        <p class="numero_boton_mapa">5</p>
-                        <p class="texto_boton_mapa">Propiedades</p>
-                        <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
-                    </div>
+                    <input type="submit" id="btn_zapopan" value="Zapopan" name="btn_zapopan" class="btn  boton_mapa" >
+
                 </div>
+                    <div class="btn-group">
+                        <input type="submit" id="btn_tlajo" value="Tlajomulco" name="btn_tlajo" class="btn  boton_mapa" >
+
+                    </div>
+                </form>
             </div>
-            <div id="ubicacion">
-                <?php include $generales->path_base.'templates/ubicaciones/_ubicaciones_hogares.php'?>
+            <?php
+            if(isset($_POST["btn_gdl"])){
+
+                ?>
+                <div class="btn-group mapa_gdl" id="gdl" name="gdl">
+                    <p class="numero_boton_mapa">1</p>
+                    <p class="texto_boton_mapa">Propiedades</p>
+                    <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
+
+                </div>
+                <div style="position: relative; bottom: 20vh;">
+                    <?php include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_gdl.php'; ?>
+
+                </div>
+         <?php }
+             elseif (isset($_POST["btn_tonala"])){ ?>
+                <div class="btn-group mapa_tona">
+                        <p class="numero_boton_mapa">4</p>
+                        <p class="texto_boton_mapa">Propiedades</p>
+                        <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
+                    </div>
+            <div style="position: relative; bottom: 20vh;">
+            <?php
+                include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_tonala.php'; ?>
             </div>
+                <?php
+            }
+            elseif (isset($_POST["btn_zapopan"])){ ?>
+                <div class="btn-group mapa_zapopan">
+                    <p class="numero_boton_mapa">5</p>
+                    <p class="texto_boton_mapa">Propiedades</p>
+                    <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
+                </div>
+                <div style="position: relative; bottom: 20vh;">
+                    <?php
+                    include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_Zapopan.php'; ?>
+                </div>
+                <?php }
+                elseif (isset($_POST["btn_tlajo"])){
+
+                ?>
+            <div class="btn-group mapa_tlajo" id="gdl" name="gdl">
+                <p class="numero_boton_mapa">1</p>
+                <p class="texto_boton_mapa">Propiedades</p>
+                <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
+
+            </div>
+            <div style="position: relative; bottom: 20vh;">
+                <?php include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_tlajomulco.php'; ?>
+
+            </div>
+                    <?php
+            }
+            else{
+                include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares.php';
+            }?>
 
         </div>
     </div>
 </div>
-</script>
-<script>
-    /*function mapa_gdl() {
-        var mapa = document.getElementById('ubicacion');
-
-        if (mapa.src.match("boton")) {
-
-            mapa.src = "<?php /*include $generales->path_base.'templates/ubicaciones/_ubicaciones_hogares.php' */?>";
-
-        } else {
-
-            mapa.src = "<?php /*include $generales->path_base.'templates/ubicaciones/_ubicaciones_hogares_gdl.php'*/?>";
-
-        }
-    }*/
-</script>

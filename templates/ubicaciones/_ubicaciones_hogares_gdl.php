@@ -19,15 +19,15 @@ $generales = new generales();
 $wt_hogar_modelo = new wt_hogar(conexion::$link);
 
 $x =[950000, 480000, 876000, 980000, 1380000, 1190000, 920000, 1970000, 238000];
-$estado = "Guadalajara";
+$municipio = "Guadalajara";
 $hogares = array();
 //var_dump($wt_hogar_modelo->obten_registros_activos()->registros); exit;
 foreach ($wt_hogar_modelo->obten_registros_activos()->registros as $registro){
     $hogar = array();
 
-    //$estado = "Guadalajara";
-    $estado = "Lázaro Pavia";
-    $buscar = stripos($registro['wt_hogar_ubicacion'], $estado);
+
+
+    $buscar = stripos($registro['wt_hogar_ubicacion'], $municipio);
     if ($buscar !== false) {
         $hogar[]=$registro['wt_hogar_georeferencia'];
         $hogar[]='assets/img/icons/Icono-TIQUE-pin.png';
