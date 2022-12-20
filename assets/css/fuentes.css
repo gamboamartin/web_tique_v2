@@ -36,12 +36,11 @@
 #enlace_menu_principal {
     font-family: Montserrat-Medium;
     font-size: 15px;
-    color: #FFFFFF;
+    color: #FF3300;
     text-align: center;
 
 }
 #select_buscar {
-
     text-align: center;
     background-color: #FFFFFF !important;
     border: none !important;
@@ -243,6 +242,9 @@
 
 .boton_mapa:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.boton_mapa:visited span{
+    background-color:red!important;
 }
 
 .numero_boton_mapa{

@@ -4,7 +4,7 @@ include "./init.php";
 require './vendor/autoload.php';
 $generales = new generales();
 ?>
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
