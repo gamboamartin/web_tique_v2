@@ -128,7 +128,7 @@
     width: 150px;
     top: 0vh;
     z-index:1;
-    left: 250px;
+    left: 240px;
 
 }
 .contenedor_mapa_text{
@@ -248,6 +248,14 @@ element.style {
 
 }
 @media screen and (min-width: 480px) {
+    .texto_carta_casa{
+        background-color: #0000cc;
+        color: #FFF ;
+        font-family: Montserrat-Medium;
+        font-size: 15px;
+        margin: 0px;
+        padding: 0px;
+    }
     .contenido_texto_notice {
         width: 65%;
         padding: 5%;
