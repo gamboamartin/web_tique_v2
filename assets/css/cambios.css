@@ -479,7 +479,25 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     width: 20vw;
     height: 20vh;
 }
+.dimencion_insta{
+    width: 345px;
+    height: 545px;
+}
+.ocultar_responsivo{
+
+    display:none;
+}
+.ocultar_pag_web{
+    display: block;
+}
 @media screen and (min-width: 480px) {
+    .ocultar_pag_web{
+
+        display:none;
+    }
+    .ocultar_responsivo{
+        display:block;
+    }
     .img_modal_logo{
         width: 15vw;
         height: 15vh;
