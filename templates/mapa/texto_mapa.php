@@ -11,24 +11,39 @@ $generales = new generales();
                 <h1 class="texto_mapa"> Explora nuestras propiedades desde el mapa</h1>
                 <br>
             </div>
-            <div class="container">
+            <div class="contenedor_centrado" style="">
                 <form  method="post" >
-                <div class="btn-group">
-                    <input type="submit" id="btn_gdl" value="Guadalajara" name="btn_gdl" class="btn  boton_mapa" >
-                </div>
-                <div class="btn-group">
-                    <input type="submit" id="btn_tonala" value="Tonalá" name="btn_tonala" class="btn  boton_mapa">
-                </div>
-                <div class="btn-group">
-                    <input type="submit" id="btn_zapopan" value="Zapopan" name="btn_zapopan" class="btn  boton_mapa" >
+                    <ul class="ul_img_hogar">
+                        <li class="li_img_hogar ">
+                            <div class="btn-group">
+                                <input type="submit" id="btn_gdl" value="Guadalajara" name="btn_gdl" class="btn  boton_mapa" >
+                            </div>
 
-                </div>
-                    <div class="btn-group">
-                        <input type="submit" id="btn_tlajo" value="Tlajomulco" name="btn_tlajo" class="btn  boton_mapa" >
+                        </li>
+                        <li class="li_img_hogar ">
+                            <div class="btn-group">
+                                <input type="submit" id="btn_tonala" value="Tonalá" name="btn_tonala" class="btn  boton_mapa">
+                            </div>
 
-                    </div>
+                        </li >
+                        <li class="li_img_hogar ">
+                            <div class="btn-group">
+                                <input type="submit" id="btn_zapopan" value="Zapopan" name="btn_zapopan" class="btn  boton_mapa" >
+
+                            </div>
+
+                        </li>
+                        <li class="li_img_hogar ">
+                            <div class="btn-group">
+                                <input type="submit" id="btn_tlajo" value="Tlajomulco" name="btn_tlajo" class="btn  boton_mapa" >
+
+                            </div>
+                        </li>
+
+
                 </form>
             </div>
+
             <?php
             if(isset($_POST["btn_gdl"])){
 
@@ -39,7 +54,7 @@ $generales = new generales();
                     <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
 
                 </div>
-                <div style="position: relative; bottom: 20vh;">
+                <div style="position: relative; bottom: 15vh;">
                     <?php include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_gdl.php'; ?>
 
                 </div>
@@ -50,7 +65,7 @@ $generales = new generales();
                         <p class="texto_boton_mapa">Propiedades</p>
                         <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
                     </div>
-            <div style="position: relative; bottom: 20vh;">
+            <div style="position: relative; bottom: 15vh;">
             <?php
                 include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_tonala.php'; ?>
             </div>
@@ -62,7 +77,7 @@ $generales = new generales();
                     <p class="texto_boton_mapa">Propiedades</p>
                     <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
                 </div>
-                <div style="position: relative; bottom: 20vh;">
+                <div style="position: relative; bottom: 15vh;">
                     <?php
                     include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_Zapopan.php'; ?>
                 </div>
@@ -76,7 +91,7 @@ $generales = new generales();
                 <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
 
             </div>
-            <div style="position: relative; bottom: 20vh;">
+            <div style="position: relative; bottom: 15vh;">
                 <?php include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_tlajomulco.php'; ?>
 
             </div>

@@ -104,14 +104,15 @@
 .mapa_gdl{
     position: relative;
     width: 150px;
-    top: 0vh; right: 250px;
+    top: 0vh;
+    right: 30px;
     z-index:1;
 }
 .mapa_tona{
     position: relative;
     width: 150px;
     top: 0vh;
-    right: 80px;
+    right: 30px;
     z-index:1;
 
 }
@@ -120,7 +121,7 @@
     width: 150px;
     top: 0vh;
     z-index:1;
-    left: 70px;
+    right: 30px;
 
 }
 .mapa_tlajo{
@@ -128,7 +129,7 @@
     width: 150px;
     top: 0vh;
     z-index:1;
-    left: 240px;
+    right: 30px;
 
 }
 .contenedor_mapa_text{
@@ -248,6 +249,37 @@ element.style {
 
 }
 @media screen and (min-width: 480px) {
+
+    .mapa_gdl{
+        position: relative;
+        width: 150px;
+        top: 0vh; right: 210px;
+        z-index:1;
+    }
+    .mapa_tona{
+        position: relative;
+        width: 150px;
+        top: 0vh;
+        right: 50px;
+        z-index:1;
+
+    }
+    .mapa_zapopan{
+        position: relative;
+        width: 150px;
+        top: 0vh;
+        z-index:1;
+        left: 90px;
+
+    }
+    .mapa_tlajo{
+        position: relative;
+        width: 150px;
+        top: 0vh;
+        z-index:1;
+        left: 260px;
+
+    }
     .texto_carta_casa{
         background-color: #0000cc;
         color: #FFF ;
