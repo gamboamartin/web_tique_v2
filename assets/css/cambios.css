@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
 #imagen_slider{
     display: block;
     margin: 0px auto;
