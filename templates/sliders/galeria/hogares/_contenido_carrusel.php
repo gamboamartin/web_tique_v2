@@ -2,7 +2,7 @@
 use config\generales;
 $generales = new generales();
 ?>
-<div class="carousel-inner" style="min-height: 90vh;" role="listbox">
+<div class="carousel-inner"  role="listbox">
     <!-- Slide 1 -->
     <div class="item active">
         <?php include $generales->path_base.'templates/lista_casas/hogar-xadani/_carta_casa.php' ?>
