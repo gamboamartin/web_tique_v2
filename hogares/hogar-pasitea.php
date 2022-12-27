@@ -30,7 +30,7 @@ $wt_hogar = $wt_hogar_modelo->obtener_registro_wt_hogar($landing_url_sin_ext);
 
 $img_hogar = '';
 $nombre_hogar = '';
-$municipio = "Tonala";
+$municipio = "Tonalá";
 $buscar = stripos($wt_hogar['wt_hogar_ubicacion'], $municipio);
 if($wt_hogar > 0 and $buscar !== false){
     $direccion = $wt_hogar['wt_hogar_ubicacion'];
