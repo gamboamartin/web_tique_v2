@@ -12,7 +12,7 @@ $generales = new generales();
     <div class="header-slider" >
 
         <!-- Carousel container -->
-        <div id="header-slider" class="carousel slide vh-70"  data-ride="carousel" >
+        <div id="header-slider" class="carousel slide vh-50"  data-ride="carousel" >
 
             <?php include $generales->path_base.'templates/sliders/index/_contenido_carrusel.php'?>
             <!-- Previous/Next controls -->
