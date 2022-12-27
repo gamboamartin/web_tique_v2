@@ -2,7 +2,7 @@
 use config\generales;
 $generales = new generales();
 ?>
-<div class="carousel-inner vh-70" role="listbox">
+<div class="carousel-inner vh-50" role="listbox">
     <!-- Slide 1 -->
     <div class="item active">
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_orquidea/1Fachada/1662066955339.jpg" alt="Hogar Orquidea" height="100%"/>
