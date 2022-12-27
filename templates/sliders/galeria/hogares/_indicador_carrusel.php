@@ -1,4 +1,4 @@
-<ol class="carousel-indicators padding-top-5vh ">
+<ol class="carousel-indicators " style="bottom: 30px;">
     <li id="viñeta_slider" data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li id="viñeta_slider" data-target="#myCarousel" data-slide-to="1"></li>
     <li id="viñeta_slider" data-target="#myCarousel" data-slide-to="2"></li>
