@@ -30,45 +30,15 @@ $generales = new generales();
                             <div class="h-side top-pad h-side-slim clearfix contenedor_index" style="padding: 0px;">
 
                             </div> <!-- /. content-header -->
-                           <?php if(isset($_POST['seccion'])){
-                                if($_POST['seccion']==1 and $_POST['ubi']=="") {
 
-                                    include $generales->path_base.'templates/lista_casas/_lista_casas.php';
-
-
-
-                                    include $generales->path_base.'templates/lista_casas/hogar-venus/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-pasitea/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-orquidea/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-aruna/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-beatriz/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-eirene/_carta_casa.php';
-                                }
-                                elseif ( $_POST['ubi']=='Zapopan'){
-                                    include $generales->path_base . 'templates/lista_casas/hogar-venus/_carta_casa.php';
-                                    include $generales->path_base . 'templates/lista_casas/hogar-orquidea/_carta_casa.php';
-                                    include $generales->path_base . 'templates/lista_casas/hogar-aruna/_carta_casa.php';
-                                    include $generales->path_base . 'templates/lista_casas/hogar-eirene/_carta_casa.php';
-                                    include $generales->path_base . 'templates/lista_casas/hogar-eden/_carta_casa.php';
-                                }
-                                elseif( $_POST['ubi']=='Tonalá'){
-                                    include $generales->path_base . 'templates/lista_casas/hogar-pasitea/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-cihualpilli/_carta_casa.php';
-                                    include $generales->path_base.'templates/lista_casas/hogar-santiago/_carta_casa.php';
-                                }
-                                elseif( $_POST['ubi']=='Guadalajara'){
-                                    include $generales->path_base.'templates/lista_casas/hogar-eirene/_carta_casa.php';
-                                }
-                                else{ ?>
-                                        <h1>Lo sentimos en este momento no contamos  con hogares en la ubicación: <?php echo $_POST['ubi'] ?></h1>
-                               <?php }
-
-                            }else{
-                           ?><div class="contenedor_whats"> <?php
+                           <div class="contenedor_whats ocultar_responsivo"> <?php
                                 include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
                                 include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
-                                ?> </div> <?php
-                            }?>
+                                ?> </div>
+                            <div class="margen4 ocultar_pag_web"> <?php
+                                include $generales->path_base . 'templates/sliders/galeria/hogares/_slider_index.php';
+                                include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
+                                ?> </div>
 
                             <div class="contenedor_whats posicion_whats" style="background-color: #FFFFFF; padding-bottom: 30px">
                                 <?php
