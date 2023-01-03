@@ -18,8 +18,8 @@ $generales = new generales();
 
 $wt_hogar_modelo = new wt_hogar(conexion::$link);
 
-$x =[950000, 480000, 876000, 980000, 1380000, 1190000, 920000, 1970000, 238000];
-$estado = "Guadalajara";
+$x =[1200000, 7134000];
+
 $hogares = array();
 //var_dump($wt_hogar_modelo->obten_registros_activos()->registros); exit;
 foreach ($wt_hogar_modelo->obten_registros_activos()->registros as $registro){

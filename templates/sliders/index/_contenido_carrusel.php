@@ -5,15 +5,31 @@ $generales = new generales();
 <div class="carousel-inner vh-50" role="listbox">
     <!-- Slide 1 -->
     <div class="item active">
+        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/lote_itze/1/lote_itze6.png" alt="Lote Itzé" height="100%"/>
+
+    </div>
+    <div class="item ">
+        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/lote_yaax/1/lote_yaax3.png" alt="Lote Yaax" height="100%"/>
+
+    </div>
+    <div class="item ">
+        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/lote_xaman/1/lote_xaman2.png" alt="Lote Xaman" height="100%"/>
+
+    </div>
+    <div class="item ">
+        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/lote_nicte/1/lote_nicte9.png" alt="Lote Nicte" height="100%"/>
+
+    </div>
+    <div class="item ">
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_orquidea/1Fachada/1662066955339.jpg" alt="Hogar Orquidea" height="100%"/>
 
     </div>
     <div class="item ">
-        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_xadani/1Fachada/9 (1).jpg" alt="Hogar Venus" height="100%"/>
+        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_xadani/1Fachada/9 (1).jpg" alt="Hogar Xadani" height="100%"/>
 
     </div>
     <div class="item ">
-        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_xiadani/1Fachada/9 (1).jpg" alt="Hogar Venus" height="100%"/>
+        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_xiadani/1Fachada/9 (1).jpg" alt="Hogar Xiadani" height="100%"/>
 
     </div>
     <div class="item ">
