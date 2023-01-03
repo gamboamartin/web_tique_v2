@@ -71,7 +71,7 @@ if($wt_tipo_inmueble > 0){
 
         <li  class="li_img_hogar ">
             <div>
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/habitacion.png" alt="Hogar Venus" height="80%"/>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/habitacion.png" alt="Lote itze" height="80%"/>
                 <br>
                 <h3 class="texto_icono_hogar"><?php echo $recamara_hogar; ?></h3>
             </div>
@@ -80,39 +80,39 @@ if($wt_tipo_inmueble > 0){
         </li>
         <li  class="li_img_hogar ">
             <div>
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/baño.png" alt="Hogar Venus" height="80%"/>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/baño.png" alt="Lote itze" height="80%"/>
                 <h3 class="texto_icono_hogar"><?php echo $banio_hogar; ?></h3>
             </div>
         </li>
         <li  class="li_img_hogar ">
             <div>
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/cochera.png" alt="Hogar Venus" height="80%"/>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/cochera.png" alt="Lote itze" height="80%"/>
                 <h3 class="texto_icono_hogar"><?php echo $estacionamiento_hogar; ?></h3>
             </div>
         </li>
         <li  class="li_img_hogar ">
             <div>
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/terreno.png" alt="Hogar Venus" height="80%"/>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/terreno.png" alt="Lote itze" height="80%"/>
                 <h3 class="texto_icono_hogar"><?php echo $terreno_hogar; ?></h3>
             </div>
         </li>
         <li  class="li_img_hogar ">
             <div>
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png" alt="Hogar Venus" height="80%"/>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png" alt="Lote itze" height="80%"/>
                 <br>
                 <h3 class="texto_icono_hogar"><?php echo $construccion_hogar; ?></h3>
             </div>
         </li>
         <li  class="li_img_hogar ">
             <div>
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tipo_hogar.png" alt="Hogar Venus" height="80%"/>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tipo_hogar.png" alt="Lote itze" height="80%"/>
                 <br>
                 <h3 class="texto_icono_hogar"><?php echo $tipo_hogar." ".$niveles_label." ".$niveles_hogar; ?></h3>
             </div>
         </li>
         <li  class="li_img_hogar ">
             <div>
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/patio.png" alt="Hogar Venus" height="80%"/>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/patio.png" alt="Lote itze" height="80%"/>
                 <br>
                 <h3 class="texto_icono_hogar"><?php echo  $patio_hogar; ?></h3>
             </div>
