@@ -10,4 +10,8 @@
     <li id="viñeta_slider" data-target="#myCarousel" data-slide-to="8"></li>
     <li id="viñeta_slider" data-target="#myCarousel" data-slide-to="9"></li>
     <li id="viñeta_slider" data-target="#myCarousel" data-slide-to="10"></li>
+    <li id="viñeta_slider" data-target="#myCarousel" data-slide-to="11"></li>
+    <li id="viñeta_slider" data-target="#myCarousel" data-slide-to="12"></li>
+    <li id="viñeta_slider" data-target="#myCarousel" data-slide-to="13"></li>
+    <li id="viñeta_slider" data-target="#myCarousel" data-slide-to="14"></li>
 </ol>
