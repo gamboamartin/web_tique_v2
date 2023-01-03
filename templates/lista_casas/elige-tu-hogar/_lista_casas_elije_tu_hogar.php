@@ -4,6 +4,7 @@ $generales = new generales();
 ?>
 <div class="properties">
     <div class="row">
+        <?php include $generales->path_base.'templates/lista_casas/lote-itze/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-orquidea/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-xadani/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-xiadani/_carta_casa.php' ?>

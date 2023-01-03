@@ -13,6 +13,7 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/lista_casas/hogar-cihualpilli/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-eden/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-santiago/_carta_casa.php' ?>
+        <?php include $generales->path_base.'templates/lista_casas/lote-itze/_carta_casa.php' ?>
     </div><!-- /.properties -->
     <?php include $generales->path_base.'templates/lista_casas/_cantidad_paginas.php' ?>
 </div> <!-- /.properties-->
