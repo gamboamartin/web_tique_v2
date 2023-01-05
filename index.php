@@ -30,15 +30,99 @@ $generales = new generales();
                             <div class="h-side top-pad h-side-slim clearfix contenedor_index" style="padding: 0px;">
 
                             </div> <!-- /. content-header -->
+                            <div style="margin-top: -5%;">
+                                <?php if(isset($_POST['propiedades'])){
+                                    if($_POST['propiedades']=="2") { ?>
+                                        <div class="col-md-12 container " style="margin-bottom: 2%;">
+                                            <div class="margen4" >
 
-                           <div class="contenedor_whats ocultar_responsivo"> <?php
+                                                <h1 class="whatsapp_subtitulo" style="font-size: 35px; background: none;">Casas Disponibles </h1>
+                                                <?php
+                                                include $generales->path_base . 'templates/lista_casas/hogar-pasitea/_carta_casa.php';
+                                                include $generales->path_base.'templates/lista_casas/hogar-xadani/_carta_casa.php';
+                                                include $generales->path_base.'templates/lista_casas/hogar-xiadani/_carta_casa.php';
+                                                ?>
+                                            </div>
+                                        </div>
+                                        <?php
+                                        include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
+                                    }
+                                    elseif($_POST['propiedades']=="3"){
+                                        ?>
+                                        <div class="col-md-12 container " style="margin-bottom: 2%;">
+                                            <div class="margen4" >
+
+                                                <h1 class="whatsapp_subtitulo" style="font-size: 35px; background: none;">Departamentos Disponibles </h1>
+                                                <?php
+                                                include $generales->path_base.'templates/lista_casas/hogar-eirene/_carta_casa.php';
+                                                include $generales->path_base . 'templates/lista_casas/hogar-orquidea/_carta_casa.php';
+
+                                                ?>
+
+
+                                            </div>
+
+                                        </div>
+
+                                        <?php
+                                        include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
+                                    }
+                                    elseif($_POST['propiedades']=="5"){
+                                        ?>
+
+                                        <div class="col-md-12 container " style="margin-bottom: 2%;">
+                                            <div class="margen4" >
+
+                                                <h1 class="whatsapp_subtitulo" style="font-size: 35px;  background: none ;"> Terreno Residenciales Disponibles</h1>
+                                                <?php
+                                                include $generales->path_base.'templates/lista_casas/lote-itze/_carta_casa.php' ;
+                                                include $generales->path_base.'templates/lista_casas/lote-nicte/_carta_casa.php' ;
+                                                include $generales->path_base.'templates/lista_casas/lote-xaman/_carta_casa.php' ;
+                                                include $generales->path_base.'templates/lista_casas/lote-yaax/_carta_casa.php';
+
+                                                ?>
+
+
+                                            </div>
+
+                                        </div>
+                                        <?php
+                                        include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
+                                        ?>
+
+                                        <?php
+
+                                    }
+                                    elseif( $_POST['propiedades']=="4"){ ?>
+                                        <div class="margen4 " style="margin-bottom: 5%;">
+                                            <h1 class="whatsapp_subtitulo" style="font-size: 35px;  background: none;">!!!Lo sentimos.¡¡¡ En este momento no contamos con hogares Duplex </h1>
+                                        </div>
+                                    <?php
+                                        
+                                    }
+
+
+
+
+
+
+                                }
+
+                           else{ ?>
+
+                               <div class="contenedor_whats ocultar_responsivo" style="margin-top: 2%;"> <?php
                                 include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
                                 include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
                                 ?> </div>
-                            <div class="margen4 ocultar_pag_web"> <?php
-                                include $generales->path_base . 'templates/sliders/galeria/hogares/_slider_index.php';
-                                include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
-                                ?> </div>
+                                <div class="margen4 ocultar_pag_web" style="margin-top: 2%;"> <?php
+                                    include $generales->path_base . 'templates/sliders/galeria/hogares/_slider_index.php';
+                                    include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
+                                    ?> </div>
+
+                            <?php }
+                            ?>
+
+                            </div>
 
                             <div class="contenedor_whats posicion_whats" style="background-color: #FFFFFF; padding-bottom: 30px">
                                 <?php
