@@ -173,7 +173,7 @@ function LoadMap_main(color) {
                                             <i class="fa fa-square-o">'+ marker_map[8] +'</i> \n\
                                         </span> \n\
                                         <span class="property-card-value"> \n\
-                                            <i class="fa fa-dollar">'+ marker_map[9] +'</i> \n\
+                                            <i >$ '+ marker_map[9] +'</i> \n\
                                         </span> \n\
                                     </div> \n\
                                 </div>\n\

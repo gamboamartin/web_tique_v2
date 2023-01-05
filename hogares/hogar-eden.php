@@ -107,7 +107,7 @@ $descripcion_twitter ='Hogar Edén se encuentra dentro de Campo Real un bonito F
 
                                 <h4 class="texto_hoagar_h3 texto_derecha"  >Precio total (MXN) </h4>
 
-                                <h4 class="subtitulo_hogar_gris texto_derecha"><?php echo $costo;?> </h4>
+                                <h4 class="subtitulo_hogar_gris texto_derecha">$ <?php echo $costo;?> </h4>
 
                             </div>
                         </div>

@@ -16,7 +16,7 @@ if(count($a)>2) {
         <p class="texto_carta_casa">Paseo del Puma 3064, Ciudad Bugambilias, 45237 Zapopan, Jal
         </p>
         <span class="property-card-value" id="texto_carta_casa">
-                <i class="fa fa-dollar"><?php echo $costo ?></i>
+                <i > $ <?php echo $costo ?></i>
         </span>
         <p></p>
     </div>

@@ -15,7 +15,7 @@ if(count($a)>2) {
         <p class="texto_carta_casa">Lázaro Pavia 3436, Beatriz Hernández, 44760, Guadalajara, Jal.</p>
 
         <span class="property-card-value" id="texto_carta_casa">
-                <i class="fa fa-dollar"><?php echo $costo ?></i>
+                 <i > $ <?php echo $costo ?></i>
             </span>
         <p></p>
     </div>

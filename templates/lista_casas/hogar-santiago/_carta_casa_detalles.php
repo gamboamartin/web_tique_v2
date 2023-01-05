@@ -15,7 +15,7 @@ if(count($a)>2) {
         <p class="texto_carta_casa">Priv Rio Santiago 33, Urbi Paseos de Santiago, 44760, Tonalá, Jal</p>
 
         <span class="property-card-value" id="texto_carta_casa">
-                <i class="fa fa-dollar"><?php echo $costo ?></i>
+                 <i > $ <?php echo $costo ?></i>
         </span>
 
     </div>

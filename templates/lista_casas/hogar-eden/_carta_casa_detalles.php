@@ -14,7 +14,7 @@ if(count($a)>2) {
     <div class="property-card-descr texto_carta_casa">
         <p class="texto_carta_casa">Av. Paraíso Poniente No. 267, Cond. Toledo Int. 17, Fracc. Campo Real, Zapopan, Jal</p>
         <span class="property-card-value" id="texto_carta_casa">
-                <i class="fa fa-dollar"><?php echo $costo ?></i>
+                 <i > $ <?php echo $costo ?></i>
             </span>
     </div>
 

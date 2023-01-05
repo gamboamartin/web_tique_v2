@@ -15,7 +15,7 @@ if(count($a)>2) {
     <div class="property-card-descr texto_carta_casa">
         <p class="texto_carta_casa">Paseo del Palomar 250, El Palomar, Tlajomulco de Zuñiga, Jalisco.</p>
         <span class="property-card-value" id="texto_carta_casa">
-                <i class="fa fa-dollar"><?php echo $costo ?></i>
+                 <i > $ <?php echo $costo ?></i>
         </span>
         <p></p>
     </div>
