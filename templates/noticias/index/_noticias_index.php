@@ -4,7 +4,7 @@
 
         <div class="news-slide ">
             <div id="news-carousel" class="carousel slide " data-ride="carousel">
-                <div class="carousel-inner " role="listbox"  >
+                <div class="carousel-inner comentario_responsivo"  role="listbox"  >
                     <?php include 'templates/noticias/index/_pagina_activa.php'?>
                     <?php include 'templates/noticias/index/_pagina.php'?>
                     <?php include 'templates/noticias/index/_pagina.php'?>

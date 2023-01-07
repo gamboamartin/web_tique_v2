@@ -13,10 +13,11 @@ $generales = new generales();
                 <img class="img_comillas"  src="<?php echo $generales->url_base; ?>assets/img/comillas.png"  />
                 <div style="margin-top: -6%;">
                     <p class="texto_notice_secundario">
-                        Tenía un problema con infonavit ya que me quede sin empleo ya no pude
-                        seguir pagando las mensualidades de mi crédito, inmobiliaria y construcción
-                        tique compro mi vivienda liquidando así mi crédito infonavit, todos los
-                        trámites fueron oportunos,  de forma segura y transparente.
+                        Una inmobiliaria de confianza sin duda alguna,
+                        la atención por parte del personal es muy profesional y personalizada,
+                        siempre estuvieron al pendiente de mis dudas y
+                        fueron resueltas de forma clara y sencilla, recibí ayuda
+                        en todo momento durante el trámite hasta la escrituración.
                     </p>
                 </div>
 
@@ -26,7 +27,7 @@ $generales = new generales();
                 </div>
                 </div>
                 <div class="col-md-6" style="margin-top: -12%;  flex: 50%; ">
-                    <p class="usuario_comentario" style="float: right;  margin-right: 2vw"> Angelica Gonzalez</p>
+                    <p class="usuario_comentario" style="float: right;  margin-right: 2vw"> Isabel Zúñiga</p>
 
 
                 </div>
