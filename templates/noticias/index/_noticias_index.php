@@ -7,7 +7,7 @@
                 <div class="carousel-inner comentario_responsivo"  role="listbox"  >
                     <?php include 'templates/noticias/index/_pagina_activa.php'?>
                     <?php include 'templates/noticias/index/_pagina.php'?>
-                    <?php include 'templates/noticias/index/_pagina.php'?>
+
 
                 </div>
                 <?php include 'templates/noticias/index/_cantidad_paginas.php'?>
