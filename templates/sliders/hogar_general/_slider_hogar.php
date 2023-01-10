@@ -46,6 +46,59 @@ $generales = new generales();
                 }
                 $directorio->close();
             }
+            if($ruta_regenerada == "lote_itze"){
+            ?>
+            <div class="item">
+                <div class=" hover-default  ">
+                    <iframe id="video"
+                            src="https://www.youtube.com/embed/MF4xaqHmVfI"
+
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                             gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <?php
+             }
+            elseif($ruta_regenerada == "lote_nicte"){
+            ?>
+                <div class="item">
+                    <div class=" hover-default  ">
+                        <iframe id="video" src="https://www.youtube.com/embed/xKj9SRFnVfs"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                                 picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <?php
+            }
+            elseif($ruta_regenerada == "lote_xaman"){
+            ?>
+                <div class="item">
+                    <div class=" hover-default  ">
+                        <iframe id="video" src="https://www.youtube.com/embed/HmkOwTBbcwE"
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            <?php
+            }
+            elseif($ruta_regenerada == "lote_yaax"){
+            ?>
+                <div class="item">
+                    <div class=" hover-default  ">
+                        <iframe id="video" src="https://www.youtube.com/embed/-_d8r2tHonM"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                         gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            <?php
+            }
+
             ?>
         </div>
 

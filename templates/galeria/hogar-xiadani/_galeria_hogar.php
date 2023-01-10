@@ -1,7 +1,7 @@
 <?php
     $a = $generales->url_base."assets/img/venta_casas/hogar_xiadani/1Fachada/9 (1).jpg";
-    $b = $generales->url_base."assets/img/venta_casas/hogar_xiadani/4Recamara1/20221205_094953.jpg";
-    $c = $generales->url_base."assets/img/venta_casas/hogar_xiadani/4Recamara3/20221205_095153.jpg";
+    $b = $generales->url_base."assets/img/venta_casas/hogar_xiadani/3Comedor/Comedor.jpg";
+    $c = $generales->url_base."assets/img/venta_casas/hogar_xiadani/5Baño/Baño.jpg";
 ?>
 
 

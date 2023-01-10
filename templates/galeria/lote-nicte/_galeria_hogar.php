@@ -1,7 +1,7 @@
 <?php
-$a = $generales->url_base."assets/img/venta_casas/lote_xaman/1/lote_xaman1.png";
-$b = $generales->url_base."assets/img/venta_casas/lote_xaman/1/lote_xaman2.png";
-$c = $generales->url_base."assets/img/venta_casas/lote_xaman/1/lote_xaman7.png";
+$a = $generales->url_base."assets/img/venta_casas/lote_nicte/1/lote_nicte1.png";
+$b = $generales->url_base."assets/img/venta_casas/lote_nicte/1/lote_nicte5.png";
+$c = $generales->url_base."assets/img/venta_casas/lote_nicte/1/lote_nicte8.png";
 
 ?>
 

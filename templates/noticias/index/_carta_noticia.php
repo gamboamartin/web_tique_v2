@@ -19,9 +19,10 @@
 
 
             </div>
+
             <div class="col-md-4">
                 <div class="altura_video hover-default contenido_video_notice color_azul">
-                    <iframe class="altura_video_contenido" src="https://www.youtube.com/embed/MF4xaqHmVfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="altura_video_contenido" src="https://www.youtube.com/embed/ZMLnlarj_BI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
 

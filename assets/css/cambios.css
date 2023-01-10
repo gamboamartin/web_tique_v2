@@ -10,6 +10,13 @@ html, body {
     width: 89%;
     height: 95%;
 }
+#video{
+    display: block;
+    margin: 0px auto;
+    border-radius:70px;
+    width: 89%;
+    height: 40vh;
+}
 #fondo_slider{
     background : linear-gradient( #0000cc 71.5%, hsla(0,0%,80%, 0%) 28.5%);
 
@@ -27,7 +34,7 @@ html, body {
     background-color: #cccccc !important;
 }
 .comentario_responsivo{
-    height: 150vh;
+    height: 210vh;
 }
 #busqueda_index{
 
@@ -258,6 +265,13 @@ element.style {
 
 }
 @media screen and (min-width: 480px) {
+    #video{
+        display: block;
+        margin: 0px auto;
+        border-radius:70px;
+        width: 89%;
+        height: 70vh;
+    }
     .comentario_responsivo{
         height: 80vh;
     }
