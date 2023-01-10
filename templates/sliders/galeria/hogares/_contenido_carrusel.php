@@ -5,6 +5,10 @@ $generales = new generales();
 <div class="carousel-inner vh-70"  role="listbox">
     <!-- Slide 1 -->
     <div class="item active">
+        <?php include $generales->path_base.'templates/lista_casas/hogar-xiadani/_carta_casa.php' ?>
+
+    </div>
+    <div class="item ">
         <?php include $generales->path_base.'templates/lista_casas/lote-itze/_carta_casa.php' ?>
     </div>
     <div class="item">
@@ -28,10 +32,7 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/lista_casas/hogar-orquidea/_carta_casa.php' ?>
 
     </div>
-    <div class="item">
-        <?php include $generales->path_base.'templates/lista_casas/hogar-xiadani/_carta_casa.php' ?>
 
-    </div>
     <div class="item">
         <?php include $generales->path_base.'templates/lista_casas/hogar-eirene/_carta_casa.php' ?>
 

@@ -7,7 +7,7 @@ $generales = new generales();
     <div class="carousel" >
 
         <!-- Carousel container -->
-        <div id="myCarousel" class="carousel slide vh-70"  data-ride="carousel" >
+        <div id="myCarousel" class="carousel slide vh-95"  data-ride="carousel" >
 
             <?php include $generales->path_base.'templates/sliders/galeria/hogares/_contenido_carrusel.php'?>
             <!-- Previous/Next controls -->
