@@ -12,7 +12,7 @@ $generales = new generales();
             <div class="col-md-12 contenido_texto_notice_lateral" style="background: #0000Cc">
                 <img class="img_comillas"  src="<?php echo $generales->url_base; ?>assets/img/comillas.png"  />
                 <div style="margin-top: -6%;">
-                    <p class="texto_notice_secundario" style="font-size: 11px;">
+                    <p class="texto_notice_secundario" >
                         Tenía la necesidad de vender mi casa habitación, entre a opciones de
                         facebook y encontre inmobiliaria y construcción tique, contacte con ellos,
                         me dieron una cita para checar el inmueble, les di mi propuesta de costo,

@@ -7,11 +7,10 @@
                 <p class="texto_notice">
                     Quiero agradecer a :
                 </p>
-                <p class="texto_notice">
+                <p class="texto_notice" style="margin-right: 5vh;">
                     Inmobiliaria y construccion tique me apoyo en la compra de mi vivienda y muy a tiempo ya que estaba a punto de adjudicarla el banco.
                     Lo más importante, se encargaron de todos los trámites de una forma rápida, sencilla y muy transparente en todos los aspectos
-                    pude recuperarme y
-                    <br> volver a empezar, muchas gracias.
+                    pude recuperarme y volver a empezar, muchas gracias.
                 </p>
                 <p class="texto_notice">
                     Rafael Gonzalez Valle

@@ -34,7 +34,7 @@ html, body {
     background-color: #cccccc !important;
 }
 .comentario_responsivo{
-    height: 180vh;
+    height: 165vh;
 }
 #busqueda_index{
 
@@ -276,7 +276,7 @@ element.style {
         height: 70vh;
     }
     .comentario_responsivo{
-        height: 80vh;
+        height: 68vh;
     }
     .mapa_gdl{
         position: relative;
@@ -328,7 +328,7 @@ element.style {
     }
 
     #altura_slider{
-        height: 70vh;
+        height: 68vh;
     }
     .abajo_5{
         bottom: 0%;
