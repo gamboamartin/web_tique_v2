@@ -98,7 +98,11 @@ $descripcion_twitter = 'Hogar Beatriz es una bonita vivienda que se encuentra si
 
                                     </div>
                                 </div>
-                                <?php } ?>
+                                <?php }
+                            elseif ($proposito_hogar_id == 3){?>
+                                <h4 class=" btn_info_casa" style="  background:  #FF8C00 !important;"> Apartado </h4>
+
+                            <?php } ?>
 
 
                             <div class="padding-top-3vh inner_"  >

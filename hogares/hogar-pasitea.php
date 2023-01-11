@@ -95,6 +95,10 @@ $descripcion_twitter = 'Hogar Pasítea una bonita casa en el fraccionamiento res
 
                                     </div>
                                 </div>
+                            <?php }
+                            elseif ($proposito_hogar_id == 3){?>
+                                <h4 class=" btn_info_casa" style="  background:  #FF8C00 !important;"> Apartado </h4>
+
                             <?php } ?>
 
 

@@ -68,14 +68,13 @@ if($wt_tipo_inmueble > 0){
 ?>
 <div class="col-md-12 contenedor_centrado color_blanco">
     <ul class="ul_img_hogar">
-
+        <?php if($tipo_hogar_id != 3){ ?>
         <li  class="li_img_hogar ">
             <div>
                 <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/habitacion.png" alt="Lote itze" height="80%"/>
                 <br>
                 <h3 class="texto_icono_hogar"><?php echo $recamara_hogar; ?></h3>
             </div>
-
 
         </li>
         <li  class="li_img_hogar ">
@@ -92,15 +91,9 @@ if($wt_tipo_inmueble > 0){
         </li>
         <li  class="li_img_hogar ">
             <div>
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/terreno.png" alt="Lote itze" height="80%"/>
-                <h3 class="texto_icono_hogar"><?php echo $terreno_hogar; ?></h3>
-            </div>
-        </li>
-        <li  class="li_img_hogar ">
-            <div>
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png" alt="Lote itze" height="80%"/>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/patio.png" alt="Lote itze" height="80%"/>
                 <br>
-                <h3 class="texto_icono_hogar"><?php echo $construccion_hogar; ?></h3>
+                <h3 class="texto_icono_hogar"><?php echo  $patio_hogar; ?></h3>
             </div>
         </li>
         <li  class="li_img_hogar ">
@@ -112,13 +105,34 @@ if($wt_tipo_inmueble > 0){
         </li>
         <li  class="li_img_hogar ">
             <div>
-                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/patio.png" alt="Lote itze" height="80%"/>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png" alt="Lote itze" height="80%"/>
                 <br>
-                <h3 class="texto_icono_hogar"><?php echo  $patio_hogar; ?></h3>
+                <h3 class="texto_icono_hogar"><?php echo $construccion_hogar; ?></h3>
             </div>
         </li>
+        <?php } ?>
+        <li  class="li_img_hogar ">
+            <div>
+                <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/terreno.png" alt="Lote itze" height="80%"/>
+                <h3 class="texto_icono_hogar"><?php echo $terreno_hogar; ?></h3>
+            </div>
+        </li>
+        <?php if($tipo_hogar_id == 3){ ?>
+            <li  class="li_img_hogar ">
+                <div>
+                    <img id="imagen_slider" style="width: 50%; height: 50%; border-radius:0px; margin-top: 2vh" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/dimencion.png" alt="Lote itze" height="80%"/>
+                    <br>
+                    <h3 class="texto_icono_hogar"><?php echo $construccion_hogar; ?></h3>
+                </div>
+            </li>
+            <li  class="li_img_hogar " style="margin-left: 3vw;">
+                <div>
+                    <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tipo_hogar.png" alt="Lote itze" height="80%"/>
 
-
+                    <h3 class="texto_icono_hogar"><?php echo $tipo_hogar; ?></h3>
+                </div>
+            </li>
+        <?php } ?>
     </ul>
 
 </div>

@@ -98,6 +98,10 @@ fácil y rápido acceso a, hospitales, escuelas, tiendas de autoservicio, unidad
 
                                             </div>
 
+                                    <?php }
+                                    elseif ($proposito_hogar_id == 3){?>
+                                        <h4 class=" btn_info_casa" style="  background:  #FF8C00 !important;"> Apartado </h4>
+
                                     <?php } ?>
                                     <h4 class=" btn_info_casa" style=" color: #0000cc !important; background-color: #cccccc !important"> Renovada </h4>
 

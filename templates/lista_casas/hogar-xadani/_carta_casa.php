@@ -15,14 +15,14 @@ $generales = new generales();
     font-family: Montserrat-Medium !important;
     font-size: 15px !important;
     margin: 0px !important;
-    width: 130px;
-    border-radius:10px !important;
+    width: 90px;
+    border-radius:10px 10px 10px 10px !important;
     background-color: #cccccc !important;
     padding: 5px;
     position: absolute;
     top: 5%;
     left: 10%;
-    z-index:1;">En renovación</h3>
+    z-index:1;">Renovada</h3>
 
             <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_xadani/1Fachada/9 (1).jpg" alt="" class="" />
             <!--Casa destacada en caso de serlo-->

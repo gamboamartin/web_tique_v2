@@ -103,8 +103,12 @@ $descripcion_twitter = '    Hogar Xadani se ubica al oriente del Área Metropoli
                                         </div>
 
                                     <?php }
+                                    elseif ($proposito_hogar_id == 3){?>
+                                        <h4 class=" btn_info_casa" style="  background:  #FF8C00 !important;"> Apartado </h4>
+
+                                    <?php }
                                     else{?>
-                                    <h4 class=" btn_info_casa" style=" color: #0000cc !important; background-color: #cccccc !important"> En renovación </h4>
+                                        <h4 class=" btn_info_casa" style=" color: #0000cc !important; background-color: #cccccc !important"> Renovada </h4>
                                     <?php } ?>
 
                                 </div>
