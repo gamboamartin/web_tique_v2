@@ -150,7 +150,7 @@ $descripcion_twitter = '    Hogar Xadani se ubica al oriente del Área Metropoli
                     </div>
 
 
-                    <?php if ($proposito_hogar_id == 1)
+                    <?php if ($proposito_hogar_id != 2)
                         include $generales->path_base . 'templates/informacion/_texto_informacion_hogar.php'; ?>
 
                     <?php //include  $generales->path_base.'templates/facebook/_fb_comments_hogar_general.php'?>
