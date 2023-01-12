@@ -62,8 +62,8 @@ if(isset($_POST['hora']) and isset($_POST['fecha']) ) {
     $contenido->mensaje = $datos_formulario;
 
     $destinatario = new stdClass();
-    $destinatario->email = 'jazmin.rodriguez@ivitec.com.mx';
-    $destinatario->name = 'Jazmin Rodriguez';
+    $destinatario->email = 'alejandro.esquivel@inmobiliariatique.com';
+    $destinatario->name = 'Alejandro Esquivel';
     $envia = $notificacion->envia(contenido: $contenido,destinatario:  $destinatario);
     if(gamboamartin\errores\errores::$error){
         $error = (new gamboamartin\errores\errores())->error(mensaje: 'Error',data:  $envia);
