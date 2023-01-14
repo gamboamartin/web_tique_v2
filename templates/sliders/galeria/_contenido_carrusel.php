@@ -11,14 +11,11 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/lista_casas/lote-itze/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/lote-nicte/_carta_casa.php' ?>
 
-
     </div>
     <div class="item">
         <?php include $generales->path_base.'templates/lista_casas/lote-xaman/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/lote-yaax/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-pasitea/_carta_casa.php' ?>
-
-
 
     </div>
     <div class="item">

@@ -110,14 +110,11 @@ $generales = new generales();
 
                            else{ ?>
 
-                               <div class="contenedor_whats ocultar_responsivo" style="margin-top: 2%;"> <?php
+                               <div class="contenedor_whats " style="margin-top: 2%;"> <?php
                                 include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
                                 include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
                                 ?> </div>
-                                <div class="margen4 ocultar_pag_web" style="margin-top: 2%;"> <?php
-                                    include $generales->path_base . 'templates/sliders/galeria/hogares/_slider_index.php';
-                                    include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
-                                    ?> </div>
+
 
                             <?php }
                             ?>

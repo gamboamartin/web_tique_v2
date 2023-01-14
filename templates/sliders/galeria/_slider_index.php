@@ -7,7 +7,7 @@ $generales = new generales();
 <div class="container contenedor_slider">
     <section class="header-slider">
         <!-- Carousel container -->
-        <div id="slide_carousel" class="carousel slide" data-ride="carousel">
+        <div id="deslizador_slider" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <?php include $generales->path_base . 'templates/sliders/galeria/_indicador_carrusel.php'?>
             <!-- Content -->
