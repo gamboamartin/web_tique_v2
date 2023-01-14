@@ -34,7 +34,7 @@ html, body {
     background-color: #cccccc !important;
 }
 .comentario_responsivo{
-    height: 165vh;
+    height: 120vh;
 }
 #busqueda_index{
 
@@ -243,7 +243,7 @@ element.style {
 
 }
 #altura_slider{
-    height: 240vh;
+    height: 170vh;
 }
 .contenido_texto_notice{
     border-radius: 0px 40px 0px 0px;
