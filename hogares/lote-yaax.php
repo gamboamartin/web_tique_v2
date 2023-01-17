@@ -148,12 +148,8 @@ $descripcion_twitter = '    Espectacular oportunidad de terreno para inversión 
                         <h2 class="titulo_slider_hogares">También te podría interesar</h2>
                     </div>
                     <!-- /.ES EN ESTA LINEA INGE!!! -->
-                    <div class="ocultar_responsivo"> <?php
+                    <div class=" "> <?php
                         include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
-                        include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
-                        ?> </div>
-                    <div class="margen4 ocultar_pag_web"> <?php
-                        include $generales->path_base . 'templates/sliders/galeria/hogares/_slider_index.php';
                         include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
                         ?> </div>
 

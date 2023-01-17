@@ -145,9 +145,11 @@ $descripcion_twitter = 'Hogar Pasítea una bonita casa en el fraccionamiento res
                         <h2 class="titulo_slider_hogares">También te podría interesar</h2>
                     </div>
                     <!-- /.ES EN ESTA LINEA INGE!!! -->
-                    <?php
-                    include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
-                    ?>
+                    <div class=" "> <?php
+                        include $generales->path_base . 'templates/sliders/galeria/_slider_index.php';
+                        include $generales->path_base . 'templates/boton_todas_casas/boton_ver.php';
+                        ?> </div>
+
 
 
 

@@ -39,8 +39,6 @@ $generales = new generales();
 <script src="<?php echo $generales->url_base; ?>assets/js/dpejes/dpe.js"></script>
 <script src="<?php echo $generales->url_base; ?>assets/js/dpejes_custom.js"></script>
 <script src="<?php echo $generales->url_base; ?>assets/js/facebook.js" type="text/javascript"></script>
-<script src="<?php echo $generales->url_base; ?>assets/js/slider.js" type="text/javascript"></script>
-<script src="<?php echo $generales->url_base; ?>assets/js/slider_comentarios.js" type="text/javascript"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-232768223-1">
 </script>
