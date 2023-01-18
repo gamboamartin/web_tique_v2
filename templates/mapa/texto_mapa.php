@@ -4,7 +4,7 @@ include "./init.php";
 require './vendor/autoload.php';
 $generales = new generales();
 ?>
-<div class="container-fluid h-100 color_azul contenedor_mapa_text">
+<div class="container-fluid h-100 color_azul contenedor_mapa_text" id="mapa">
     <div class="row w-100 align-items-center" >
         <div class="col text-center" >
             <div class="container " >
@@ -12,11 +12,11 @@ $generales = new generales();
                 <br>
             </div>
             <div class="contenedor_centrado" style="">
-                <form  method="post" >
+                <form  method="post" action="#mapa" >
                     <ul class="ul_img_hogar">
                         <li class="li_img_hogar ">
                             <div class="btn-group">
-                                <input type="submit" id="btn_gdl" value="Guadalajara" name="btn_gdl" class="btn  boton_mapa" >
+                                <input type="submit"  id="btn_gdl" value="Guadalajara" name="btn_gdl" class="btn  boton_mapa" >
                             </div>
 
                         </li>
@@ -54,21 +54,22 @@ $generales = new generales();
                     <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
 
                 </div>
-                <div style="position: relative; bottom: 15vh;">
+                <div style="position: relative; bottom: 15vh; margin-bottom: -14vh;">
                     <?php include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_gdl.php'; ?>
 
                 </div>
-         <?php }
-             elseif (isset($_POST["btn_tonala"])){ ?>
+
+            <?php }
+            elseif (isset($_POST["btn_tonala"])){ ?>
                 <div class="btn-group mapa_tona">
-                        <p class="numero_boton_mapa">4</p>
-                        <p class="texto_boton_mapa">Propiedades</p>
-                        <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
-                    </div>
-            <div style="position: relative; bottom: 15vh;">
-            <?php
-                include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_tonala.php'; ?>
-            </div>
+                    <p class="numero_boton_mapa">4</p>
+                    <p class="texto_boton_mapa">Propiedades</p>
+                    <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
+                </div>
+                <div style="position: relative; bottom: 15vh; margin-bottom: -14vh;">
+                    <?php
+                    include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_tonala.php'; ?>
+                </div>
                 <?php
             }
             elseif (isset($_POST["btn_zapopan"])){ ?>
@@ -77,25 +78,25 @@ $generales = new generales();
                     <p class="texto_boton_mapa">Propiedades</p>
                     <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
                 </div>
-                <div style="position: relative; bottom: 15vh;">
+                <div style="position: relative; bottom: 15vh; margin-bottom: -14vh;">
                     <?php
                     include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_Zapopan.php'; ?>
                 </div>
-                <?php }
-                elseif (isset($_POST["btn_tlajo"])){
+            <?php }
+            elseif (isset($_POST["btn_tlajo"])){
 
                 ?>
-            <div class="btn-group mapa_tlajo" id="gdl" name="gdl">
-                <p class="numero_boton_mapa">2</p>
-                <p class="texto_boton_mapa">Propiedades</p>
-                <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
+                <div class="btn-group mapa_tlajo"  name="gdl">
+                    <p class="numero_boton_mapa">2</p>
+                    <p class="texto_boton_mapa">Propiedades</p>
+                    <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
 
-            </div>
-            <div style="position: relative; bottom: 15vh;">
-                <?php include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_tlajomulco.php'; ?>
+                </div>
+                <div style="position: relative; bottom: 15vh; margin-bottom: -14vh;">
+                    <?php include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares_tlajomulco.php'; ?>
 
-            </div>
-                    <?php
+                </div>
+                <?php
             }
             else{
                 include $generales->path_base . 'templates/ubicaciones/_ubicaciones_hogares.php';
