@@ -96,7 +96,7 @@ if($wt_tipo_inmueble > 0){
                         <h3 class="texto_icono_hogar"><?php echo $estacionamiento_hogar; ?></h3>
                 </div>
             </li>
-            <li  class="li_img_hogar" class="sin_redondeo_borde" style="height: 90px;">
+            <li  class="li_img_hogar" class="sin_redondeo_borde">
                 <div>
                     <div class="img_detalles">
                     <img id="imagen_slider sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/patio.png" alt="Lote itze" height="80%"/>
@@ -107,19 +107,20 @@ if($wt_tipo_inmueble > 0){
             <li  class="li_img_hogar mergen_lateral_vw1" >
                 <div>
                     <div class="img_detalles">
-                    <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tipo_hogar.png" alt="Lote itze" height="80%"/>
+                        <img id="imagen_slider " class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png" alt="Lote itze" height="80%"/>
                     </div>
-                    <h3 class="texto_icono_hogar"><?php echo $tipo_hogar." ".$niveles_label." ".$niveles_hogar; ?></h3>
+                    <h3 class="texto_icono_hogar"><?php echo $construccion_hogar; ?></h3>
                 </div>
             </li>
             <li  class="li_img_hogar mergen_lateral_vw1" >
                 <div>
                     <div class="img_detalles">
-                    <img id="imagen_slider " class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png" alt="Lote itze" height="80%"/>
+                    <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tipo_hogar.png" alt="Lote itze" height="80%"/>
                     </div>
-                    <h3 class="texto_icono_hogar"><?php echo $construccion_hogar; ?></h3>
+                    <h3 class="texto_icono_hogar"><?php echo $tipo_hogar." ".$niveles_label." ".$niveles_hogar; ?></h3>
                 </div>
             </li>
+
         <?php } ?>
         <li  class="li_img_hogar mergen_lateral_vw1" >
             <div>
