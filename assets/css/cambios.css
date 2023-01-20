@@ -972,3 +972,6 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .sin_redondeo_borde{
     border-radius:0px;
 }
+.margen-5{
+    margin: -5px;
+}
