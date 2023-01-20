@@ -975,3 +975,6 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .margen-5{
     margin: -5px;
 }
+.margen_top-10vh{
+    margin-top: -10vh;
+}

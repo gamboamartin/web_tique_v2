@@ -44,8 +44,10 @@ $generales = new generales();
     </main><!-- /.main-part-->
             <?php // include $generales->path_base.'templates/agentes/index/_agentes_index.php' ?>
             <?php  include $generales->path_base.'templates/noticias/index/_noticias_index.php' ?>
-            <?php include $generales->path_base.'templates/ubicaciones/_ubicaciones_hogares.php'?>
+            <div class="margen_top-10vh" >
+            </div>
 
+    <?php include $generales->path_base . 'templates/mapa/texto_mapa.php'; ?>
             <footer class="footer">
                 <?php include $generales->path_base.'templates/footer/_footer.php' ?>
             </footer>
