@@ -961,3 +961,14 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .flexslider:hover .flex-direction-nav .flex-next:hover{
     opacity: 1;
 }
+.mergen_lateral_vw1{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.img_detalles{
+    height: 80px;
+    margin-top: 5vh
+}
+.sin_redondeo_borde{
+    border-radius:0px;
+}
