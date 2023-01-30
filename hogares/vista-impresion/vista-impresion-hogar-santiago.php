@@ -37,6 +37,12 @@ if($wt_hogar > 0){
 }
 
 ?>
+<style>
+    html, body {
+        height: 100%;
+        overflow-x: revert !important;;
+    }
+</style>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -49,7 +55,7 @@ if($wt_hogar > 0){
         <!-- End custom template style   -->
         <link rel="stylesheet" href="<?php echo $generales->url_base; ?>assets/css/print.css"  media="print"/>
     </head>
-    <body class="">
+    <body class="" >
         <div class="container container-wrapper">
             <main class="main section-color-primary">
                 <div class="container">

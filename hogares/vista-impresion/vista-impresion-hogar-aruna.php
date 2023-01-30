@@ -48,6 +48,12 @@ if(count($a)>2) {
 }
 
 ?>
+<style>
+    html, body {
+        height: 100%;
+        overflow-x: revert !important;;
+    }
+</style>
 <!DOCTYPE html>
 <html lang="en">
     <head>

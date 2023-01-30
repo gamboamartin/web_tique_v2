@@ -37,6 +37,12 @@ if($wt_hogar > 0){
 }
 
 ?>
+<style>
+    html, body {
+        height: 100%;
+        overflow-x: revert !important;;
+    }
+</style>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -68,9 +74,7 @@ if($wt_hogar > 0){
                             <button class="print_hidden print_btn color-primary btn btn-primary" onclick="print_page()">Imprimir</button>
                         </div>
                         <!-- /.right side bar -->
-                        <footer class="footer">
-                            <?php include $generales->path_base.'templates/footer/_footer.php' ?>
-                        </footer>
+
                     </div>
                 </div>
             </main><!-- /.main-part--> 

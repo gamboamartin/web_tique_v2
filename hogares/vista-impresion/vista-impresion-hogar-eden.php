@@ -37,6 +37,12 @@ if($wt_hogar > 0){
 }
 
 ?>
+<style>
+    html, body {
+        height: 100%;
+        overflow-x: revert !important;;
+    }
+</style>
 <!DOCTYPE html>
 <html lang="en">
     <head>
