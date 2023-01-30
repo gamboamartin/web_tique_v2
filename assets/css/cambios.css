@@ -268,6 +268,7 @@ element.style {
 
 }
 @media screen and (min-width: 480px) {
+
     #video{
         display: block;
         margin: 0px auto;
@@ -718,6 +719,9 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .centrar{
     text-align: center;
 }
+.derecha{
+    text-align: right;
+}
 .contenedor_mapa{
     width: 100%;
     height: 50vh;
@@ -812,6 +816,7 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .texto_derecha{
     text-align: right !important;
 }
+
 .contenido_{
     width:100%;
     display:flex;
@@ -969,11 +974,23 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     height: 80px;
     margin-top: 5vh
 }
+.img_detalles_imp{
+    position: center;
+    height: 50px;
+    width: 50px;
+    margin-left: -15px;
+    margin-top: 5vh;
+    float: left;
+    /*margin-right: 10px;*/
+}
 .sin_redondeo_borde{
-    border-radius:0px;
+    border-radius:0px !important;
 }
 .margen-5{
     margin: -5px;
+}
+.margen_top-5vh{
+    margin-top: -5vh;
 }
 .margen_top-10vh{
     margin-top: -10vh;
