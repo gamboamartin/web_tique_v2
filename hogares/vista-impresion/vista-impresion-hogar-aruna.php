@@ -115,7 +115,7 @@ if(count($a)>2) {
                             <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?>
                         </div><!-- /.center-content -->
                         <div class="col-md-3">
-                            <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
+                            <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
                             <button class="print_hidden print_btn btn_casa_vendida_x texto_btn_casa_vendida_x btn" onclick="print_page()">Imprimir</button>
                         </div>
                         <!-- /.right side bar -->
