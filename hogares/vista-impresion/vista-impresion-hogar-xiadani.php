@@ -143,11 +143,12 @@ if(count($a)>2) {
 
 
                 </div><!-- /.center-content -->
-                    <footer class="footer" style="background: #FFFFFF">
-                        <?php include $generales->path_base . 'templates/footer/_footer.php' ?>
-                    </footer>
+
                 </div>
             </div>
+                <footer class="footer" style="background: #FFFFFF">
+                    <?php include $generales->path_base . 'templates/footer/_footer.php' ?>
+                </footer>
         </div>
     </div>
 </main>

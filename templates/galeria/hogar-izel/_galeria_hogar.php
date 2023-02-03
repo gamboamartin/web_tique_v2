@@ -1,9 +1,8 @@
 <?php
-    $a = $generales->url_base."assets/img/venta_casas/hogar_xiadani/1Fachada/9 (1).jpg";
-    $b = $generales->url_base."assets/img/venta_casas/hogar_xiadani/3Comedor/Comedor.jpg";
-    $c = $generales->url_base."assets/img/venta_casas/hogar_xiadani/5Baño/Baño.jpg";
+$a = $generales->url_base."assets/img/venta_casas/hogar_izel/1Fachada/img1.jpg";
+$b = $generales->url_base."assets/img/venta_casas/hogar_izel/1Fachada/img2.jpg";
+$c = $generales->url_base."assets/img/venta_casas/hogar_izel/1Fachada/img3.jpg";
 ?>
-
 
 
 <div class="margen_izquierda margen_derecha padding-top-5vh">
@@ -13,19 +12,19 @@
 
         <li class="col-xs-4 ">
             <a data-gallery="gallery" href="<?php echo $a ?>" title="" download="<?php echo $a ?>" class="preview show-icon ">
-                <img style="height: 100px"  src="<?php echo $a ?>" class="" alt=""/>
+                <img  src="<?php echo $a ?>" class="" alt=""/>
             </a>
             <div class="preview-img img_borddes"><img src="<?php echo $a ?>" data-src="<?php echo $a ?>" alt="" class="img_borddes" width="10px"/></div>
         </li>
         <li class="col-xs-4">
             <a data-gallery="gallery" href="<?php echo $b ?>" title="" download="<<?php echo $b ?>" class="preview show-icon">
-                <img style="height: 100px" src="<?php echo $b ?>" class="" alt=""/>
+                <img src="<?php echo $b ?>" class="" alt=""/>
             </a>
             <div class="preview-img img_borddes"><img src="<?php echo $b ?>" data-src="<?php echo $b ?>" alt="" class="img_borddes" /></div>
         </li>
         <li class="col-xs-4">
             <a data-gallery="gallery" href="<?php echo $c ?>" title="" download="<?php echo $c ?>" class="preview show-icon">
-                <img style="height: 100px" src="<?php echo $c ?>" class="" alt=""/>
+                <img src="<?php echo $c ?>" class="" alt=""/>
             </a>
             <div class="preview-img img_borddes"><img src="<?php echo $c ?>" data-src="<?php echo $c ?>" alt="" class="img_borddes" /></div>
         </li>

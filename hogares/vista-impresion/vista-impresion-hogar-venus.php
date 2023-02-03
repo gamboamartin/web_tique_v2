@@ -30,12 +30,22 @@ $wt_hogar = $wt_hogar_modelo->obtener_registro_wt_hogar($landing_url_sin_ext);
 
 $img_hogar = '';
 $nombre_hogar = '';
-
-if($wt_hogar > 0){
+$municipio = "Zapopan";
+$buscar = stripos($wt_hogar['wt_hogar_ubicacion'], $municipio);
+if($wt_hogar > 0 and $buscar !== false){
+    $direccion = $wt_hogar['wt_hogar_ubicacion'];
     $img_hogar = $wt_hogar['wt_hogar_img_descripcion'];
     $nombre_hogar = $wt_hogar['wt_hogar_descripcion'];
-}
+    $proposito_hogar_id = $wt_hogar['wt_hogar_wt_proposito_id'];
 
+}
+$numero=1190000;
+$costo= number_format($numero, 2);
+$a = explode(",", $costo);
+if(count($a)>2) {
+    $b = explode(",", $costo,2);
+    $costo=$b[0]."'".$b[1];
+}
 ?>
 <style>
     html, body {
@@ -55,28 +65,79 @@ if($wt_hogar > 0){
         <!-- End custom template style   -->
         <link rel="stylesheet" href="<?php echo $generales->url_base; ?>assets/css/print.css"  media="print"/>
     </head>
-    <body class="">
+    <body class="color_blanco">
         <div class="container container-wrapper">
             <main class="main section-color-primary">
                 <div class="container">
                     <div class="row">
-                        <img src="<?php echo $generales->url_base?>assets/img/icons/Logotipo-TIQUE.png" width="40%">
-                        <div class="col-md-9">
-                            <div class="widget widget-box box-container widget-property">
-                                <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
-                                <?php include $generales->path_base.'templates/descripcion/_descripcion_general_print.php' ?>
+
+                        <div class="col-md-9" >
+                            <img style="margin-bottom: -3vh; margin-top: -1vh; float: right" src="<?php echo $generales->url_base?>assets/img/icons/Logotipo-TIQUE.png" width="40%">
+                            <div class="color_blanco  center_item" style="margin-top: -2vh;">
+                                <div style="margin-left: 2vw">
+                                    <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
+                                    <h1 class="titulo_notice"><?php echo $nombre_hogar;?></h1>
+                                    <h3 class="texto_hoagar_h3"><?php echo $direccion;?></h3>
+                                </div>
+                                
+
+                            </div>
+                            <div class="widget widget-box box-container widget-property " style="margin-top: -5vh">
+                                <div>
+                                    <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
+                                </div>
+                                <div style="margin-top: -6vh; margin-bottom: -4vh">
+                                    <?php include $generales->path_base.'templates/descripcion/_descripcion_general_print.php' ?>
+                                </div>
+
                             </div> <!-- /. widget-body -->
                             <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
-                            <?php include $generales->path_base.'templates/galeria/hogar-venus/_galeria_hogar.php' ?>
+
                         </div><!-- /.center-content -->
-                        <div class="col-md-3">
+                        <div class="col-md-3" >
+                            <div class="contenido_"  >
+                                <div class="inner_ ">
+                                    <div class="float_right">
+                                        <?php if ($proposito_hogar_id == 2){?>
+                                            <div class="btn_casa_vendida_x ">
+                                                <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
+
+                                            </div>
+
+                                        <?php }
+                                        elseif ($proposito_hogar_id == 3){?>
+                                            <h4 class=" btn_info_casa" style="  background:  #FF8C00 !important;"> Apartado </h4>
+
+                                        <?php }
+                                        else{?>
+                                            <h4 class=" btn_info_casa" style=" color: #0000cc !important; background-color: #cccccc !important"> Renovada </h4>
+                                        <?php } ?>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="padding-top-3vh inner_"  >
+                                    <h4 class="texto_hoagar_h3 texto_derecha"  >Precio total (MXN) </h4>
+
+                                    <h4 class="subtitulo_hogar_gris texto_derecha">$ <?php echo $costo;?> </h4>
+
+                                </div>
+                                <div >
+
+                                </div>
+                            </div>
+
+
                             <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
+                            <?php include $generales->path_base.'templates/galeria/hogar-venus/_galeria_hogar.php' ?>
                             <button class="print_hidden print_btn color-primary btn btn-primary" onclick="print_page()">Imprimir</button>
                         </div>
-                        <!-- /.right side bar -->
-                        <footer class="footer">
+                        <footer class="footer" style="background: #FFFFFF">
                             <?php include $generales->path_base.'templates/footer/_footer.php' ?>
                         </footer>
+                        <!-- /.right side bar -->
+
                     </div>
                 </div>
             </main><!-- /.main-part--> 
