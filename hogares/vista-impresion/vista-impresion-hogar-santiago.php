@@ -67,11 +67,15 @@ if($wt_hogar > 0){
                                 <?php include $generales->path_base.'templates/descripcion/_descripcion_general_print.php' ?>
                             </div> <!-- /. widget-body -->
                             <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
-                            <?php include $generales->path_base.'templates/galeria/hogar-santiago/_galeria_hogar_santiago.php' ?>
+
                         </div><!-- /.center-content -->
                         <div class="col-md-3">
                             <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
                             <button class="print_hidden print_btn color-primary btn btn-primary" onclick="print_page()">Imprimir</button>
+                            <div style="position: static;">
+                                <?php include $generales->path_base.'templates/galeria/hogar-santiago/_galeria_hogar_santiago_imp.php' ?>
+                            </div>
+
                         </div>
                         <!-- /.right side bar -->
                         <footer class="footer">

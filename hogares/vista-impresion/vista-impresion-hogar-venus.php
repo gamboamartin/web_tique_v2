@@ -52,9 +52,17 @@ if(count($a)>2) {
         height: 100%;
         overflow-x: revert !important;;
     }
+    @media print {
+        .alternativa-1 {
+            color:#00324b;
+            background-color:#fff;
+            border:1px solid #00324b;
+        }
+    }
+
 </style>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
     <head>
         <meta charset="UTF-8" />
         <title><?php echo $nombre_hogar ?></title>
@@ -65,14 +73,14 @@ if(count($a)>2) {
         <!-- End custom template style   -->
         <link rel="stylesheet" href="<?php echo $generales->url_base; ?>assets/css/print.css"  media="print"/>
     </head>
-    <body class="color_blanco">
+    <body class="alternativa-1">
         <div class="container container-wrapper">
             <main class="main section-color-primary">
                 <div class="container">
                     <div class="row">
 
                         <div class="col-md-9" >
-                            <img style="margin-bottom: -3vh; margin-top: -1vh; float: right" src="<?php echo $generales->url_base?>assets/img/icons/Logotipo-TIQUE.png" width="40%">
+
                             <div class="color_blanco  center_item" style="margin-top: -2vh;">
                                 <div style="margin-left: 2vw">
                                     <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
@@ -82,16 +90,19 @@ if(count($a)>2) {
                                 
 
                             </div>
-                            <div class="widget widget-box box-container widget-property " style="margin-top: -5vh">
+                            <div class="widget widget-box box-container widget-property" style="margin-top: -5vh">
                                 <div>
                                     <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
                                 </div>
-                                <div style="margin-top: -6vh; margin-bottom: -4vh">
-                                    <?php include $generales->path_base.'templates/descripcion/_descripcion_general_print.php' ?>
+                                <div style="margin-top: -2vh; ">
+                                    <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
                                 </div>
-
+                                <div>
+                                    <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general_imp.php' ?>
+                                </div>
+                                <?php include $generales->path_base.'templates/galeria/hogar-venus/_galeria_hogar.php' ?>
                             </div> <!-- /. widget-body -->
-                            <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
+
 
                         </div><!-- /.center-content -->
                         <div class="col-md-3" >
@@ -130,11 +141,11 @@ if(count($a)>2) {
 
 
                             <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
-                            <?php include $generales->path_base.'templates/galeria/hogar-venus/_galeria_hogar.php' ?>
                             <button class="print_hidden print_btn color-primary btn btn-primary" onclick="print_page()">Imprimir</button>
+
                         </div>
-                        <footer class="footer" style="background: #FFFFFF">
-                            <?php include $generales->path_base.'templates/footer/_footer.php' ?>
+                        <footer class="footer" >
+                            <?php include $generales->path_base.'templates/footer/_footer_imp.php' ?>
                         </footer>
                         <!-- /.right side bar -->
 
