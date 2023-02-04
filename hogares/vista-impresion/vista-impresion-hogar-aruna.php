@@ -53,82 +53,107 @@ if(count($a)>2) {
         height: 100%;
         overflow-x: revert !important;;
     }
+
+
 </style>
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title><?php echo $nombre_hogar ?></title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+<html lang="en" >
+<head>
+    <meta charset="UTF-8" />
+    <title><?php echo $nombre_hogar ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-        <?php include $generales->path_base.'templates/css.php'; ?>
-        <!-- End custom template style   -->
-        <link rel="stylesheet" href="<?php echo $generales->url_base; ?>assets/css/print.css"  media="print"/>
-    </head>
-    <body class="">
-        <div class="container container-wrapper">
-            <main class="main color_blanco">
-                <div class="container">
-                    <div class="row">
-                        <div class="contenedor_centrado">
-                            <img src="<?php echo $generales->url_base?>assets/img/icons/Logotipo-TIQUE.png" width="40%">
+    <?php include $generales->path_base.'templates/css.php'; ?>
+    <!-- End custom template style   -->
+    <link rel="stylesheet" href="<?php echo $generales->url_base; ?>assets/css/print.css"  media="print"/>
+</head>
+<body class="alternativa-1">
+<div class="container container-wrapper">
+    <main class="main section-color-primary">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-9" >
+
+                    <div class="color_blanco  center_item" style="margin-top: -2vh;">
+                        <div style="margin-left: 2vw">
+                            <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
+                            <h1 class="titulo_notice"><?php echo $nombre_hogar;?></h1>
+                            <h3 class="texto_hoagar_h3"><?php echo $direccion;?></h3>
                         </div>
-                        <div class="col-md-12 padding-top-5vh padding_bottom_5vh color_blanco">
-                            <div class="control-group col-sm-8 margen_izquierda center_item">
-                                <ul class="breadcrumb">
-                                    <li class="item"><a href="<?php echo $generales->url_base; ?>index.php"> Inicio </a></li>
-                                    <li class="item"> <?php echo $nombre_hogar;?> </li>
-                                </ul>
-                                <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
-                                <h1 class="titulo_notice"><?php echo $nombre_hogar;?></h1>
-                                <h3 class="texto_hoagar_h3"><?php echo $direccion;?></h3>
-                            </div>
-                            <div class="control-group col-sm-2 margen_izquierda center_item">
-                                <div class="contenido_"  >
-                                    <div class="inner_ ">
-                                        <div class="btn_casa_vendida_x float_right">
-                                            <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
-
-                                        </div>
-                                    </div>
 
 
-                                    <div class="padding-top-3vh inner_"  >
-
-                                        <h4 class="texto_hoagar_h3 texto_derecha"  >Precio total (MXN) </h4>
-
-                                        <h4 class="subtitulo_hogar_gris texto_derecha">$ <?php echo $costo;?> </h4>
-
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="col-md-9">
-                            <div class="widget widget-box box-container widget-property">
-                                <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
-                                <?php include $generales->path_base.'templates/descripcion/_descripcion_general_print.php' ?>
-                            </div> <!-- /. widget-body -->
-                            <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
-                            <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?>
-                        </div><!-- /.center-content -->
-                        <div class="col-md-3">
-                            <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
-                            <button class="print_hidden print_btn btn_casa_vendida_x texto_btn_casa_vendida_x btn" onclick="print_page()">Imprimir</button>
-                        </div>
-                        <!-- /.right side bar -->
-                        <footer class="footer">
-                            <?php include $generales->path_base.'templates/footer/_footer.php' ?>
-                        </footer>
                     </div>
+                    <div class="widget widget-box box-container widget-property" >
+                        <div>
+                            <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
+                        </div>
+                        <div >
+                            <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
+                        </div>
+                        <div>
+                            <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general_imp.php' ?>
+                        </div>
+                        <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?>
+                    </div> <!-- /. widget-body -->
+
+
+                </div><!-- /.center-content -->
+                <div class="col-md-3" >
+                    <div class="contenido_"  >
+                        <div class="inner_ ">
+                            <div class="float_right">
+                                <?php if ($proposito_hogar_id == 2){?>
+                                    <div class="btn_casa_vendida_x ">
+                                        <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
+
+                                    </div>
+
+                                <?php }
+                                elseif ($proposito_hogar_id == 3){?>
+                                    <h4 class=" btn_info_casa" style="  background:  #FF8C00 !important;"> Apartado </h4>
+
+                                <?php }
+                                else{?>
+
+                                <?php } ?>
+
+                            </div>
+                        </div>
+
+
+                        <div class="padding-top-3vh inner_"  >
+                            <h4 class="texto_hoagar_h3 texto_derecha"  >Precio total (MXN) </h4>
+
+                            <h4 class="subtitulo_hogar_gris texto_derecha">$ <?php echo $costo;?> </h4>
+
+                        </div>
+                        <div >
+
+                        </div>
+                    </div>
+
+
+                    <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
+                    <div class="centrar">
+                        <button class="print_hidden print_btn btn_info_casa " onclick="print_page()">Imprimir</button>
+                    </div>
+
+
                 </div>
-            </main><!-- /.main-part--> 
+                <footer class="footer" >
+                    <?php include $generales->path_base.'templates/footer/_footer_imp.php' ?>
+                </footer>
+                <!-- /.right side bar -->
+
+            </div>
         </div>
-        <?php include $generales->path_base.'templates/java.php' ?>
-        <!-- End custom template style   -->
-        <script src="../assets/js/dpejes/dpe.js"></script>
-        <script src="../assets/js/dpejes_custom.js"></script>
-    </body>
+    </main><!-- /.main-part-->
+</div>
+<?php include $generales->path_base.'templates/java.php' ?>
+<!-- End custom template style   -->
+<script src="../assets/js/dpejes/dpe.js"></script>
+<script src="../assets/js/dpejes_custom.js"></script>
+</body>
 </html>
