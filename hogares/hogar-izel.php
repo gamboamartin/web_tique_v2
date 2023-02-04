@@ -47,7 +47,7 @@ if(count($a)>2) {
     $b = explode(",", $costo,2);
     $costo=$b[0]."'".$b[1];
 }
-//$descripcion_twitter = "Hogar Eirene se encuentra situado en un tranquilo y armonioso fraccionamiento del municipio de Zapopan, este fraccionamiento ideal para vivir, se caracteriza por su confort, tranquilidad, armonía y espacio acogedor, cuenta con fácil acceso a hospitales, escuelas, tiendas de autoservicio, plaza comercial, unidad deportiva, y áreas de recreación infantil, en el fraccionamiento se percibe un excelente ambiente familiar.";
+$descripcion_twitter = "";
 ?>
 <!DOCTYPE html>
 <html lang="en">
