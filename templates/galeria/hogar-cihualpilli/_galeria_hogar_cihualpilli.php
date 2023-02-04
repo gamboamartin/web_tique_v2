@@ -1,25 +1,32 @@
 
+<?php
+$a = $generales->url_base."assets/img/venta_casas/hogar_cihualpilli/8Coto/Acceso2.png";
+$b = $generales->url_base."assets/img/venta_casas/hogar_cihualpilli/1Fachada/Fachada_3.png";
+$c = $generales->url_base."assets/img/venta_casas/hogar_cihualpilli/2Sala/Sala_4.png";
+?>
+
 <div class="margen_izquierda margen_derecha padding-top-5vh">
 
     <ul data-target="#modal-gallery" data-toggle="modal-gallery" class="images-gallery clearfix">
 
-        <li class="col-sm-4">
-            <a data-gallery="gallery" href="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/8Coto/Acceso2.png" title="" download="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/8Coto/Acceso2.png" class="preview show-icon">
-                <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/8Coto/Acceso2.png" class="" alt=""/>
+
+        <li class="col-xs-4 ">
+            <a data-gallery="gallery" href="<?php echo $a ?>" title="" download="<?php echo $a ?>" class="preview show-icon ">
+                <img  src="<?php echo $a ?>" class="" alt=""/>
             </a>
-            <div class="preview-img img_borddes"><img class="img_borddes" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/8Coto/Acceso2.png" data-src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/8Coto/Acceso2.png" alt="" class="" /></div>
+            <div class="preview-img img_borddes"><img src="<?php echo $a ?>" data-src="<?php echo $a ?>" alt="" class="img_borddes" width="10px"/></div>
         </li>
-        <li class="col-sm-4">
-            <a data-gallery="gallery" href="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/1Fachada/Fachada_3.png" title="" download="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/1Fachada/Fachada_3.png" class="preview show-icon">
-                <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/Fachada_3" class="" alt=""/>
+        <li class="col-xs-4">
+            <a data-gallery="gallery" href="<?php echo $b ?>" title="" download="<<?php echo $b ?>" class="preview show-icon">
+                <img src="<?php echo $b ?>" class="" alt=""/>
             </a>
-            <div class="preview-img img_borddes"><img class="img_borddes" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/1Fachada/Fachada_3.png" data-src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/1Fachada/Fachada_3.png" alt="" class="" /></div>
+            <div class="preview-img img_borddes"><img src="<?php echo $b ?>" data-src="<?php echo $b ?>" alt="" class="img_borddes" /></div>
         </li>
-        <li class="col-sm-4">
-            <a data-gallery="gallery" href="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/2Sala/Sala_4.png" title="" download="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/2Sala/Sala_4.png" class="preview show-icon">
-                <img src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/2Sala/Sala_4.png" class="" alt=""/>
+        <li class="col-xs-4">
+            <a data-gallery="gallery" href="<?php echo $c ?>" title="" download="<?php echo $c ?>" class="preview show-icon">
+                <img src="<?php echo $c ?>" class="" alt=""/>
             </a>
-            <div class="preview-img img_borddes"><img class="img_borddes" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/2Sala/Sala_4.png" data-src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_cihualpilli/2Sala/Sala_4.png" alt="" class="" /></div>
+            <div class="preview-img img_borddes"><img src="<?php echo $c ?>" data-src="<?php echo $c ?>" alt="" class="img_borddes" /></div>
         </li>
 
     </ul>
