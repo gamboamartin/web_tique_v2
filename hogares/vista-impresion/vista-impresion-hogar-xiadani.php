@@ -28,7 +28,6 @@ $landing_url_sin_ext = quitar_php(url_landing_limpia: $url_landing_limpia);
 
 $wt_hogar = $wt_hogar_modelo->obtener_registro_wt_hogar($landing_url_sin_ext);
 
-
 $img_hogar = '';
 $nombre_hogar = '';
 $municipio = "Tlajomulco de Zuñiga";
@@ -47,15 +46,18 @@ if(count($a)>2) {
     $b = explode(",", $costo,2);
     $costo=$b[0]."'".$b[1];
 }
+
 ?>
 <style>
     html, body {
         height: 100%;
         overflow-x: revert !important;;
     }
+
+
 </style>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8" />
     <title><?php echo $nombre_hogar ?></title>
@@ -66,99 +68,92 @@ if(count($a)>2) {
     <!-- End custom template style   -->
     <link rel="stylesheet" href="<?php echo $generales->url_base; ?>assets/css/print.css"  media="print"/>
 </head>
-<body class="">
+<body class="alternativa-1">
 <div class="container container-wrapper">
     <main class="main section-color-primary">
         <div class="container">
             <div class="row">
-                <div class="centrar">
-                    <img src="<?php echo $generales->url_base?>assets/img/icons/Logotipo-TIQUE.png" width="40%">
 
-                </div>
+                <div class="col-md-9" >
 
-                <div class="col-md-12 margen_top-5vh padding_bottom_5vh ">
-                    <div class="control-group col-sm-8 margen_izquierda center_item">
-
-                        <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
-                        <h1 class="titulo_notice"><?php echo $nombre_hogar;?></h1>
-                        <h3 class="texto_hoagar_h3"><?php echo $direccion;?></h3>
-                    </div>
-                    <div class="control-group col-sm-2 margen_izquierda center_item">
-
-                        <div class="contenido_"  >
-                            <div class="inner_ ">
-                                <div class="float_right">
-                                    <?php if ($proposito_hogar_id == 2){?>
-                                        <div class="btn_casa_vendida_x ">
-                                            <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
-
-                                        </div>
-
-                                    <?php }
-                                    elseif ($proposito_hogar_id == 3){?>
-                                        <h4 class=" btn_info_casa" style="  background:  #FF8C00 !important;"> Apartado </h4>
-
-                                    <?php }
-                                    else{?>
-                                        <h4 class=" btn_info_casa" style=" color: #0000cc !important; background-color: #cccccc !important"> Renovada </h4>
-                                    <?php } ?>
-
-                                </div>
-                            </div>
-
-
-                            <div class="padding-top-3vh inner_"  >
-                                <h4 class="texto_hoagar_h3 texto_derecha"  >Precio total (MXN) </h4>
-
-                                <h4 class="subtitulo_hogar_gris texto_derecha">$ <?php echo $costo;?> </h4>
-
-                            </div>
-
+                    <div class="color_blanco  center_item" >
+                        <div style="margin-left: 2vw">
+                            <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
+                            <h1 class="titulo_notice"><?php echo $nombre_hogar;?></h1>
+                            <h3 class="texto_hoagar_h3"><?php echo $direccion;?></h3>
                         </div>
 
-                    </div>
 
-
-                <div class="col-md-12 padding_bottom_5vh " >
-                    <div class="col-md-9">
-                    <div class="color_blanco ">
-                        <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
                     </div>
-
-                    <div class="color_blanco">
-                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general_xiadani.php' ?>
-                    </div>
-                        <div class="margen_top-5vh ">
-                            <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
+                    <div class="widget widget-box box-container widget-property" >
+                        <div>
+                            <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
                         </div>
-
-                    </div>
-
-
-                    <div class="col-md-3">
-                        <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
-                        <?php //include $generales->path_base.'templates/agentes/hogar-cihualpilli/_ficha_agente.php' ?>
-                        <?php include $generales->path_base.'templates/galeria/hogar-xiadani/_galeria_hogar_imp.php' ?>
-                        <button onclick="window.print()">Print this page</button>
+                        <div >
+                            <?php include $generales->path_base.'templates/descripcion/_descripcion_general_xiadani.php' ?>
+                        </div>
+                        <div>
+                            <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general_imp.php' ?>
+                        </div>
+                        <?php include $generales->path_base.'templates/galeria/hogar-xiadani/_galeria_hogar.php' ?>
+                    </div> <!-- /. widget-body -->
 
 
                 </div><!-- /.center-content -->
+                <div class="col-md-3" style="margin-top: 2vh">
+                    <div class="contenido_"  >
+                        <div class="inner_ ">
+                            <div class="float_right">
+                                <?php if ($proposito_hogar_id == 2){?>
+                                    <div class="btn_casa_vendida_x ">
+                                        <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
+
+                                    </div>
+
+                                <?php }
+                                elseif ($proposito_hogar_id == 3){?>
+                                    <h4 class=" btn_info_casa" style="  background:  #FF8C00 !important;"> Apartado </h4>
+
+                                <?php }
+                                else{?>
+                                    <h4 class=" btn_info_casa" style=" color: #0000cc !important; background-color: #cccccc !important"> Renovada </h4>
+                                <?php } ?>
+
+                            </div>
+                        </div>
+
+
+                        <div class="padding-top-3vh inner_"  >
+                            <h4 class="texto_hoagar_h3 texto_derecha"  >Precio total (MXN) </h4>
+
+                            <h4 class="subtitulo_hogar_gris texto_derecha">$ <?php echo $costo;?> </h4>
+
+                        </div>
+                        <div >
+
+                        </div>
+                    </div>
+
+
+                    <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
+                    <div class="centrar">
+                        <button class="print_hidden print_btn btn_info_casa " onclick="print_page()">Imprimir</button>
+                    </div>
+
 
                 </div>
-            </div>
-                <footer class="footer" style="background: #FFFFFF">
-                    <?php include $generales->path_base . 'templates/footer/_footer.php' ?>
+                <footer class="footer" >
+                    <?php include $generales->path_base.'templates/footer/_footer_imp.php' ?>
                 </footer>
+                <!-- /.right side bar -->
+
+            </div>
         </div>
-    </div>
-</main>
-
-
-
+    </main><!-- /.main-part-->
 </div>
-
-<?php include $generales->path_base . 'templates/java.php' ?>
-
+<?php include $generales->path_base.'templates/java.php' ?>
+<!-- End custom template style   -->
+<script src="../assets/js/dpejes/dpe.js"></script>
+<script src="../assets/js/dpejes_custom.js"></script>
 </body>
-
 </html>
