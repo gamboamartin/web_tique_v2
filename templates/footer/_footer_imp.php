@@ -7,12 +7,9 @@ $generales = new generales();
         <div class="row">
             <div class="col-md-3 hidden-sm hidden-xs"><!--Div img-->
                 <?php include $generales->path_base.'templates/footer/foot_imp/_icono.php' ?>
-
             </div>
 
             <?php include $generales->path_base.'templates/footer/foot_imp/_contacto.php'?>
-
-
             <?php include $generales->path_base.'templates/footer/foot_imp/_horario.php'?>
 
         </div>

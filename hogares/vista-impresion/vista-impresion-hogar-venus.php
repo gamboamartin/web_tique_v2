@@ -52,13 +52,7 @@ if(count($a)>2) {
         height: 100%;
         overflow-x: revert !important;;
     }
-    @media print {
-        .alternativa-1 {
-            color:#00324b;
-            background-color:#fff;
-            border:1px solid #00324b;
-        }
-    }
+
 
 </style>
 <!DOCTYPE html>
@@ -141,7 +135,10 @@ if(count($a)>2) {
 
 
                             <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
-                            <button class="print_hidden print_btn color-primary btn btn-primary" onclick="print_page()">Imprimir</button>
+                            <div class="centrar">
+                                <button class="print_hidden print_btn btn_info_casa " onclick="print_page()">Imprimir</button>
+                            </div>
+
 
                         </div>
                         <footer class="footer" >

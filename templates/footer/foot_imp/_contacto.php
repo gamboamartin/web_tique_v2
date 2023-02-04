@@ -1,3 +1,7 @@
+<?php
+use config\generales;
+$generales = new generales();
+?>
 <div class="col-md-3 col-sm-6">
     <div class="title">
         <h4>Contacto</h4>
