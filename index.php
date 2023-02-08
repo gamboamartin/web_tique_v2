@@ -78,7 +78,7 @@ $generales = new generales();
                                                 include $generales->path_base.'templates/lista_casas/lote-itze/_carta_casa.php' ;
                                                 include $generales->path_base.'templates/lista_casas/lote-nicte/_carta_casa.php' ;
                                                 include $generales->path_base.'templates/lista_casas/lote-xaman/_carta_casa.php' ;
-                                                include $generales->path_base.'templates/lista_casas/lote-yaax/_carta_casa.php';
+                                               
 
                                                 ?>
 
