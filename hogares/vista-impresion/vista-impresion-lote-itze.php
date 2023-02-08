@@ -76,7 +76,7 @@ if(count($a)>2) {
 
                 <div class="col-md-9" >
 
-                    <div class="color_blanco  center_item" style="margin-top: -2vh;">
+                    <div class="color_blanco  center_item" >
                         <div style="margin-left: 2vw">
                             <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
                             <h1 class="titulo_notice"><?php echo $nombre_hogar;?></h1>
@@ -85,17 +85,17 @@ if(count($a)>2) {
 
 
                     </div>
-                    <div class="widget widget-box box-container widget-property" style="margin-top: -5vh">
+                    <div class="widget widget-box box-container widget-property" >
                         <div>
                             <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
                         </div>
-                        <div style="margin-top: -2vh; ">
+                        <div style="margin-bottom: 3vh;">
                             <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 7vh;">
                             <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general_imp.php' ?>
                         </div>
-                        <?php include $generales->path_base.'templates/galeria/lote-itze/_galeria_hogar.php' ?>
+                        <?php include $generales->path_base.'templates/galeria/lote-xaman/_galeria_hogar.php' ?>
                     </div> <!-- /. widget-body -->
 
 

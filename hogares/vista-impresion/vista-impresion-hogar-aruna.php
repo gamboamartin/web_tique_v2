@@ -85,14 +85,14 @@ if(count($a)>2) {
 
 
                     </div>
-                    <div class="widget widget-box box-container widget-property" >
+                    <div class="widget widget-box box-container widget-property" style="margin-top: -2vh;" >
                         <div>
                             <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
                         </div>
-                        <div >
+                        <div style="margin-top: -2vh;">
                             <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
                         </div>
-                        <div>
+                        <div >
                             <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general_imp.php' ?>
                         </div>
                         <?php include $generales->path_base.'templates/galeria/hogar-aruna/_galeria_hogar.php' ?>

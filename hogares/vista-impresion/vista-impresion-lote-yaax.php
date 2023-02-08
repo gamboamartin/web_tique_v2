@@ -88,10 +88,10 @@ if(count($a)>2) {
                         <div>
                             <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 2vh;">
                             <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
                         </div>
-                        <div>
+                        <div style="margin-bottom: 2vh;">
                             <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general_imp.php' ?>
                         </div>
                         <?php include $generales->path_base.'templates/galeria/lote-yaax/_galeria_hogar.php' ?>

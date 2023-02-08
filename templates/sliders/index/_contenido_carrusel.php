@@ -24,10 +24,6 @@ $generales = new generales();
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/lote_xaman/1/lote_xaman2.png" alt="Lote Xaman" height="100%"/>
 
     </div>
-    <div class="item ">
-        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/lote_yaax/1/lote_yaax3.png" alt="Lote Yaax" height="100%"/>
-
-    </div>
     <div class="item">
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_pasitea/1Fachada/Hacienda Real.png" alt="Hogar Pasítea" height="100%"/>
     </div>
@@ -63,6 +59,10 @@ $generales = new generales();
     </div>
     <div class="item">
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_beatriz/1Fachada/1.jpg" alt="Hogar Beatriz" height="100%" />
+
+    </div>
+    <div class="item ">
+        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/lote_yaax/1/lote_yaax3.png" alt="Lote Yaax" height="100%"/>
 
     </div>
 
