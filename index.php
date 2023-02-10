@@ -55,7 +55,7 @@ $generales = new generales();
 
                                                 <h1 class="whatsapp_subtitulo" style="font-size: 35px; background: none;">Departamentos Disponibles </h1>
                                                 <?php
-                                                include $generales->path_base.'templates/lista_casas/hogar-eirene/_carta_casa.php';
+                                                
                                                 include $generales->path_base . 'templates/lista_casas/hogar-orquidea/_carta_casa.php';
 
                                                 ?>
