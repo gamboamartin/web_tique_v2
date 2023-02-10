@@ -126,7 +126,7 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
                     <div class="ocultar_responsivo">
                         <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     </div>
-                    <div class="ocultar_pag_web margen_derecha" style="margin-left: 12vw">
+                    <div class="ocultar_pag_web margen_derecha" style="margin-left: 22vw">
                         <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
                     </div>
 
