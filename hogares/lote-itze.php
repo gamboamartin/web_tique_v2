@@ -130,7 +130,7 @@ $descripcion_twitter = 'Espectacular oportunidad de terreno para inversión o pa
                     <div class="ocultar_responsivo">
                         <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     </div>
-                    <div class="ocultar_pag_web margen_derecha" style="margin-left: 22vw">
+                    <div class="ocultar_pag_web margen_derecha" style="margin-left: 12vw">
                         <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
                     </div>
                     <div class="margen_izquierda margen_derecha color_blanco">
