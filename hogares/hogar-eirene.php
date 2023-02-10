@@ -40,7 +40,7 @@ if($wt_hogar > 0 and $buscar !== false){
     $proposito_hogar_id = $wt_hogar['wt_hogar_wt_proposito_id'];
     $municipio="Zapopan";
 }
-$numero=1190000;
+$numero=480000;
 $costo= number_format($numero, 2);
 $a = explode(",", $costo);
 if(count($a)>2) {
