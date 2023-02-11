@@ -3,7 +3,7 @@ use config\generales;
 $generales = new generales();
 ?>
 <div class="carousel-caption">
-    <h3 class="carousel-caption-title"><span>Hogar Pasítea</span><i class="line-bottom color-primary"></i></h3>
+    <h3 class="carousel-caption-title"><span style="background: rgba(153, 153, 153, 0.5);" class=" nombre_hogar">Hogar Pasítea</span></h3>
     <!--<div class="s-description"><p>Ubicada en Zapopan</p></div>-->
-    <a href="<?php echo $generales->url_base;?>hogares/hogar-pasitea.php" class="btn btn-primary color-primary"><span>Ver mi nuevo hogar</span></a>
+    <a href="<?php echo $generales->url_base;?>hogares/hogar-pasitea.php" class="btn btn-primary btn_info_casa"><span>Ver mi nuevo hogar</span></a>
 </div>

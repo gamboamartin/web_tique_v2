@@ -15,7 +15,32 @@
     font-family: MontserratAlternates-MediumItalic;
     src:url("fonts/fuentes/MontserratAlternates-MediumItalic.otf");
 }
+.nombre_hogar{
+    font-family: Montserrat-medium;
+    border-radius: 15px;
+}
+.renovacion {
+    background: rgba(85, 163, 139, 0.7);
+    #background: rgba(58, 81, 153, 0.7);
+    font-family: Montserrat-Medium;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 
+}
+.apartado {
+    background: rgba(255, 140, 0, 0.6);
+    #background: rgba(58, 81, 153, 0.7);
+    font-family: Montserrat-Medium;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
 
 .titulo_slider{
     color: #ffffff;
@@ -84,6 +109,7 @@
     background-color: #0000cc !important;
     padding: 20px;
 }
+
 .btn_busca_tu_ubicacion{
     align-items: center !important;
     color: #ffffff !important;
