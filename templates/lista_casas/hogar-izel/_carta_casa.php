@@ -10,19 +10,7 @@ $generales = new generales();
         <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar_izel.php" class="btn_info_cart_casa" >  Detalles  </a>
 
         <div class="property-card-header image-box carta_img_casa"  >
-            <h3 class="etiqueta_imagen" style="color:  #ffffff!important;
-    text-align: center !important;
-    font-family: Montserrat-Medium !important;
-    font-size: 15px !important;
-    margin: 0px !important;
-    width: 130px;
-    border-radius:10px 10px 10px 10px !important;
-    background-color:  #55a38b !important;
-    padding: 5px;
-    position: absolute;
-    top: 5%;
-    left: 10%;
-    z-index:1;">En renovación</h3>
+            <h3 class="etiqueta_imagen" style="  width: 130px;color:  #ffffff!important; background-color:  #55a38b !important;">En renovación</h3>
 
             <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_izel/1Fachada/img1.jpg" alt="" class="" />
             <!--Casa destacada en caso de serlo-->

@@ -174,14 +174,14 @@
 }
 
 .etiqueta_imagen{
-    color: #0000cc !important;
-    text-align: center !important;
-    font-family: Montserrat-Medium !important;
-    font-size: 15px !important;
-    margin: 0px !important;
-    width: 200px;
-    border-radius:10px 10px 10px 10px !important;
-    background-color: #cccccc !important;
+    color: #ffffff;
+    text-align: center ;
+    font-family: Montserrat-Medium ;
+    font-size: 15px;
+    margin: 0px ;
+    width: 100px;
+    border-radius:10px 10px 10px 10px ;
+    background: rgba(58, 81, 153, 0.9);
     padding: 5px;
     position: absolute;
     top: 5%;
