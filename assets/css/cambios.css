@@ -101,7 +101,7 @@ html, body {
     margin: 0px auto;
     border-radius:70px;
     width: 90%;
-    height: 90%;
+    height: 95%;
 }
 .posicion_main{
     position: relative;
@@ -268,7 +268,14 @@ element.style {
 
 }
 @media screen and (min-width: 480px) {
-
+    .img_whatsapp{
+        align-items: center !important;
+        display: block;
+        margin: 0px auto;
+        border-radius:70px;
+        width: 90%;
+        height: 80vh;
+    }
     #video{
         display: block;
         margin: 0px auto;
