@@ -62,7 +62,7 @@ if(isset($_POST['hora']) and isset($_POST['fecha']) ) {
     $contenido->mensaje = $datos_formulario;
 
     $destinatario = new stdClass();
-    $destinatario->email = 'alejandro.esquivel@inmobiliariatique.com';
+    $destinatario->email = 'jazmin.rodriguez@ivitec.com.mx';
     $destinatario->name = 'Alejandro Esquivel';
     $envia = $notificacion->envia(contenido: $contenido,destinatario:  $destinatario);
     if(gamboamartin\errores\errores::$error){
