@@ -8,13 +8,18 @@ $generales = new generales();
 if(isset($_POST['mail'])) {
 
     $notificacion = new notificacion();
-    $data = '<h3>Nombre: ' . utf8_decode($_POST['name']). '</h3><br><h3>'.utf8_decode("Teléfono").': ' . utf8_decode($_POST['phone']) . '</h3><br><h3>E-mail: ' . utf8_decode($_POST['mail']) . '</h3><br><h3>Mensaje: ' . utf8_decode($_POST['message']);
+    $data = '<h3>Nombre: ' . utf8_decode($_POST['name']). '</h3><br><h3>'
+        .utf8_decode("Teléfono").': ' . utf8_decode($_POST['phone'])
+        . '</h3><br><h3>E-mail: ' . utf8_decode($_POST['mail'])
+        . '</h3><br><h3>Mensaje: ' . utf8_decode($_POST['message'])
+        .'</h3><br><h3> Fecha de la cita: ' . utf8_decode($_POST['fecha']) .
+    '</h3><br><h3> Hora de la cita: ' . utf8_decode($_POST['hora']) ;
     $contenido = new stdClass();
     $contenido->subject = 'Requiero informacion acerca de'. $_POST['hogar'];
     $contenido->mensaje = $data;
 
     $destinatario = new stdClass();
-    $destinatario->email = 'jazmin.rodriguez@ivitec.com.mx';
+    $destinatario->email = 'alejandro.esquivel@inmobiliariatique.com';
     $destinatario->name = 'Alejandro Esquivel';
     $envia = $notificacion->envia(contenido: $contenido,destinatario:  $destinatario);
     if(gamboamartin\errores\errores::$error){
