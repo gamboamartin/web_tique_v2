@@ -48,7 +48,7 @@ $generales = new generales();
             }
             if($ruta_regenerada == "lote_itze"){
             ?>
-            <div class="item">
+            <div class="item" data-interval="50000">
                 <div class=" hover-default  ">
                     <iframe id="video"
                             src="https://www.youtube.com/embed/MF4xaqHmVfI"
@@ -62,7 +62,7 @@ $generales = new generales();
              }
             elseif($ruta_regenerada == "lote_nicte"){
             ?>
-                <div class="item">
+                <div class="item" data-interval="50000">
                     <div class=" hover-default  ">
                         <iframe id="video" src="https://www.youtube.com/embed/xKj9SRFnVfs"
                                 title="YouTube video player" frameborder="0"
@@ -74,7 +74,7 @@ $generales = new generales();
             }
             elseif($ruta_regenerada == "lote_xaman"){
             ?>
-                <div class="item">
+                <div class="item" data-interval="50000">
                     <div class=" hover-default  ">
                         <iframe id="video" src="https://www.youtube.com/embed/HmkOwTBbcwE"
                                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
@@ -87,7 +87,7 @@ $generales = new generales();
             }
             elseif($ruta_regenerada == "lote_yaax"){
             ?>
-                <div class="item">
+                <div class="item" data-interval="50000">
                     <div class=" hover-default  ">
                         <iframe id="video" src="https://www.youtube.com/embed/-_d8r2tHonM"
                                 title="YouTube video player" frameborder="0"
