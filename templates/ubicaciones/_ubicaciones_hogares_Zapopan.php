@@ -18,7 +18,7 @@ $generales = new generales();
 
 $wt_hogar_modelo = new wt_hogar(conexion::$link);
 
-$x =[ 480000, 1380000, 1190000, 920000, 238000, 3180000, 3460000, 3,560,000];
+$x =[ 480000, 1380000, 1190000, 920000, 238000, 3180000, 3460000, 3560000, 2120000];
 
 $hogares = array();
 //var_dump($wt_hogar_modelo->obten_registros_activos()->registros); exit;

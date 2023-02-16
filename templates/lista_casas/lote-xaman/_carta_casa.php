@@ -11,7 +11,7 @@ $generales = new generales();
 
         <div class="property-card-header image-box carta_img_casa"  >
 
-            <h3 class="etiqueta_imagen" style="color: #0000cc !important;
+            <h3 class="etiqueta_imagen" style="color: #ffffff !important;
     text-align: center !important;
     font-family: Montserrat-Medium !important;
     font-size: 15px !important;
