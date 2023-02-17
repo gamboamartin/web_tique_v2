@@ -77,34 +77,24 @@ $descripcion_twitter = '    Espectacular oportunidad de terreno para inversión 
             <div class="row">
                 <div class="col-md-12 padding-top-5vh padding_bottom_5vh ">
                     <div class="control-group col-sm-8 margen_izquierda center_item">
-                        <ul class="breadcrumb">
-                            <li class="item"><a href="<?php echo $generales->url_base; ?>index.php"> Inicio </a></li>
-                            <li class="item"> <?php echo $nombre_hogar;?> </li>
-                        </ul>
+
                         <h2 class="subtitulo_hogar_gris"> Terreno Residencial en venta <?php echo $municipio;?></h2>
                         <h1 class="titulo_notice"><?php echo $nombre_hogar;?></h1>
                         <h3 class="texto_hoagar_h3"><?php echo $direccion;?></h3>
                     </div>
-                    <div class="control-group col-sm-2 margen_izquierda center_item">
-                        <div class="contenido_"  >
-                            <div class="inner_ ">
-                                <div class="float_right">
-                                    <?php if ($proposito_hogar_id == 2){?>
-                                        <div class="btn_casa_vendida_x ">
-                                            <h4 class="texto_btn_casa_vendida_x ">Vendida </h4>
+                    <div class="control-group col-sm-2 margen_top_3vh margen_izquierda center_item">
+                        <div class="contenido_ "  >
+                            <?php if ($proposito_hogar_id == 2){?>
+                                <h4 class=" btn_info_casa_" style="  background:  #FF3300 !important;"> Vendida </h4>
 
-                                        </div>
+                            <?php }
+                            elseif ($proposito_hogar_id == 3){?>
+                                <h4 class=" btn_info_casa_" style="  background:  #FF8C00 !important;"> Apartado </h4>
 
-                                    <?php }
-                                    elseif ($proposito_hogar_id == 3){?>
-                                        <h4 class=" btn_info_casa" style="  background:  #FF8C00 !important;"> Apartado </h4>
+                            <?php }
+                            else{?>
 
-                                    <?php } ?>
-
-                                </div>
-                            </div>
-
-
+                            <?php } ?>
                             <div class="padding-top-3vh inner_"  >
 
                                 <h4 class="texto_hoagar_h3 texto_derecha"  >Precio total (MXN) </h4>

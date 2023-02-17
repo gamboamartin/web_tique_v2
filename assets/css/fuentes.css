@@ -96,18 +96,29 @@
     margin-left: 30px;
     margin-right: 30px;
 }
-
 .btn_info_casa{
-    align-items: center !important;
-    color: #ffffff !important;
-    text-align: center !important;
-    font-family: Montserrat-Medium !important;
-    font-size: 15px !important;
-    margin: 0px !important;
+    align-items: center ;
+    color: #ffffff ;
+    text-align: center ;
+    font-family: Montserrat-Medium ;
+    font-size: 15px ;
+    margin: 0px ;
     width: 200px;
-    border-radius:20px 20px 20px 20px !important;
-    background-color: #0000cc !important;
+    border-radius:20px 20px 20px 20px;
+    background-color: #0000cc ;
     padding: 20px;
+}
+.btn_info_casa_{
+    align-items: center ;
+    color: #ffffff ;
+    text-align: center ;
+    font-family: Montserrat-Medium !important;
+    font-size: 15px ;
+    margin: 0px ;
+    width: 120px;
+    border-radius:10px 10px 10px 10px ;
+    background-color: #0000cc ;
+    padding: 10px;
 }
 
 .btn_busca_tu_ubicacion{

@@ -803,6 +803,9 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .margen_derecha{
     margin-right: 5vw;
 }
+.margen_derecha10{
+    margin-right: 10vw;
+}
 .margen_derecha3{
     margin-right: 3vw;
 }
@@ -824,7 +827,9 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .texto_derecha{
     text-align: right !important;
 }
-
+.texto_izquierda{
+    text-align: left;
+}
 .contenido_{
     width:100%;
     display:flex;
@@ -1001,6 +1006,9 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 .margen_top-5vh{
     margin-top: -5vh;
+}
+.margen_top_3vh{
+    margin-top: 2vh;
 }
 .margen_top-10vh{
     margin-top: -10vh;
