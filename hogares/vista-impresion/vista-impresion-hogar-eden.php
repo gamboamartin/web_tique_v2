@@ -116,7 +116,7 @@ if(count($a)>2) {
 
                                 <?php }
                                 else{?>
-                                    <h4 class=" btn_info_casa" style=" color: #0000cc !important; background-color: #cccccc !important"> Renovada </h4>
+                                    <h4 class=" btn_info_casa_" > Renovada </h4>
                                 <?php } ?>
 
                             </div>

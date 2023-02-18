@@ -95,7 +95,7 @@ $descripcion_twitter = '    Hogar Xiadani bonita casa en el fraccionamiento  ubi
 
                             <?php }
                             else{?>
-                                <h4 class=" btn_info_casa_" style=" color: #FFFFFF !important; background-color: rgba(58, 81, 153, 1) !important"> Renovada </h4>
+                                <h4 class=" btn_info_casa_"> Renovada </h4>
                             <?php } ?>
 
 
