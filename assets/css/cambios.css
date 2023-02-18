@@ -10,6 +10,13 @@ html, body {
     width: 89%;
     height: 95%;
 }
+#imagen_slider_{
+    display: block;
+    margin: 0px auto;
+    border-radius:70px;
+    width: 90%;
+    height: 85vh;
+}
 #video{
     display: block;
     margin: 0px auto;
@@ -196,8 +203,14 @@ html, body {
 .vh-70{
     min-height: 70vh;
 }
+.vh-90{
+    min-height: 90vh;
+}
 .vh-95{
     min-height: 95vh;
+}
+.vh-85{
+    min-height: 85vh;
 }
 .vh-50{
     min-height: 50vh;
@@ -673,6 +686,10 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 .padding_bottom_5vh{
     padding-bottom: 5vh;
+
+}
+.padding_bottom_2vh{
+    padding-bottom: 2vh;
 
 }
 .padding_bottom_10vh{

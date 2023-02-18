@@ -79,7 +79,7 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
     <main class="main ">
         <div class="container contenedor_index">
             <div class="row">
-                <div class="col-md-12 padding-top-5vh padding_bottom_5vh ">
+                <div class="col-md-12 padding-top-3vh padding_bottom_2vh ">
                     <div class="control-group col-sm-8 margen_izquierda center_item">
                         <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
                         <h1 class="titulo_notice"><?php echo $nombre_hogar;?></h1>
@@ -111,9 +111,9 @@ Descubre Hogar Aruna y enamorate de tu nuevo estilo de vida'; //falta por automa
                 </div>
 
                 <div class="col-md-12 " >
-                    <div class="color_azul padding-top-10vh padding_bottom_5vh">
+
                         <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
-                    </div>
+
                     <div class="ocultar_responsivo">
                         <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     </div>

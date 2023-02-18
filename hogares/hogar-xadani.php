@@ -39,7 +39,7 @@ if($wt_hogar > 0 and $buscar !== false){
     $proposito_hogar_id = $wt_hogar['wt_hogar_wt_proposito_id'];
 
 }
-$numero=1160000;
+$numero=1120000;
 $costo= number_format($numero, 2);
 $a = explode(",", $costo);
 if(count($a)>2) {
@@ -47,12 +47,7 @@ if(count($a)>2) {
     $costo=$b[0]."'".$b[1];
 }
 
-$descripcion_twitter = '    Hogar Xadani se ubica al oriente del Área Metropolitana de Guadalajara en un
- exclusivo y Fraccionamiento del municipio de Tonalá, ideal para el bienestar de su familia por su 
- tranquilidad y modernidad, Fraccionamiento Urbi, se caracteriza por tener una vista hacia la naturaleza
-  inigualable, Hogar Xadani cuenta con fácil acceso a escuelas, parques de recreación familiar y centros
-  comerciales. 
-    yfyifyi
+$descripcion_twitter = '    Hogar Xiadani bonita casa en el fraccionamiento  ubicado en la parte Sur del área metropolitana de Guadalajara, ideal para vivir en un ambiente familiar y de tranquilidad, ya que cuenta con ingreso controlado y muro perimetral. Ideal para un estilo de vida armonioso, ya que está consolidado en cuestión de infraestructura, como lo son áreas verdes, áreas infantiles y de recreación familiar, área comercial ideales para la convivencia familiar, es sin duda una vivienda.
  '; //falta por automatizar
 ?>
 
@@ -82,7 +77,7 @@ $descripcion_twitter = '    Hogar Xadani se ubica al oriente del Área Metropoli
     <main class="main ">
         <div class="container contenedor_index">
             <div class="row">
-                <div class="col-md-12 padding-top-5vh padding_bottom_5vh ">
+                <div class="col-md-12 padding-top-3vh padding_bottom_2vh ">
                     <div class="control-group col-sm-8 margen_izquierda center_item">
 
                         <h2 class="subtitulo_hogar_gris">Casa en venta <?php echo $municipio;?></h2>
@@ -92,16 +87,17 @@ $descripcion_twitter = '    Hogar Xadani se ubica al oriente del Área Metropoli
                     <div class="control-group col-sm-2 margen_top_3vh margen_izquierda center_item">
                         <div class="contenido_ "  >
                             <?php if ($proposito_hogar_id == 2){?>
-                            <h4 class=" btn_info_casa_" style="  background:  #FF3300 !important;"> Vendida </h4>
+                                <h4 class=" btn_info_casa_" style="  background:  #FF3300 !important;"> Vendida </h4>
 
                             <?php }
                             elseif ($proposito_hogar_id == 3){?>
-                            <h4 class=" btn_info_casa_" style="  background:  #FF8C00 !important;"> Apartado </h4>
+                                <h4 class=" btn_info_casa_" style="  background:  #FF8C00 !important;"> Apartado </h4>
 
                             <?php }
                             else{?>
-                                <h4 class=" btn_info_casa_" style=" color: #FFFFFF !important; background-color: rgba(58, 81, 153, 1) !important> Renovada </h4>
+                                <h4 class=" btn_info_casa_" style=" color: #FFFFFF !important; background-color: rgba(58, 81, 153, 1) !important"> Renovada </h4>
                             <?php } ?>
+
 
                             <div class="padding-top-3vh inner_"  >
 
@@ -117,9 +113,8 @@ $descripcion_twitter = '    Hogar Xadani se ubica al oriente del Área Metropoli
                 </div>
 
                 <div class="col-md-12 padding_bottom_5vh " >
-                    <div class="color_azul padding-top-10vh padding_bottom_5vh">
-                        <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
-                    </div>
+                    <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
+
                     <div class="ocultar_responsivo">
                         <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     </div>
@@ -127,7 +122,7 @@ $descripcion_twitter = '    Hogar Xadani se ubica al oriente del Área Metropoli
                         <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
                     </div>
                     <div class="margen_izquierda margen_derecha color_blanco">
-                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general_xadani.php' ?>
+                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general_xiadani.php' ?>
                     </div>
                     <?php include $generales->path_base.'templates/galeria/hogar-xadani/_galeria_hogar.php' ?>
                     <div class="margen_izquierda margen_derecha padding-top-5vh ">

@@ -4,8 +4,8 @@ use config\generales;
 $generales = new generales();
 
 ?>
-<div class="property-slider-box">
-    <div id="property-slider" class="property-slider carousel slide" data-ride="carousel">
+<div class="property-slider-box color_azul padding-top-5vh">
+    <div id="property-slider" class="property-slider carousel slide " data-ride="carousel">
         <!-- Content -->
         <?php
             $landing_url = get_landing_url();
@@ -20,7 +20,7 @@ $generales = new generales();
             $img_activo = false;
 
         ?>
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner vh-90" role="listbox">
             <?php
             for($i = 2 ; $i < count($carpetas) ; $i++)
             {
@@ -39,7 +39,7 @@ $generales = new generales();
                     if ($es_imagen){
                             ?>
                             <div class="item<?php echo $item_activo ?>">
-                                <img id="imagen_slider" src="<?php echo $direccion_hogar.$carpeta.$archivo?>" alt="<?php echo $archivo ?>" />
+                                <img id="imagen_slider_" height="100%" src="<?php echo $direccion_hogar.$carpeta.$archivo?>" alt="<?php echo $archivo ?>" />
                             </div>
                             <?php
                     }

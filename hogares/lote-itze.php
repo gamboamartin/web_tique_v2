@@ -77,7 +77,7 @@ $descripcion_twitter = 'Espectacular oportunidad de terreno para inversión o pa
     <main class="main ">
         <div class="container contenedor_index">
             <div class="row">
-                <div class="col-md-12 padding-top-5vh padding_bottom_5vh ">
+                <div class="col-md-12 padding-top-3vh padding_bottom_2vh ">
                     <div class="control-group col-sm-8 margen_izquierda center_item">
 
                         <h2 class="subtitulo_hogar_gris"> Terreno Residencial en venta <?php echo $municipio;?></h2>
@@ -103,7 +103,7 @@ $descripcion_twitter = 'Espectacular oportunidad de terreno para inversión o pa
 
                                 <h4 class="texto_hoagar_h3 texto_izquierda"  >Precio total (MXN) </h4>
 
-                                <h4 class="subtitulo_hogar_gris texto_derecha">$ <?php echo $costo;?> </h4>
+                                <h4 class="subtitulo_hogar_gris texto_izquierda">$ <?php echo $costo;?> </h4>
 
                             </div>
                         </div>
@@ -113,9 +113,9 @@ $descripcion_twitter = 'Espectacular oportunidad de terreno para inversión o pa
                 </div>
 
                 <div class="col-md-12 padding_bottom_5vh " >
-                    <div class="color_azul padding-top-10vh padding_bottom_5vh">
-                        <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
-                    </div>
+                    <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
+
+
                     <div class="ocultar_responsivo">
                         <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
                     </div>
