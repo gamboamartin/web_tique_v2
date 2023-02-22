@@ -33,6 +33,7 @@ $banio_hogar = '';
 $recamara_hogar = '';
 $patio_hogar = '';
 $estacionamiento_hogar = '';
+$tiempo_hogar='';
 
 if($wt_hogar > 0){
     $direccion_hogar = $wt_hogar['wt_hogar_ubicacion'];
@@ -44,6 +45,7 @@ if($wt_hogar > 0){
     $banio_hogar = $wt_hogar['wt_hogar_banio'];
     $recamara_hogar = $wt_hogar['wt_hogar_recamara'];
     $patio_hogar = $wt_hogar['wt_hogar_patio'];
+    $tiempo_hogar= $wt_hogar['wt_hogar_años'];
     $estacionamiento_hogar = $wt_hogar['wt_hogar_estacionamiento'];
 
 }
@@ -58,8 +60,12 @@ if($tipo_hogar_id == 2){
 }
 $wt_tipo_inmueble = $wt_tipo_inmueble_modelo->registro(registro_id: $tipo_hogar_id);
 $patron = "/^[[:digit:]]+$/";
+$letra="/[a-z or A-z]/";
+$medio="1/2";
+$banio_medio = strpos($banio_hogar, $medio);
 
-
+//var_dump($num_banio);
+$num_recamara = explode($patron, $recamara_hogar);
 $tipo_hogar = '';
 if($wt_tipo_inmueble > 0){
     $tipo_hogar = $wt_tipo_inmueble['wt_tipo_inmueble_descripcion'];
@@ -73,18 +79,21 @@ if($wt_tipo_inmueble > 0){
         <?php if($tipo_hogar_id != 3){ ?>
             <li  class="li_img_hogar mergen_lateral_vw1" >
                 <div>
-                    <div class="img_detalles centrar" style="margin-left: 1vw;">
-                    <img id="imagen_slider " class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/habitacion.png" alt="Lote itze" height="80%"/>
+                    <div class=" centrar" style="margin-left: 1vw;">
+                        <img id="imagen_slider " class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/habitacion.png" alt="Lote itze" height="80%"/>
                     </div>
                     <h3 class="texto_icono_hogar"> <?php
 
+
+                        //var_dump(preg_match($patron, $recamara_hogar)); exit();
+
                         if (preg_match($patron, $recamara_hogar)) {
-                            if($recamara_hogar==1){
-                                echo $recamara_hogar;?> Recamara <?php
-                            } else{
-                                echo $recamara_hogar;?> Recamaras <?php }
-                        }else{
                             echo $recamara_hogar;
+                        }else{
+                            if($num_recamara){
+                                echo $num_recamara[0] ;
+                            }
+
                         }
                         ?></h3>
                 </div>
@@ -92,117 +101,101 @@ if($wt_tipo_inmueble > 0){
             </li>
             <li  class="li_img_hogar mergen_lateral_vw1" >
                 <div>
-                    <div class="img_detalles">
+                    <div class="">
                     <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/baño.png" alt="Lote itze" height="80%"/>
                     </div>
-                        <h3 class="texto_icono_hogar"><?php if (preg_match($patron, $banio_hogar)) {
-                                if($banio_hogar==1){
-                                    echo $banio_hogar;?>
-                                    Baño <?php
-                                } else{
-                                    echo $banio_hogar;?>
-                                    Baños
-                                <?php }
-                            }else{
-                                echo $banio_hogar;
-                            }
+                        <h3 class="texto_icono_hogar"><?php
+
+
+                                if (preg_match($patron, $banio_hogar)) {
+                                    echo $banio_hogar;
+                                }else{
+                                    if($banio_medio){
+                                        $usuario = strstr($banio_hogar, $medio, true);
+                                        echo $usuario; ?>
+                                        1/2 <?php
+                                    }
+                                    else{
+                                        $usuario = strstr($banio_hogar, " ", true);
+                                        echo $usuario;
+
+                                    }
+
+
+
+                                }
+
+
+
                             ?></h3>
                 </div>
             </li>
-            <li  class="li_img_hogar" class="sin_redondeo_borde">
-                <div>
-                    <div class="img_detalles">
-                    <img id="imagen_slider sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/patio.png" alt="Lote itze" height="80%"/>
-                    </div>
-                    <h3 class="texto_icono_hogar"><?php  if (preg_match($patron, $patio_hogar)) {
-                            if($patio_hogar==1){
-                                echo $patio_hogar;?>
-                                Patio <?php
-                            } else{
-                                echo $patio_hogar;?>
-                                Patios
-                            <?php }
-                        }else{
-                            echo $patio_hogar;
-                        } ?></h3>
-                </div>
-            </li>
+
             <li  class="li_img_hogar mergen_lateral_vw1" >
                 <div>
-                    <div class="img_detalles">
+                    <div class="">
                         <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/cochera.png" alt="Lote itze" height="80%"/>
                     </div>
-                    <h3 class="texto_icono_hogar"><?php  if (preg_match($patron, $estacionamiento_hogar)) {
-                            if($estacionamiento_hogar==1){
-                                echo $estacionamiento_hogar;?>
-                                Cochera <?php
-                            } else{
-                                echo $estacionamiento_hogar;?>
-                                Estacionamientos
-                            <?php }
-                        }else{
+                    <h3 class="texto_icono_hogar"><?php
+                        if (preg_match($patron, $estacionamiento_hogar)) {
                             echo $estacionamiento_hogar;
+
+                        }else{
+
+                            $resultado = intval(preg_replace($patron, '', $estacionamiento_hogar), 10);
+
+                            if($resultado!=0){
+                                echo $resultado;
+                            }
+                            else{
+                                ?> 1 <?php
+                            }
+
+
                         } ?></h3>
                 </div>
             </li>
-            <li  class="li_img_hogar mergen_lateral_vw1" >
-                <div >
-                    <div class="centrar">
-                        <div class="img_detalles " style=" height: 90px; margin-left: 2vw;">
-                            <img id="imagen_slider" class="sin_redondeo_borde " src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tipo_hogar.png" alt="Lote itze" height="80%"/>
-                        </div>
-                    </div>
 
-                    <div style="margin-top: -10px">
-                        <h3 class="texto_icono_hogar"><?php echo $tipo_hogar." ".$niveles_label." ".$niveles_hogar; ?></h3>
-                    </div>
-
-                </div>
-            </li>
-
+            <?php
+        } ?>
             <li  class="li_img_hogar mergen_lateral_vw1" >
                 <div>
-                    <div class="img_detalles">
-                        <img id="imagen_slider " class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png" alt="Lote itze" height="80%"/>
+                    <div class="">
+                        <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png"  height="80%"/>
                     </div>
                     <h3 class="texto_icono_hogar"><?php echo $construccion_hogar; ?></h3>
+
+
                 </div>
             </li>
 
-        <?php } ?>
+
         <li  class="li_img_hogar mergen_lateral_vw1" >
             <div>
-                <div class="img_detalles">
-                    <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/terreno.png" alt="Lote itze" height="80%"/>
+                <div class="">
+                    <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/terreno.png"  height="80%"/>
                 </div>
+                <h3 class="texto_icono_hogar"><?php echo $terreno_hogar; ?></h3>
 
-                <div style="float: left">
-                    <h3 class="texto_icono_hogar"><?php echo $terreno_hogar; ?></h3>
-                </div>
 
             </div>
         </li>
-        <?php if($tipo_hogar_id == 3){ ?>
-            <li  class="li_img_hogar mergen_lateral_vw1">
-                <div>
-                    <div class="img_detalles" style=" margin-left: 2vw;" >
-                        <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/dimencion.png" alt="Lote itze" height="80%"/>
-                    </div>
+        <?php if (isset($tiempo_hogar)){?>
 
-                    <h3 class="texto_icono_hogar"><?php echo $construccion_hogar; ?></h3>
+        <li  class="li_img_hogar mergen_lateral_vw1" >
+            <div>
+                <div class="">
+                    <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tiempo.png"  height="80%"/>
                 </div>
-            </li>
-            <li  class="li_img_hogar mergen_lateral_vw1">
-                <div>
-                    <div class="img_detalles"  style=" height: 90px; margin-left: 2vw;">
-                    <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tipo_hogar.png" alt="Lote itze" height="80%"/>
-                    </div>
-                    <div style="margin-top: -10px">
-                        <h3 class="texto_icono_hogar"><?php echo $tipo_hogar; ?></h3>
-                    </div>
-                </div>
-            </li>
-        <?php } ?>
+                <h3 class="texto_icono_hogar"><?php echo $tiempo_hogar; ?></h3>
+
+
+            </div>
+        </li>
+        <?php
+        }
+         ?>
+
     </ul>
 
 </div>
