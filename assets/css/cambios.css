@@ -10,12 +10,13 @@ html, body {
     width: 89%;
     height: 95%;
 }
+
 #imagen_slider_{
     display: block;
     margin: 0px auto;
     border-radius:70px;
     width: 90%;
-    height: 85vh;
+    height: 85%;
 }
 #video{
     display: block;
@@ -204,7 +205,7 @@ html, body {
     min-height: 70vh;
 }
 .vh-90{
-    min-height: 90vh;
+    min-height: 90%;
 }
 .vh-95{
     min-height: 95vh;
@@ -280,7 +281,24 @@ element.style {
     border-bottom-color: #FFFFFF;
 
 }
+#imagen_slider_{
+    display: block;
+    margin: 0px auto;
+    border-radius:70px;
+    width: 90%;
+    height: 85%;
+}
 @media screen and (min-width: 480px) {
+    .vh-90{
+        min-height: 90vh;
+    }
+    #imagen_slider_{
+        display: block;
+        margin: 0px auto;
+        border-radius:70px;
+        width: 90%;
+        height: 85vh;
+    }
     .img_whatsapp{
         align-items: center !important;
         display: block;
@@ -550,8 +568,30 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .ocultar_pag_web{
     display: block;
 }
-
+.images-gallery li .preview-img {
+    border: 1px solid #A1A5AD;
+    height: 30VH;
+    max-height: 320px;
+}
+.img_detalles{
+    height: 100px;
+    width: 100px;
+    margin-top: 5vh;
+    position: center;
+}
 @media screen and (min-width: 480px) {
+    .img_detalles{
+        display: block;
+        margin: 0px auto;
+        border-radius:70px;
+        width: 89%;
+        height: 95%;
+    }
+    .images-gallery li .preview-img {
+        border: 1px solid #A1A5AD;
+        height: 40vH;
+        max-height: 320px;
+    }
     .ocultar_pag_web{
 
         display:none;
@@ -1000,12 +1040,7 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     margin-left: 1vw;
     margin-right: 1vw;
 }
-.img_detalles{
-    height: 80px;
-    width: 80px;
-    margin-top: 5vh;
-    position: center;
-}
+
 .img_detalles_imp{
     position: center;
     height: 50px;

@@ -13,9 +13,9 @@ echo $_POST['hora'];
 
 if(isset($_POST['hora']) and isset($_POST['fecha']) ) {
     echo $_POST['fecha'];
-   /* if(($_POST['no_adeudp'] != "")){
-        $checkbox = "no tiene adeudo";
-    }*/
+    /* if(($_POST['no_adeudp'] != "")){
+         $checkbox = "no tiene adeudo";
+     }*/
     $no_adeudo = (isset($_POST["no_adeudo"])) ? 'No' : 'Si';
     $infonavit = (isset($_POST["infonavit"])) ? 'Si' : 'No';
     $fovisste = (isset($_POST["fovisste"])) ? 'Si' : 'No';

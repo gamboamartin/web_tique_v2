@@ -40,7 +40,8 @@ if($wt_hogar > 0){
 
     <div class="property-map mapa_hogar" id='property-map-general' style='height: 385px;'></div>
     <div class="route_suggestion contenedor_centrado" action="_ubicacion_general.php">
-        <input id="route_from" class="form-control busca_tu_ubicacion" type="text" value="" placeholder="Escribe tu dirección" name="route_from" onchange="pasarvariable()" required/>
+        <input id="route_from" class="form-control busca_tu_ubicacion" type="text" value=""
+               placeholder="Escribe tu dirección" name="route_from" onchange="pasarvariable()" required/>
         <input type='submit' class="btn_busca_tu_ubicacion" value='Ruta sugerida'>
 
     </div>

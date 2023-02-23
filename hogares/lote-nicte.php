@@ -115,12 +115,9 @@ $descripcion_twitter = '    Espectacular oportunidad de terreno para inversión 
                 <div class="col-md-12 padding_bottom_5vh " >
                     <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
 
-                    <div class="ocultar_responsivo">
+
                         <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
-                    </div>
-                    <div class="ocultar_pag_web margen_derecha" style="margin-left: 12vw">
-                        <?php include $generales->path_base.'templates/detalles/_detalles_imp_general.php' ?>
-                    </div>
+
                     <div class="margen_izquierda margen_derecha color_blanco">
                         <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
                     </div>

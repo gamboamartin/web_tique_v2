@@ -47,35 +47,35 @@ if(isset($_GET["cords"])) {
                 <div class="col-md-12">
 
 
-                        <div class="logo  pull-sm-up  col-xs-12 " style="text-align: center; float: none;">
-                            <a href="<?php echo $generales->url_base; ?>index.php">
-                                <img src="<?php echo $generales->url_base; ?>assets/img/icons/Logotipo-TIQUE.png" alt="" />
-                            </a>
+                    <div class="logo  pull-sm-up  col-xs-12 " style="text-align: center; float: none;">
+                        <a href="<?php echo $generales->url_base; ?>index.php">
+                            <img src="<?php echo $generales->url_base; ?>assets/img/icons/Logotipo-TIQUE.png" alt="" />
+                        </a>
 
-                        </div>
-                        <div class=" pull-sm-up  col-xs-12 " style="text-align: center; float: none;">
-                            <a href="<?php echo $generales->url_base; ?>formulario/formulario3.php">
-                                <img class="num_img" src="<?php echo $generales->url_base; ?>assets/img/formulario_vende/ICONO-22.png" alt="" />
-                            </a>
+                    </div>
+                    <div class=" pull-sm-up  col-xs-12 " style="text-align: center; float: none;">
+                        <a href="<?php echo $generales->url_base; ?>formulario/formulario3.php">
+                            <img class="num_img" src="<?php echo $generales->url_base; ?>assets/img/formulario_vende/ICONO-22.png" alt="" />
+                        </a>
 
-                        </div>
+                    </div>
                 </div>
 
-                    <div class="col-md-12 padding_bottom_5vh " >
-                        <div class="padding_bottom_5vh">
-                            <h1 class="whatsapp_titulo">Descripción del inmueble</h1>
-                        </div >
-                        <div class="barra btn-group">
-                            <a type="button" href="<?php echo $generales->url_base; ?>formulario_vende.php" class="btn btn_barra"></a>
-                            <a type="button" href="<?php echo $generales->url_base; ?>formulario/formulario2.php" class="btn btn_barra"></a>
-                            <a type="button" href="<?php echo $generales->url_base; ?>formulario/formulario3.php" class="btn btn_barra_3"></a>
+                <div class="col-md-12 padding_bottom_5vh " >
+                    <div class="padding_bottom_5vh">
+                        <h1 class="whatsapp_titulo">Descripción del inmueble</h1>
+                    </div >
+                    <div class="barra btn-group">
+                        <a type="button" href="<?php echo $generales->url_base; ?>formulario_vende.php" class="btn btn_barra"></a>
+                        <a type="button" href="<?php echo $generales->url_base; ?>formulario/formulario2.php" class="btn btn_barra"></a>
+                        <a type="button" href="<?php echo $generales->url_base; ?>formulario/formulario3.php" class="btn btn_barra_3"></a>
 
-                        </div>
-                        <form  action="<?php echo $generales->url_base; ?>pasar_info_form.php" method="post">
-                            <input name="resp_no" id="resp_no" value="<?php echo $resp_no ?>" hidden>
-                            <input name="resp_si" id="resp_si" value="<?php echo $resp_si ?>" hidden>
-                            <input name="resp_map" id="resp_map" value="<?php echo $resp_map ?>" hidden>
-                            <input name="coordenadas" id="coordenadas" value="<?php echo $cords ?>" hidden>
+                    </div>
+                    <form  action="<?php echo $generales->url_base; ?>pasar_info_form.php" method="post">
+                        <input name="resp_no" id="resp_no" value="<?php echo $resp_no ?>" hidden>
+                        <input name="resp_si" id="resp_si" value="<?php echo $resp_si ?>" hidden>
+                        <input name="resp_map" id="resp_map" value="<?php echo $resp_map ?>" hidden>
+                        <input name="coordenadas" id="coordenadas" value="<?php echo $cords ?>" hidden>
 
                         <div  class=" padding-top-5vh  contenedor_formulario">
                             <div class="control-group col-sm-12 center_item">
@@ -169,66 +169,66 @@ if(isset($_GET["cords"])) {
                         </div>
 
 
-                            <div class="control-group col-sm-12 center_item color_azul  margin_top contenedor_formulario_4 padding_bottom_10vh">
-                                <div class=" pull-sm-up  col-xs-12 " style="text-align: center; float: none;">
-                                    <a href="<?php echo $generales->url_base; ?>formulario/formulario3.php">
-                                        <img class="num_img4" src="<?php echo $generales->url_base; ?>assets/img/formulario_vende/ICONO-23.png" alt="" />
-                                    </a>
+                        <div class="control-group col-sm-12 center_item color_azul  margin_top contenedor_formulario_4 padding_bottom_10vh">
+                            <div class=" pull-sm-up  col-xs-12 " style="text-align: center; float: none;">
+                                <a href="<?php echo $generales->url_base; ?>formulario/formulario3.php">
+                                    <img class="num_img4" src="<?php echo $generales->url_base; ?>assets/img/formulario_vende/ICONO-23.png" alt="" />
+                                </a>
+
+                            </div>
+                            <h1 class="titulo_slider">Día de la cita</h1>
+                            <h2 class="subtitulo_formulario_4">Por favor compartenos tu disponibilidad de horario
+                                para ir a la vivienda que quieres vender</h2>
+                            <br>
+
+                            <div class="control-group col-sm-6 margin_top center_item">
+                                <label class="control-label contenedor_hora_fecha subtitulo_slider" for="fecha">Día de la semana</label>
+                                <div class="controls contenedor_hora_fecha">
+                                    <input class="form-control redondear_esquinas" type="date" name="fecha" id="fecha" placeholder="Introduce una fecha" required min=<?php $hoy=date("Y-m-d"); echo $hoy;?> />
 
                                 </div>
-                                <h1 class="titulo_slider">Día de la cita</h1>
-                                <h2 class="subtitulo_formulario_4">Por favor compartenos tu disponibilidad de horario
-                                    para ir a la vivienda que quieres vender</h2>
-                                <br>
+                            </div>
 
-                                <div class="control-group col-sm-6 margin_top center_item">
-                                    <label class="control-label contenedor_hora_fecha subtitulo_slider" for="fecha">Día de la semana</label>
-                                    <div class="controls contenedor_hora_fecha">
-                                        <input class="form-control redondear_esquinas" type="date" name="fecha" id="fecha" placeholder="Introduce una fecha" required min=<?php $hoy=date("Y-m-d"); echo $hoy;?> />
-
-                                    </div>
+                            <div class="control-group col-sm-6 margin_top center_item">
+                                <label class="control-label contenedor_hora_fecha subtitulo_slider" for="hora">Día de la semana</label>
+                                <div class="controls contenedor_hora_fecha">
+                                    <select name="hora" id="hora" required class="form-control redondear_esquinas">
+                                        <option value="">Selecciona</option>
+                                        <option value="09:00">09:00 A.M</option>
+                                        <option value="09:30">09:30 A.M</option>
+                                        <option value="10:00">10:00 A.M</option>
+                                        <option value="10:30">10:30 A.M</option>
+                                        <option value="11:00">11:00 A.M</option>
+                                        <option value="11:30">11:30 A.M</option>
+                                        <option value="12:00">12:00 P.M</option>
+                                        <option value="12:30">12:30 P.M</option>
+                                        <option value="01:00">01:00 P.M</option>
+                                        <option value="01:30">01:30 P.M</option>
+                                        <option value="02:00">02:00 P.M</option>
+                                        <option value="02:30">02:30 P.M</option>
+                                        <option value="03:00">03:00 P.M</option>
+                                        <option value="03:30">03:30 P.M</option>
+                                        <option value="04:00">04:00 P.M</option>
+                                        <option value="04:30">04:30 P.M</option>
+                                        <option value="05:00">05:00 P.M</option>
+                                        <option value="05:30">05:30 P.M</option>
+                                    </select>
                                 </div>
-
-                                <div class="control-group col-sm-6 margin_top center_item">
-                                    <label class="control-label contenedor_hora_fecha subtitulo_slider" for="hora">Día de la semana</label>
-                                    <div class="controls contenedor_hora_fecha">
-                                        <select name="hora" id="hora" required class="form-control redondear_esquinas">
-                                            <option value="">Selecciona</option>
-                                            <option value="09:00">09:00 A.M</option>
-                                            <option value="09:30">09:30 A.M</option>
-                                            <option value="10:00">10:00 A.M</option>
-                                            <option value="10:30">10:30 A.M</option>
-                                            <option value="11:00">11:00 A.M</option>
-                                            <option value="11:30">11:30 A.M</option>
-                                            <option value="12:00">12:00 P.M</option>
-                                            <option value="12:30">12:30 P.M</option>
-                                            <option value="01:00">01:00 P.M</option>
-                                            <option value="01:30">01:30 P.M</option>
-                                            <option value="02:00">02:00 P.M</option>
-                                            <option value="02:30">02:30 P.M</option>
-                                            <option value="03:00">03:00 P.M</option>
-                                            <option value="03:30">03:30 P.M</option>
-                                            <option value="04:00">04:00 P.M</option>
-                                            <option value="04:30">04:30 P.M</option>
-                                            <option value="05:00">05:00 P.M</option>
-                                            <option value="05:30">05:30 P.M</option>
-                                        </select>
-                                    </div>
-
-                                </div>
-
 
                             </div>
 
-                            <input name="url_siguiente" value="vende.php" hidden>
-                            <div class="control-group col-sm-12 centrar padding-top-5vh center_item">
-                                <input class="btn_info_casa " name='submit' type="submit" value="Enviar">
-                            </div>
+
+                        </div>
+
+                        <input name="url_siguiente" value="vende.php" hidden>
+                        <div class="control-group col-sm-12 centrar padding-top-5vh center_item">
+                            <input class="btn_info_casa " name='submit' type="submit" value="Enviar">
+                        </div>
 
 
-                        </form>
+                    </form>
 
-                    </div>
+                </div>
             </div>
         </div>
     </main>

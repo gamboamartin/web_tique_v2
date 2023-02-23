@@ -80,7 +80,7 @@ if($wt_tipo_inmueble > 0){
             <li  class="li_img_hogar mergen_lateral_vw1" >
                 <div>
                     <div class=" centrar" style="margin-left: 1vw;">
-                        <img id="imagen_slider " class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/habitacion.png" alt="Lote itze" height="80%"/>
+                        <img  class="sin_redondeo_borde img_detalles" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/habitacion.png" alt="Lote itze" height="80%"/>
                     </div>
                     <h3 class="texto_icono_hogar"> <?php
 
@@ -102,7 +102,7 @@ if($wt_tipo_inmueble > 0){
             <li  class="li_img_hogar mergen_lateral_vw1" >
                 <div>
                     <div class="">
-                    <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/baño.png" alt="Lote itze" height="80%"/>
+                    <img class="sin_redondeo_borde img_detalles" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/baño.png" alt="Lote itze" height="80%"/>
                     </div>
                         <h3 class="texto_icono_hogar"><?php
 
@@ -134,7 +134,7 @@ if($wt_tipo_inmueble > 0){
             <li  class="li_img_hogar mergen_lateral_vw1" >
                 <div>
                     <div class="">
-                        <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/cochera.png" alt="Lote itze" height="80%"/>
+                        <img  class="sin_redondeo_borde img_detalles" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/cochera.png" alt="Lote itze" height="80%"/>
                     </div>
                     <h3 class="texto_icono_hogar"><?php
                         if (preg_match($patron, $estacionamiento_hogar)) {
@@ -161,7 +161,7 @@ if($wt_tipo_inmueble > 0){
             <li  class="li_img_hogar mergen_lateral_vw1" >
                 <div>
                     <div class="">
-                        <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png"  height="80%"/>
+                        <img  class="sin_redondeo_borde img_detalles" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/construccion.png"  height="80%"/>
                     </div>
                     <h3 class="texto_icono_hogar"><?php echo $construccion_hogar; ?></h3>
 
@@ -173,7 +173,7 @@ if($wt_tipo_inmueble > 0){
         <li  class="li_img_hogar mergen_lateral_vw1" >
             <div>
                 <div class="">
-                    <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/terreno.png"  height="80%"/>
+                    <img  class="sin_redondeo_borde img_detalles" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/terreno.png"  height="80%"/>
                 </div>
                 <h3 class="texto_icono_hogar"><?php echo $terreno_hogar; ?></h3>
 
@@ -185,7 +185,7 @@ if($wt_tipo_inmueble > 0){
         <li  class="li_img_hogar mergen_lateral_vw1" >
             <div>
                 <div class="">
-                    <img id="imagen_slider" class="sin_redondeo_borde" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tiempo.png"  height="80%"/>
+                    <img  class="sin_redondeo_borde img_detalles" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/tiempo.png"  height="80%"/>
                 </div>
                 <h3 class="texto_icono_hogar"><?php echo $tiempo_hogar; ?></h3>
 

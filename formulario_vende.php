@@ -98,14 +98,14 @@ $generales = new generales();
 
 
             </div>
-            </div>
         </div>
-    </main>
+</div>
+</main>
 
-    <footer class="footer">
-        <?php include $generales->path_base . 'templates/footer/_footer.php' ?>
-    </footer>
-    <a class="btn  " id="btn-scroll-up"> <img src="<?php echo $generales->url_base;?>assets/img/ICONO-16.jpg" alt="" class="img_scroll" /></a>
+<footer class="footer">
+    <?php include $generales->path_base . 'templates/footer/_footer.php' ?>
+</footer>
+<a class="btn  " id="btn-scroll-up"> <img src="<?php echo $generales->url_base;?>assets/img/ICONO-16.jpg" alt="" class="img_scroll" /></a>
 </div>
 
 <?php include $generales->path_base . 'templates/java.php' ?>
@@ -113,5 +113,4 @@ $generales = new generales();
 </body>
 
 </html>
-
 
