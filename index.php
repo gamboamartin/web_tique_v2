@@ -158,6 +158,11 @@ $generales = new generales();
             <footer class="footer ">
                 <?php include $generales->path_base.'templates/footer/_footer.php' ?>
             </footer>
+            <div class="position_whats"  >
+                <a class="transparente" href="https://api.whatsapp.com/send?phone=3316052732&text=Hola Alejandro, me gustaría obtener informes mas detallados acerca de: " target="_blank"><img class="img_whats img_big" src=" <?php echo $generales->url_base?>assets/img/whats1.png" alt="" /></i></a>
+
+            </div>
+
             <a class="btn  " id="btn-scroll-up"> <img src="<?php echo $generales->url_base;?>assets/img/ICONO-16.jpg" alt="" class="img_scroll" /></a>
         </div>
 
