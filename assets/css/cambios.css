@@ -495,7 +495,7 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     max-width: 6%;
     bottom: 23px;
     position: fixed;
-    right: 5vw ;
+    right: 3vw ;
     z-index: 15;
 }
 .contenedor_porque_vender{
