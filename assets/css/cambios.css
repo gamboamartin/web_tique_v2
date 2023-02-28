@@ -493,9 +493,9 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 .img_scroll{
     border: 0;
     max-width: 6%;
-    bottom: 20px;
+    bottom: 23px;
     position: fixed;
-    right: 78px;
+    right: 5vw ;
     z-index: 15;
 }
 .contenedor_porque_vender{
@@ -579,7 +579,28 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     margin-top: 5vh;
     position: center;
 }
+.img_whats{
+    height: 6vh;
+
+}
+.position_whats{
+    position: fixed;
+    bottom: 3vh;
+    margin-left: 3vw;
+    float: left;
+    z-index: 50;
+}
 @media screen and (min-width: 480px) {
+    .position_whats{
+        position: fixed;
+        bottom: 7vh;
+        margin-left: 3vw;
+        float: left;
+        z-index: 50;
+    }
+    .img_whats{
+        height: 8vh;
+    }
     .img_detalles{
         display: block;
         margin: 0px auto;
@@ -1050,6 +1071,7 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     float: left;
     /*margin-right: 10px;*/
 }
+
 .sin_redondeo_borde{
     border-radius:0px !important;
 }
