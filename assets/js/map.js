@@ -1,7 +1,7 @@
 "use strict";
 
 var path_base = '/var/www/html/web_tique/';
-var url_base = 'https://inmobiliariatique.com/';
+var url_base = 'https://v2.inmobiliariatique.com/';
 var arreglo = valor;
 var map_propertyLoc;
 var map_eirene;
