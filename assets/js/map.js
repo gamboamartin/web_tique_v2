@@ -741,7 +741,7 @@ function map_property_general() {
         var marker1 = new google.maps.Marker({
             position: new google.maps.LatLng(georeferencia_point),
             map: map,
-            icon: url_base + 'assets/img/markers/house.png'
+            icon: url_base + 'assets/img/markers/casa.png'
         });
 
         var myOptions2 = {
