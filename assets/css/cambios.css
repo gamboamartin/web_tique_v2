@@ -590,7 +590,15 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     float: left;
     z-index: 50;
 }
+.margen_izquierda1{
+    margin-left: 0vw;
+
+}
 @media screen and (min-width: 480px) {
+    .margen_izquierda1{
+        margin-left: 1vw;
+
+    }
     .position_whats{
         position: fixed;
         bottom: 7vh;
@@ -878,6 +886,11 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     margin-left: 3vw;
 
 }
+.margen_izquierda2{
+    margin-left: 2vw;
+
+}
+
 .margen_derecha{
     margin-right: 5vw;
 }
