@@ -594,7 +594,23 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     margin-left: 0vw;
 
 }
+.margen_izquierda3_{
+    margin-left: 0vw;
+
+}
+.margen_izquierda6_{
+    margin-left: 0vw;
+
+}
 @media screen and (min-width: 480px) {
+    .margen_izquierda6_{
+        margin-left: 6vw;
+
+    }
+    .margen_izquierda3_{
+        margin-left: 3vw;
+
+    }
     .margen_izquierda1{
         margin-left: 1vw;
 
@@ -886,6 +902,7 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     margin-left: 3vw;
 
 }
+
 .margen_izquierda2{
     margin-left: 2vw;
 

@@ -15,8 +15,8 @@ $generales = new generales();
 
 
             <?php include $generales->path_base.'templates/footer/foot/_links.php' ?>
-            <?php include $generales->path_base . 'templates/footer/foot/_tips.php' ?>
             <?php include $generales->path_base.'templates/footer/foot/_contacto.php'?>
+            <?php //include $generales->path_base . 'templates/footer/foot/_tips.php' ?>
 
         </div>
     </div><!-- /.footer-content -->

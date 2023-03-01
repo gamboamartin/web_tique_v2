@@ -2,7 +2,7 @@
 use config\generales;
 $generales = new generales();
 ?>
-<div class="col-md-4 col-sm-6" >
+<div class="col-md-5 col-sm-6" >
     <ul class="ul_links_footer list">
         <li class="padding-20 texto_footer">¡Contáctanos!</li>
         <li class="padding-20"><a class="texto_footer" href="mailto:contacto@inmobiliariatique.com" target="_blank">mail: contacto@inmobiliariatique.com</a></li>

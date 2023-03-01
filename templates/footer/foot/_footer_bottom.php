@@ -3,11 +3,11 @@ use config\generales;
 $generales = new generales();
 ?>
 <div class="footer-bottom color_azul borde" > <!--link-->
-    <div class="container text-left col-md-3 col-sm-6">
+    <div class="container text-left col-md-3 col-sm-6 margen_izquierda6_">
         <span class=""><a class="texto_footer_bottom ancho_fotter" href="<?php echo $generales->url_base; ?>aviso_privacidad.php" >Términos y Condiciones</a></span>
 
     </div>
-    <div class="container text-left col-md-3">
+    <div class="container text-left col-md-3 margen_izquierda3_">
         <span class=""><a class="texto_footer_bottom " href="<?php echo $generales->url_base; ?>aviso_privacidad.php">Politicas de Privacidad</a></span>
 
     </div>
