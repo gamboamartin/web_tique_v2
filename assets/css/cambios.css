@@ -11,13 +11,7 @@ html, body {
     height: 95%;
 }
 
-#imagen_slider_{
-    display: block;
-    margin: 0px auto;
-    border-radius:70px;
-    width: 90%;
-    height: 85%;
-}
+
 #video{
     display: block;
     margin: 0px auto;
@@ -290,14 +284,14 @@ element.style {
 }
 @media screen and (min-width: 480px) {
     .vh-90{
-        min-height: 90vh;
+        min-height: 85vh;
     }
     #imagen_slider_{
         display: block;
         margin: 0px auto;
         border-radius:70px;
         width: 90%;
-        height: 85vh;
+        height: 80vh;
     }
     .img_whatsapp{
         align-items: center !important;
@@ -313,7 +307,7 @@ element.style {
         margin: 0px auto;
         border-radius:70px;
         width: 89%;
-        height: 70vh;
+        height: 80vh;
     }
     .comentario_responsivo{
         height: 68vh;
