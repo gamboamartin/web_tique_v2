@@ -1,6 +1,6 @@
 <?php
 $a = $generales->url_base."assets/img/venta_casas/hogar_pasitea/1Fachada/Hacienda Real.png";
-$b = $generales->url_base."assets/img/venta_casas/hogar_pasitea/3Cocina/20221222_105633.jpg";
+$b = $generales->url_base."assets/img/venta_casas/hogar_pasitea/3Cocina/20230306_104912.jpg";
 $c = $generales->url_base."assets/img/venta_casas/hogar_pasitea/2Sala/20221222_105107.jpg";
 ?>
 

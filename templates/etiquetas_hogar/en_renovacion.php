@@ -1,5 +1,5 @@
 <div class="ocultar_responsivo">
-    <h1 class="renovacion">En renovación</h1>
+    <h1 class="renovacion">Renovación</h1>
 </div>
 
 
