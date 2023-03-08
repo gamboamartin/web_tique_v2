@@ -74,7 +74,7 @@ $generales = new generales();
             }
             elseif (isset($_POST["btn_zapopan"])){ ?>
                 <div class="btn-group mapa_zapopan">
-                    <p class="numero_boton_mapa">9</p>
+                    <p class="numero_boton_mapa">10</p>
                     <p class="texto_boton_mapa">Propiedades</p>
                     <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
                 </div>

@@ -5,9 +5,13 @@ $generales = new generales();
 <div class="carousel-inner vh-50" role="listbox">
     <!-- Slide 1 -->
     <div class="item active">
+        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_paraiso/1Fachada/img1.jpg" alt="Hogar Pasítea" height="100%"/>
+        <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_paraiso.php'?>
+    </div>
+    <div class="item ">
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_pasitea/1Fachada/Hacienda Real.png" alt="Hogar Pasítea" height="100%"/>
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_pasitea.php'?>
-        </div>
+    </div>
     <div class="item ">
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_izel/1Fachada/img1.jpg" alt="Hogar Izel" height="100%"/>
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_izel.php'?>
