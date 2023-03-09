@@ -121,7 +121,7 @@ $descripcion_twitter = 'Hogar Santiago se ubica al oriente de la ZMG en un exclu
                     </div>
                     <div class="margen_izquierda margen_derecha color_blanco">
 
-                        <h1 class="texto_vender_listo">Imprimir visatde hogar  <?php echo $nombre_hogar;?> </h1>
+                        <h1 class="texto_vender_listo">Imprimir vista de hogar  <?php echo $nombre_hogar;?> </h1>
                         <div class="contenedor_centrado">
                             <a href='<?php echo $generales->url_base; ?>hogares/vista-impresion/vista-impresion-<?php echo $url_landing_limpia?>' class="btn btn-danger regular-button btn_info_casa">Vista de impresión</a>
                         </div>

@@ -23,8 +23,5 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/lista_casas/hogar-beatriz/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/lote-xaman/_carta_casa.php' ?>
 
-
-
-
     </div><!-- /.properties -->
 </div> <!-- /.properties-->
