@@ -109,7 +109,7 @@ function LoadMap_main(color) {
         /* markers info ( ltng, icon, image, title) */
         var tope = arreglo.length;
         markers_map = new Array(
-                [20.691329, -103.454233, 'assets/img/icons/Icono-TIQUE-pin.png', 'assets/img/placeholders/275x165.png' , 'Inmobiliaria TIQUE']
+                [20.691329, -103.454233, 'assets/img/icons/Icono-TIQUE-pin.png', 'assets/img/img_tique.jpg' , 'Inmobiliaria TIQUE']
                 );
         for(var i = 0; i < tope; i++){
 

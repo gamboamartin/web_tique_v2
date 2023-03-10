@@ -85,11 +85,11 @@ if(count($a)>2) {
 
 
                     </div>
-                    <div class="widget widget-box box-container widget-property" style="margin-top: -2vh;" >
+                    <div class="widget widget-box box-container widget-property" style="margin-top: -2vh; padding-top: 5vh;" >
                         <div>
                             <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
                         </div>
-                        <div style="margin-top: -2vh;">
+                        <div >
                             <?php include $generales->path_base.'templates/descripcion/_descripcion_general.php' ?>
                         </div>
                         <div >
