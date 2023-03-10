@@ -30,7 +30,7 @@ $generales = new generales();
                             <div class="h-side top-pad h-side-slim clearfix contenedor_index" style="padding: 0px;">
 
                             </div> <!-- /. content-header -->
-                            <div style="margin-top: -5%;">
+                            <div style="margin-top: -5%;" >
                                 <?php if(isset($_POST['propiedades'])){
                                     if($_POST['propiedades']=="2") { ?>
                                         <div class="col-md-12 container " style="margin-bottom: 2%;">
@@ -38,12 +38,7 @@ $generales = new generales();
 
                                                 <h1 class="whatsapp_subtitulo" style="font-size: 35px; background: none;">Casas Disponibles </h1>
                                                 <?php
-                                                include $generales->path_base . 'templates/lista_casas/hogar-paraiso/_carta_casa.php';
-                                                include $generales->path_base . 'templates/lista_casas/hogar-teva/_carta_casa.php';
-                                                include $generales->path_base . 'templates/lista_casas/hogar-izel/_carta_casa.php';
-                                                include $generales->path_base . 'templates/lista_casas/hogar-pasitea/_carta_casa.php';
-                                                include $generales->path_base.'templates/lista_casas/hogar-xadani/_carta_casa.php';
-                                                include $generales->path_base.'templates/lista_casas/hogar-xiadani/_carta_casa.php';
+                                                include $generales->path_base . 'templates/tipo_hogar/casa.php';
                                                 ?>
                                             </div>
                                         </div>
@@ -58,7 +53,7 @@ $generales = new generales();
                                                 <h1 class="whatsapp_subtitulo" style="font-size: 35px; background: none;">Departamentos Disponibles </h1>
                                                 <?php
 
-                                                include $generales->path_base . 'templates/lista_casas/hogar-orquidea/_carta_casa.php';
+                                                include $generales->path_base . 'templates/tipo_hogar/depa.php';
 
                                                 ?>
 
@@ -78,8 +73,7 @@ $generales = new generales();
 
                                                 <h1 class="whatsapp_subtitulo" style="font-size: 35px;  background: none ;"> Terreno Residenciales Disponibles</h1>
                                                 <?php
-                                                include $generales->path_base.'templates/lista_casas/lote-itze/_carta_casa.php' ;
-                                                include $generales->path_base.'templates/lista_casas/lote-nicte/_carta_casa.php' ;
+                                                include $generales->path_base . 'templates/tipo_hogar/terreno.php';
                                                 ?>
 
 
