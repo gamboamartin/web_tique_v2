@@ -579,11 +579,11 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 .position_whats{
     position: fixed;
-    bottom: 3vh;
-    margin-left: 3vw;
-    float: left;
+    top: 22vh;
     z-index: 50;
+    left: 87vw;
 }
+
 .margen_izquierda1{
     margin-left: 0vw;
 
@@ -611,10 +611,9 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     }
     .position_whats{
         position: fixed;
-        bottom: 7vh;
-        margin-left: 3vw;
-        float: left;
+        top: 15vh;
         z-index: 50;
+        left: 92vw;
     }
     .img_whats{
         height: 8vh;

@@ -151,7 +151,7 @@ $generales = new generales();
                 <?php include $generales->path_base.'templates/footer/_footer.php' ?>
             </footer>
             <div class="position_whats"  >
-                <a class="transparente" href="https://api.whatsapp.com/send?phone=3316052732&text=Hola Alejandro, me gustaría obtener informes mas detallados acerca de: " target="_blank"><img class="img_whats img_big" src=" <?php echo $generales->url_base?>assets/img/whats1.png" alt="" /></i></a>
+                <a class="transparente" href="https://api.whatsapp.com/send?phone=3316052732&text=Hola Alejandro, me gustaría obtener informes mas detallados acerca de: " target="_blank"><img class="img_whats img_big" src=" <?php echo $generales->url_base?>assets/img/whats.png" alt="" /></i></a>
 
             </div>
 
