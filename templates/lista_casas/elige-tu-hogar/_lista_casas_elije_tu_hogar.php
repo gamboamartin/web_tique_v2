@@ -7,7 +7,6 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/lista_casas/hogar-paraiso/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-pasitea/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-izel/_carta_casa.php' ?>
-        <?php include $generales->path_base.'templates/lista_casas/hogar-teva/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-xiadani/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/lote-itze/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/lote-nicte/_carta_casa.php' ?>
@@ -22,6 +21,6 @@ $generales = new generales();
         <?php include $generales->path_base.'templates/lista_casas/hogar-cihualpilli/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/hogar-beatriz/_carta_casa.php' ?>
         <?php include $generales->path_base.'templates/lista_casas/lote-xaman/_carta_casa.php' ?>
-
+        <?php include $generales->path_base.'templates/lista_casas/hogar-teva/_carta_casa.php' ?>
     </div><!-- /.properties -->
 </div> <!-- /.properties-->

@@ -7,7 +7,7 @@ $generales = new generales();
     <div class="property-card card color_cart_casa" >
         <?php //include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
         <br><br>
-        <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar-aruna.php" class="btn_casa_vendida">  Vendida  </a>
+        <a type="button"   class="btn_casa_vendida">  Vendida  </a>
 
         <div  class="property-card-header image-box carta_img_casa" >
             <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_aruna/1Fachada/1662066848694.jpg" alt="" class="carta_img" />
