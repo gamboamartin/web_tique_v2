@@ -579,7 +579,7 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 .position_whats{
     position: fixed;
-    top: 22vh;
+    top: 15vh;
     z-index: 50;
     left: 87vw;
 }
