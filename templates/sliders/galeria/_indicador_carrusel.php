@@ -6,5 +6,6 @@
     <li id="viñeta_slider" data-target="#deslizador_slider" data-slide-to="3"></li>
     <li id="viñeta_slider" data-target="#deslizador_slider" data-slide-to="4"></li>
     <li id="viñeta_slider" data-target="#deslizador_slider" data-slide-to="5"></li>
+    <li id="viñeta_slider" data-target="#deslizador_slider" data-slide-to="6"></li>
 
 </ol>

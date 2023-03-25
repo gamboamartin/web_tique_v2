@@ -79,7 +79,7 @@ if($wt_tipo_inmueble > 0){
         <?php if($tipo_hogar_id != 3){ ?>
             <li  class="li_img_hogar mergen_lateral_vw1" >
                 <div>
-                    <div class=" centrar" style="margin-left: 1vw;">
+                    <div class=" " style="margin-top: 1vh; padding-bottom: 15px;">
                         <img  class="sin_redondeo_borde img_detalles" src="<?php echo $generales->url_base; ?>assets/img/iconos_hogar_detalles/habitacion.png" alt="Lote itze" height="80%"/>
                     </div>
                     <h3 class="texto_icono_hogar"> <?php

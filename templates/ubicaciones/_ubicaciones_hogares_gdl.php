@@ -18,7 +18,7 @@ $generales = new generales();
 
 $wt_hogar_modelo = new wt_hogar(conexion::$link);
 
-$x =[ 876000];
+$x =[ 876000, 1280000];
 $municipio = "Guadalajara";
 $hogares = array();
 //var_dump($wt_hogar_modelo->obten_registros_activos()->registros); exit;

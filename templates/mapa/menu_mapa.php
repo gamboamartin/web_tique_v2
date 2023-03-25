@@ -36,7 +36,7 @@ $generales = new generales();
                         Guadalajara
                     </button>
                     <div class="dropdown-menu contenido_boton_mapa_text ">
-                        <p class="numero_boton_mapa">1</p>
+                        <p class="numero_boton_mapa">2</p>
                         <p class="texto_boton_mapa">Propiedades</p>
                         <p class="texto_boton_mapa estilo_redondo_abajo" >disponible</p>
                     </div>
