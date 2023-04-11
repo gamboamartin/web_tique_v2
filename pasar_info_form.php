@@ -6,16 +6,16 @@ require 'vendor/autoload.php';
 $generales = new generales();
 
 
-session_start();
+session_start();//crea una sesión o reanuda la actual basada en un identificador de sesión pasada mediante una petición GET o POST, o pasada mediante una cookie .
 $datos=$_SESSION["datos"];
 $datos2=$_SESSION["datos_form2"];
-echo $_POST['hora'];
+//se mandan a llamar los datos se las anteriosers sesiones
+
 
 if(isset($_POST['hora']) and isset($_POST['fecha']) ) {
-    echo $_POST['fecha'];
-    /* if(($_POST['no_adeudp'] != "")){
-         $checkbox = "no tiene adeudo";
-     }*/
+    //si laS variableS 'hora' y 'fecha' no estan vacías, podemos entrar al if
+    // (esta información se obtiene del método post del formulario3.php)
+
     $no_adeudo = (isset($_POST["no_adeudo"])) ? 'No' : 'Si';
     $infonavit = (isset($_POST["infonavit"])) ? 'Si' : 'No';
     $fovisste = (isset($_POST["fovisste"])) ? 'Si' : 'No';
@@ -26,9 +26,9 @@ if(isset($_POST['hora']) and isset($_POST['fecha']) ) {
     $agua = (isset($_POST["agua"])) ? 'Si' : 'No';
     $mantenimiento = (isset($_POST["mantenimiento"])) ? 'Si' : 'No';
     $amenidades_no = (isset($_POST["amenidades_no"])) ? 'No' : 'Si';
+    //los datos que son tipo checkbox se guardan de esta manera para saber si la casilla fue marcada o no
 
-
-    $notificacion = new notificacion();
+    $notificacion = new notificacion(); // se declara nueva notificación
 
     $datos_cliente = '<h3>La vivienda es un coto: ' . utf8_decode($_POST['resp_no']).
         '</h3><br><h3> Nombre del coto: ' . utf8_decode($_POST['resp_si']).
@@ -55,23 +55,28 @@ if(isset($_POST['hora']) and isset($_POST['fecha']) ) {
         '</h3><br><h3> Las amenidades son: ' . utf8_decode($_POST['amenidades_si']) .
         '</h3><br><h3> Fecha de la cita: ' . utf8_decode($_POST['fecha']) .
         '</h3><br><h3> Hora de la cita: ' . utf8_decode($_POST['hora']) ;
-
+    //se almacenan los datos enviados por el post del formulario3.php
     $datos_formulario= $datos . $datos2 . $datos_cliente;
-    $contenido = new stdClass();
-    $contenido->subject = 'Contacto que quiere vender su hogar, termino formulario';
-    $contenido->mensaje = $datos_formulario;
+    //se une la información de los tes formularios
+    $contenido = new stdClass(); // se genera una nueva stdClass
+    $contenido->subject = 'Contacto que quiere vender su hogar, termino formulario'; //asunto de la notificación
+    $contenido->mensaje = $datos_formulario; //contenido de la notificación
 
-    $destinatario = new stdClass();
-    $destinatario->email = 'alejandro.esquivel@inmobiliariatique.com';
-    $destinatario->name = 'Alejandro Esquivel';
+    $destinatario = new stdClass(); // se genera una nueva stdClass
+    $destinatario->email = 'alejandro.esquivel@inmobiliariatique.com';//correo de la persona a la cual se le enviará la notificación
+    $destinatario->name = 'Alejandro Esquivel';//nombre de la persona a la cual se le enviará la notificación
+    // (dueñ@ del email o correo proporcionado en la anterior línea de código)
     $envia = $notificacion->envia(contenido: $contenido,destinatario:  $destinatario);
     if(gamboamartin\errores\errores::$error){
         $error = (new gamboamartin\errores\errores())->error(mensaje: 'Error',data:  $envia);
         print_r($error);
         die('Error');
     }
+    //se envía el correo o notificación con las variables $contenido y $destinatario
+    session_destroy();// se destruye la sesión
     //var_dump($envia);
     header('Location:' . $generales->url_base .$_POST['url_siguiente']);
+    //si se envía exitosamente la notificación nos redirigiremos a la url_redireccion la cual también la obtendremos del formulario formulario3.php
 
 }
 

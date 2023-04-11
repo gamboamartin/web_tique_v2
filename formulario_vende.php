@@ -81,7 +81,8 @@ $generales = new generales();
                         </div>
                         <div class="control-group col-sm-12 texto_checkbox center_item">
                             <input type="checkbox" id="terminos" name="terminos" value="terminos" required="">
-                            <label for="terminos">Acepto todos los términos y condiciones</label><br>
+                            <a href="aviso_privacidad.php" >Acepto todos los términos y condiciones</a>
+                            <br>
 
                         </div>
                         <input name="url_siguiente" value="formulario/formulario2.php" hidden>
@@ -114,3 +115,9 @@ $generales = new generales();
 
 </html>
 
+<style>
+    a:hover {
+        color: #0000Cc;
+        cursor: pointer;
+    }
+</style>

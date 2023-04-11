@@ -25,7 +25,7 @@ $generales = new generales();
         <div class="container">
             <div class="row">
 
-                    <div class="h-side top-pad h-side-slim clearfix">
+                    <div class="clearfix" style="padding-top: 10vh;">
                         <div class="widget widget-box box-container widget-property">
 
                             <font  face="Luminari,verdana">
@@ -158,11 +158,17 @@ $generales = new generales();
 
                         </div>
                     </div> <!-- /. content-header -->
-
+                <div class="container-fluid h-100">
+                    <div class="row w-100 align-items-center">
+                        <div class="col text-center">
+                            <a class="btn btn-danger regular-button btn_info_casa" style="margin-top: -10vh; margin-bottom: 2vh;" href="javascript:history.back()" >  Atras  </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
-    
+
     <footer class="footer">
         <?php include $generales->path_base.'templates/footer/_footer.php' ?>
     </footer>
@@ -182,7 +188,7 @@ $generales = new generales();
         padding: 10px;
         border: 5px solid gray;
         margin: 0;
-        position: center;
+
     }
     }
     #modal {
@@ -191,7 +197,7 @@ $generales = new generales();
         box-shadow: 0 1px 5px #CCC;
         border-radius: 5px;
         font-family: verdana;
-        position: center;
+
         margin: 25px auto;
         overflow: hidden;
     }

@@ -9,7 +9,7 @@ require '../vendor/autoload.php';
 $generales = new generales();
 
 require ($generales->path_base.'src/landing.php');
-session_start();
+//session_start();
 //echo $_SESSION["datos"];
 //echo $_SESSION["datos_form2"];
 $resp_no = (isset($_GET["resp_no"])) ? 'No' : 'Si';
@@ -22,6 +22,7 @@ $cords = "";
 if(isset($_GET["cords"])) {
     $cords= $_GET["cords"];
 }
+//datos que se pasaron por url
 ?>
 
 

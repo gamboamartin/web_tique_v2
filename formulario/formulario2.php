@@ -9,7 +9,7 @@ require '../vendor/autoload.php';
 $generales = new generales();
 
 require ($generales->path_base.'src/landing.php');
-session_start();
+session_start(); //crea una sesión o reanuda la actual basada en un identificador de sesión pasada mediante una petición GET o POST, o pasada mediante una cookie .
 //$datos=$_SESSION["datos"];
 $georeferencia_hogar ="";
 $ubicacion_hogar="";
@@ -121,15 +121,17 @@ $ubicacion_hogar="";
 
                         </div>
                         <?php
-                        if (isset($_POST['municipio']) ) {
+                        if (isset($_POST['municipio']) ) {//si la variable 'municipio' no esta vacía, podemos entrar al if
+                            // (esta información se obtiene del método post de este mismo formulario (formulario2.php))
                             $datos_cliente = '<h3>Tipo de vivienda: ' . utf8_decode($_POST['tipo_vivienda']).
                                 '</h3><br><h3> Calle: ' . utf8_decode($_POST['calle']).
                                 '</h3><br><h3> '.utf8_decode("Número exterior").':' . utf8_decode($_POST['num_ext']) .
                                 '</h3><br><h3> '.utf8_decode("Número interior").':'  . utf8_decode($_POST['num_int']) .
                                 '</h3><br><h3> Colonia: ' . utf8_decode($_POST['colonia']) .
                                 '</h3><br><h3> Municipio: ' . utf8_decode($_POST['municipio']);
-
+                            //se guardan los datos del formulario hasta dato municipio
                             $_SESSION["datos_form2"]= $datos_cliente;
+                            //se guardan en la sesión ya antes creada en compra_hogar.php (linea 17)
                             ?>
 
                             <div class="control-group col-sm-6 center_item">
@@ -212,13 +214,15 @@ $ubicacion_hogar="";
 
                         initMap();
                         function url_siguiente(){
+                            //los siguientes datos, se pasan por url al sifuiente  formulario (formulario3.php)
                             var resp_no = document.getElementById("resp_no").checked;
                             var resp_si = document.getElementById("resp_si").value;
                             var resp_map = document.getElementById("resp_map").checked;
+
                             var url = "<?php echo $generales->url_base; ?>formulario/formulario3.php?resp_no=" + encodeURIComponent(resp_no)
                                 + "&resp_si=" + encodeURIComponent(resp_si)+ "&resp_map=" + encodeURIComponent(resp_map)+ "&cords=" + encodeURIComponent(cords);
                             window.location.href = url;
-
+                            //se envian los datos por url
                         }
 
 
