@@ -10,7 +10,10 @@ $generales = new generales();
         <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar_xadani.php" class="btn_info_cart_casa" >  Detalles  </a>
 
         <div class="property-card-header image-box carta_img_casa"  >
-            <h3 class="etiqueta_imagen" >Renovada</h3>
+            <h3 class="etiqueta_imagen" style="color: #ffffff !important;
+            width: 90px;
+            background-color: #FF8C00 !important;
+            ">Apartado</h3>
 
             <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_xadani/1Fachada/9 (1).jpg" alt="" class="" />
             <!--Casa destacada en caso de serlo-->

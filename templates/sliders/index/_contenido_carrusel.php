@@ -29,10 +29,7 @@ $generales = new generales();
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/lote_itze/1/lote_itze6.png" alt="Lote Itzé" height="100%"/>
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_lote_itze.php'?>
     </div>
-    <div class="item ">
-        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/lote_nicte/1/lote_nicte9.png" alt="Lote Nicte" height="100%"/>
-        <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_lote_nicte.php'?>
-    </div>
+
     <div class="item ">
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/lote_xaman/1/lote_xaman2.png" alt="Lote Xaman" height="100%"/>
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_lote_xaman.php'?>
@@ -81,5 +78,8 @@ $generales = new generales();
         <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/hogar_teva/1Fachada/img1.jpg" alt="Hogar Izel" height="100%"/>
         <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_hogar_teva.php'?>
     </div>
-
+    <div class="item ">
+        <img id="imagen_slider" src="<?php echo $generales->url_base; ?>assets/img/venta_casas/lote_nicte/1/lote_nicte9.png" alt="Lote Nicte" height="100%"/>
+        <?php include $generales->path_base.'templates/sliders/index/hogares/_informacion_contenido_carrusel_lote_nicte.php'?>
+    </div>
 </div>
