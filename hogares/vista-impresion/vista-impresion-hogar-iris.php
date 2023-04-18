@@ -91,12 +91,12 @@ if(count($a)>2) {
                             <?php include $generales->path_base.'templates/sliders/hogar_general/_slider_hogar.php' ?>
                         </div>
                         <div style="margin-bottom: 3vh;">
-                            <?php include $generales->path_base.'templates/descripcion/_descripcion_general_irisi.php' ?>
+                            <?php include $generales->path_base . 'templates/descripcion/_descripcion_general_iris.php' ?>
                         </div>
                         <div style="margin-bottom: 7vh;">
                             <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general_imp.php' ?>
                         </div>
-                        <?php include $generales->path_base.'templates/galeria/hogar-irisi/_galeria_hogar.php' ?>
+                        <?php include $generales->path_base.'templates/galeria/hogar-iris/_galeria_hogar.php' ?>
                     </div> <!-- /. widget-body -->
 
 

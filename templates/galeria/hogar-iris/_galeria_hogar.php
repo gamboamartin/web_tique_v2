@@ -1,7 +1,7 @@
 <?php
-$a = $generales->url_base."assets/img/venta_casas/hogar_irisi/1Fachada/img1.jpg";
-$b = $generales->url_base."assets/img/venta_casas/hogar_irisi/3Cocina/cocina.jpg";
-$c = $generales->url_base."assets/img/venta_casas/hogar_irisi/7Patio/patio.jpg";
+$a = $generales->url_base."assets/img/venta_casas/hogar_iris/1Fachada/img1.jpg";
+$b = $generales->url_base."assets/img/venta_casas/hogar_iris/3Cocina/cocina.jpg";
+$c = $generales->url_base."assets/img/venta_casas/hogar_iris/7Patio/patio.jpg";
 ?>
 
 

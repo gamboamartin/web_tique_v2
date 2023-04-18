@@ -47,14 +47,14 @@ if($wt_hogar > 0){
 </head>
         <body link="#000080" vlink="#800000" dir="ltr"><p align="justify" style=" font-family: Montserrat-Light; text-indent: 1.27cm; margin-bottom: 0cm">
             <font size="2" style="font-size: 13px; font-family: Montserrat-Light;">
-                Hogar Irisi se ubica al oriente del Área Metropolitana de Guadalajara en un exclusivo y Fraccionamiento del municipio de Tonalá, ideal para el bienestar de su familia por su tranquilidad y modernidad, Fraccionamiento Urbi, se caracteriza por tener una vista hacia la naturaleza inigualable, Hogar Irisi cuenta con fácil acceso a escuelas, parques de recreación familiar y centros comerciales.
+                Hogar Iris se ubica al oriente del Área Metropolitana de Guadalajara en un exclusivo y Fraccionamiento del municipio de Tonalá, ideal para el bienestar de su familia por su tranquilidad y modernidad, Fraccionamiento Urbi, se caracteriza por tener una vista hacia la naturaleza inigualable, Hogar Iris cuenta con fácil acceso a escuelas, parques de recreación familiar y centros comerciales.
             </font>
 </p>
         <p align="justify" style="margin-bottom: 0.5cm">
 
         </p>
         <p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm"><font size="2" style="font-family: Montserrat-Light; font-size: 13px">
-                Hogar Irisi es una Casa Habitación de dos niveles que se distribuye de la siguiente manera, en la planta baja Sala, Comedor, Cocina, medio baño, patio trasero de servicio, y en la planta alta 2 recámaras, 1 baño, cuenta con su propia cochera para un auto.
+                Hogar Iris es una Casa Habitación de dos niveles que se distribuye de la siguiente manera, en la planta baja Sala, Comedor, Cocina, medio baño, patio trasero de servicio, y en la planta alta 2 recámaras, 1 baño, cuenta con su propia cochera para un auto.
             </font></p>
         <p align="justify" style="margin-bottom: 0.5cm">
 

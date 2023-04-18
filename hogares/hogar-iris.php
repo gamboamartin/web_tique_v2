@@ -114,9 +114,9 @@ $descripcion_twitter = "";
                     <?php include $generales->path_base.'templates/detalles/_detalles_hogar_general.php' ?>
 
                     <div class="margen_izquierda margen_derecha color_blanco">
-                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general_irisi.php' ?>
+                        <?php include $generales->path_base.'templates/descripcion/_descripcion_general_iris.php' ?>
                     </div>
-                    <?php include $generales->path_base.'templates/galeria/hogar-irisi/_galeria_hogar.php' ?>
+                    <?php include $generales->path_base.'templates/galeria/hogar-iris/_galeria_hogar.php' ?>
                     <div class="margen_izquierda margen_derecha padding-top-5vh ">
                         <?php include $generales->path_base.'templates/ubicaciones/_ubicacion_general.php' ?>
                     </div>
