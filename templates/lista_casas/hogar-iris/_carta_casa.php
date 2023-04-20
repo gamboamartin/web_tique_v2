@@ -11,8 +11,7 @@ $generales = new generales();
 
         <div class="property-card-header image-box carta_img_casa"  >
             <h3 class="etiqueta_imagen" style="color: #ffffff !important;
-            width: 90px;
-            background: rgba(85, 163, 139, 0.7) !important;" >Renovada</h3>
+            background: rgba(85, 163, 139, 0.7) !important; width: 120px !important;" >En renovación</h3>
 
             <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_iris/1Fachada/img1.jpg" alt="" class="" />
             <!--Casa destacada en caso de serlo-->
