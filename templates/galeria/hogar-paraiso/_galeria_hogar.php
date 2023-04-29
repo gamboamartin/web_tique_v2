@@ -1,9 +1,8 @@
 <?php
 $a = $generales->url_base."assets/img/venta_casas/hogar_paraiso/1Fachada/img1.jpg";
-$b = $generales->url_base."assets/img/venta_casas/hogar_paraiso/9Entorno/20230307_122930.jpg";
-$c = $generales->url_base."assets/img/venta_casas/hogar_paraiso/3Cocina/20230307_124908.jpg";
+$b = $generales->url_base."assets/img/venta_casas/hogar_paraiso/9Entorno/WhatsApp Image 2023-04-18 at 2.11.14 PM.jpg";
+$c = $generales->url_base."assets/img/venta_casas/hogar_paraiso/3Cocina/WhatsApp Image 2023-04-28 at 11.05.25 AM.jpg";
 ?>
-
 
 <div class="margen_izquierda margen_derecha padding-top-5vh">
 
