@@ -40,7 +40,7 @@ if($wt_hogar > 0 and $buscar !== false){
     $proposito_hogar_id = $wt_hogar['wt_hogar_wt_proposito_id'];
 
 }
-$numero=1600000;
+$numero=1595000;
 $costo= number_format($numero, 2);
 $a = explode(",", $costo);
 if(count($a)>2) {
@@ -93,6 +93,7 @@ $descripcion_twitter = "";
 
                             <?php }else{?>
                                 <h4 class=" btn_info_casa_"> Renovada </h4>
+                                <h4 class=" btn_info_casa_" style="  background:  #ff4000 !important;"> OFERTA </h4>
                             <?php } ?>
 
                             <div class="padding-top-3vh inner_"  >

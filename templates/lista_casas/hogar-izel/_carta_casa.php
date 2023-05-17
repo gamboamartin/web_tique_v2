@@ -8,9 +8,14 @@ $generales = new generales();
         <?php //include $generales->path_base.'templates/lista_casas/links/_marca_venta.php' ?>
         <br><br>
         <a type="button"  href="<?php echo $generales->url_base; ?>hogares/hogar_izel.php" class="btn_info_cart_casa" >  Detalles  </a>
-
+        <h3 class="btn_info_cart_casa" style="color: #ffffff !important;
+            width: 90px;
+            background-color: #ff4000 !important;
+            top:9.5vh !important;
+            ">OFERTA</h3>
         <div class="property-card-header image-box carta_img_casa"  >
             <h3 class="etiqueta_imagen" >Renovada</h3>
+
 
             <img src="<?php echo $generales->url_base;?>assets/img/venta_casas/hogar_izel/1Fachada/img1.jpg" alt="" class="" />
             <!--Casa destacada en caso de serlo-->

@@ -191,7 +191,7 @@
     font-size: 15px;
     margin: 0px ;
     width: 100px;
-    border-radius:10px 10px 10px 10px ;
+    border-radius:9px  ;
     background: rgba(105, 17, 147,1);
     padding: 5px;
     position: absolute;
@@ -493,4 +493,13 @@
     text-align: right;
     font-size: 15px;
     color: #999999;
+}
+.oferta_slider{
+    background: rgba(255,61,0,0.5);
+    margin-top: 10vh;
+    font-family: Montserrat-Medium;
+    font-size: 20px;
+    width: 14vw;
+    text-align: center;
+    border-radius: 10px;
 }
