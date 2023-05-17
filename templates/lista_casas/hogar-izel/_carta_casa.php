@@ -11,7 +11,7 @@ $generales = new generales();
         <h3 class="btn_info_cart_casa" style="color: #ffffff !important;
             width: 90px;
             background-color: #ff4000 !important;
-            top:9.5vh !important;
+            top:78px !important;
             ">OFERTA</h3>
         <div class="property-card-header image-box carta_img_casa"  >
             <h3 class="etiqueta_imagen" >Renovada</h3>
