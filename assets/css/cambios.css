@@ -571,7 +571,7 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
     height: 100px;
     width: 100px;
     margin-top: 5vh;
-    position: center;
+
 }
 .img_whats{
     height: 6vh;
@@ -1086,7 +1086,7 @@ transparente:hover{-webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 
 .img_detalles_imp{
-    position: center;
+
     height: 50px;
     width: 50px;
     margin-left: -15px;
